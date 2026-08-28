@@ -12,7 +12,7 @@ void main() {
         {'teacher.fullName': 'Ayşe Yılmaz'},
       );
 
-      expect(missing, containsAll(['teacher.branch', 'school.name', 'document.subject']));
+      expect(missing, containsAll(['teacher.branch', 'school.name']));
       expect(missing, isNot(contains('teacher.fullName')));
     });
 
@@ -20,9 +20,9 @@ void main() {
       const template = DocumentTemplate(
         id: 't1',
         title: 'Test',
-        slug: 'test',
-        categoryName: 'Test',
-        description: '',
+        categoryId: 'Test',
+        sourceStatus: SourceStatus.customTemplate,
+        sensitivity: Sensitivity.low,
         bodyText: 'Merhaba {{teacher.fullName}}, okulun {{school.name}}.',
         requiredFields: ['teacher.fullName', 'school.name'],
       );
@@ -40,9 +40,9 @@ void main() {
       const template = DocumentTemplate(
         id: 't2',
         title: 'Test',
-        slug: 'test-2',
-        categoryName: 'Test',
-        description: '',
+        categoryId: 'Test',
+        sourceStatus: SourceStatus.customTemplate,
+        sensitivity: Sensitivity.low,
         bodyText: 'Sicil No: {{teacher.registrationNo}}',
         requiredFields: ['teacher.registrationNo'],
       );

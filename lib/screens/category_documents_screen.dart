@@ -47,7 +47,7 @@ class _CategoryDocumentsScreenState extends State<CategoryDocumentsScreen> {
       docs = docs.where((d) => d.title.toLowerCase().contains(q)).toList();
     }
 
-    final showPilotTemplate = widget.category == null || widget.category == pilotAssignmentRequestTemplate.categoryName;
+    final showPilotTemplate = widget.category == null || widget.category == pilotAssignmentRequestTemplate.categoryId;
     final pilotMatchesQuery = _query.isEmpty ||
         pilotAssignmentRequestTemplate.title.toLowerCase().contains(_query.toLowerCase());
 

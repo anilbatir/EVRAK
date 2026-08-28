@@ -1,24 +1,51 @@
 import '../models/document_template.dart';
 
-/// The first end-to-end pilot template, wired to the real generation
-/// pipeline (profile autofill -> missing-field form -> PDF).
+/// Templates that are actually wired to the real generation pipeline
+/// (profile autofill -> missing-field form -> PDF), as opposed to the
+/// metadata-only entries in `catalogSeed`.
 ///
-/// EVRAK_CLAUDE_CODE_CONTEXT.md §13 calls for validating the whole system
-/// with a single template before the full ~50-document catalog is added.
+/// Metadata here is kept in sync with the official catalog record for
+/// the same id in docs/catalog/evrak_document_templates_seed_v1.json;
+/// `description`, `bodyText` and `tags` are EVRAK's own additions on
+/// top of that shared schema.
+///
+/// docs/catalog/EVRAK_ILK_50_BELGE_KATALOGU_V1.md calls for validating
+/// the whole system with one `custom_template` and one `official_form`
+/// before expanding the catalog. This is the `custom_template` pilot
+/// (id ATG-001); the `official_form` pilot will follow once a real
+/// official-form DOCX/PDF reference is available to build it from.
 const pilotAssignmentRequestTemplate = DocumentTemplate(
-  id: 'assignment_request_001',
+  id: 'ATG-001',
   title: 'Görevlendirme Talep Dilekçesi',
-  slug: 'gorevlendirme-talep-dilekcesi',
-  categoryName: 'Atama İşlemleri',
-  description: 'Görevlendirme talebi için kişiselleştirilebilir dilekçe.',
+  categoryId: 'Atama ve Görevlendirme',
+  sourceStatus: SourceStatus.customTemplate,
+  sensitivity: Sensitivity.medium,
+  requiredFields: [
+    'teacher.fullName',
+    'teacher.branch',
+    'school.name',
+    'school.city',
+    'school.district',
+    'document.date',
+  ],
+  optionalFields: [
+    'teacher.registrationNo',
+    'teacher.phone',
+    'document.description',
+  ],
+  outputFormats: ['pdf', 'docx'],
+  version: 1,
+  lifecycleStatus: LifecycleStatus.verified,
+  isActive: true,
+  description: 'Görevlendirme talebi için kişiselleştirilebilir şablon (örnek/kişiselleştirilebilir belge - resmi standart form değildir).',
   bodyText: '''T.C.
 {{school.city}} VALİLİĞİ
 {{school.district}} İlçe Millî Eğitim Müdürlüğü
 {{school.name}} Müdürlüğüne
 
-Konu: {{document.subject}}
+{{teacher.fullName}}, okulunuzda {{teacher.branch}} öğretmeni olarak görev yapmaktayım.
 
-Okulunuzda {{teacher.branch}} öğretmeni olarak görev yapmaktayım.
+{{document.description}}
 
 Gereğini arz ederim.
 
@@ -28,19 +55,5 @@ Ad Soyad: {{teacher.fullName}}
 Sicil No: {{teacher.registrationNo}}
 Telefon: {{teacher.phone}}
 İmza:''',
-  requiredFields: [
-    'teacher.fullName',
-    'teacher.branch',
-    'school.name',
-    'school.city',
-    'school.district',
-    'document.date',
-    'document.subject',
-  ],
-  optionalFields: [
-    'teacher.registrationNo',
-    'teacher.phone',
-  ],
   tags: ['görevlendirme', 'atama', 'dilekçe'],
-  status: TemplateStatus.verified,
 );
