@@ -11,22 +11,32 @@ class DocumentProvider extends ChangeNotifier {
   List<EvrakDocument> _documents = [];
   bool _isLoading = false;
   String _searchQuery = '';
-  String? _categoryFilter;
 
   bool get isLoading => _isLoading;
   String get searchQuery => _searchQuery;
-  String? get categoryFilter => _categoryFilter;
+  List<EvrakDocument> get allDocuments => _documents;
 
-  List<EvrakDocument> get documents {
+  List<EvrakDocument> get filteredBySearch {
+    if (_searchQuery.isEmpty) return _documents;
+    final q = _searchQuery.toLowerCase();
     return _documents.where((doc) {
-      final matchesQuery = _searchQuery.isEmpty ||
-          doc.title.toLowerCase().contains(_searchQuery.toLowerCase()) ||
-          (doc.notes?.toLowerCase().contains(_searchQuery.toLowerCase()) ??
-              false);
-      final matchesCategory =
-          _categoryFilter == null || doc.category == _categoryFilter;
-      return matchesQuery && matchesCategory;
+      return doc.title.toLowerCase().contains(q) ||
+          doc.category.toLowerCase().contains(q) ||
+          doc.tags.any((t) => t.toLowerCase().contains(q));
     }).toList();
+  }
+
+  List<EvrakDocument> get favorites =>
+      _documents.where((d) => d.isFavorite).toList();
+
+  List<EvrakDocument> byCategory(String category) =>
+      _documents.where((d) => d.category == category).toList();
+
+  int countForCategory(String category) => byCategory(category).length;
+
+  List<EvrakDocument> get recent {
+    final sorted = [..._documents]..sort((a, b) => b.date.compareTo(a.date));
+    return sorted.take(5).toList();
   }
 
   Future<void> loadDocuments() async {
@@ -40,14 +50,20 @@ class DocumentProvider extends ChangeNotifier {
   Future<void> addDocument({
     required String title,
     required String category,
-    String? notes,
+    required EvrakFileType fileType,
+    required int fileSizeKB,
+    String? description,
+    List<String> tags = const [],
     required DateTime date,
   }) async {
     final document = EvrakDocument(
       id: _uuid.v4(),
       title: title,
       category: category,
-      notes: notes,
+      fileType: fileType,
+      fileSizeKB: fileSizeKB,
+      description: description,
+      tags: tags,
       date: date,
       createdAt: DateTime.now(),
     );
@@ -65,13 +81,17 @@ class DocumentProvider extends ChangeNotifier {
     await loadDocuments();
   }
 
-  void setSearchQuery(String query) {
-    _searchQuery = query;
+  Future<void> toggleFavorite(String id) async {
+    final index = _documents.indexWhere((d) => d.id == id);
+    if (index == -1) return;
+    final updated = _documents[index].copyWith(isFavorite: !_documents[index].isFavorite);
+    _documents[index] = updated;
     notifyListeners();
+    await _db.update(updated);
   }
 
-  void setCategoryFilter(String? category) {
-    _categoryFilter = category;
+  void setSearchQuery(String query) {
+    _searchQuery = query;
     notifyListeners();
   }
 }

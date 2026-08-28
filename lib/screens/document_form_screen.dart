@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../models/document.dart';
 import '../providers/document_provider.dart';
+import '../theme/app_theme.dart';
 
 class DocumentFormScreen extends StatefulWidget {
   const DocumentFormScreen({super.key, this.document});
@@ -16,8 +17,10 @@ class DocumentFormScreen extends StatefulWidget {
 class _DocumentFormScreenState extends State<DocumentFormScreen> {
   final _formKey = GlobalKey<FormState>();
   late TextEditingController _titleController;
-  late TextEditingController _notesController;
+  late TextEditingController _descriptionController;
+  late TextEditingController _tagsController;
   late String _category;
+  late EvrakFileType _fileType;
   late DateTime _date;
 
   bool get _isEditing => widget.document != null;
@@ -26,15 +29,18 @@ class _DocumentFormScreenState extends State<DocumentFormScreen> {
   void initState() {
     super.initState();
     _titleController = TextEditingController(text: widget.document?.title);
-    _notesController = TextEditingController(text: widget.document?.notes);
-    _category = widget.document?.category ?? evrakCategories.first;
+    _descriptionController = TextEditingController(text: widget.document?.description);
+    _tagsController = TextEditingController(text: widget.document?.tags.join(', '));
+    _category = widget.document?.category ?? evrakCategories.first.name;
+    _fileType = widget.document?.fileType ?? EvrakFileType.pdf;
     _date = widget.document?.date ?? DateTime.now();
   }
 
   @override
   void dispose() {
     _titleController.dispose();
-    _notesController.dispose();
+    _descriptionController.dispose();
+    _tagsController.dispose();
     super.dispose();
   }
 
@@ -53,12 +59,20 @@ class _DocumentFormScreenState extends State<DocumentFormScreen> {
   Future<void> _save() async {
     if (!_formKey.currentState!.validate()) return;
 
+    final tags = _tagsController.text
+        .split(',')
+        .map((t) => t.trim())
+        .where((t) => t.isNotEmpty)
+        .toList();
+
     final provider = context.read<DocumentProvider>();
     if (_isEditing) {
       final updated = widget.document!.copyWith(
         title: _titleController.text.trim(),
         category: _category,
-        notes: _notesController.text.trim(),
+        fileType: _fileType,
+        description: _descriptionController.text.trim(),
+        tags: tags,
         date: _date,
       );
       await provider.updateDocument(updated);
@@ -66,7 +80,10 @@ class _DocumentFormScreenState extends State<DocumentFormScreen> {
       await provider.addDocument(
         title: _titleController.text.trim(),
         category: _category,
-        notes: _notesController.text.trim(),
+        fileType: _fileType,
+        fileSizeKB: 128,
+        description: _descriptionController.text.trim(),
+        tags: tags,
         date: _date,
       );
     }
@@ -76,6 +93,9 @@ class _DocumentFormScreenState extends State<DocumentFormScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final fieldBg = isDark ? AppColors.darkSurface : AppColors.lightSurface;
+
     return Scaffold(
       appBar: AppBar(
         title: Text(_isEditing ? 'Evrakı Düzenle' : 'Yeni Evrak'),
@@ -86,55 +106,93 @@ class _DocumentFormScreenState extends State<DocumentFormScreen> {
       body: Form(
         key: _formKey,
         child: ListView(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(20),
           children: [
             TextFormField(
               controller: _titleController,
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'Başlık',
-                border: OutlineInputBorder(),
+                filled: true,
+                fillColor: fieldBg,
+                border: OutlineInputBorder(borderRadius: BorderRadius.circular(14), borderSide: BorderSide.none),
               ),
-              validator: (value) =>
-                  (value == null || value.trim().isEmpty)
-                      ? 'Başlık zorunludur'
-                      : null,
+              validator: (value) => (value == null || value.trim().isEmpty) ? 'Başlık zorunludur' : null,
             ),
             const SizedBox(height: 16),
             DropdownButtonFormField<String>(
               value: _category,
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'Kategori',
-                border: OutlineInputBorder(),
+                filled: true,
+                fillColor: fieldBg,
+                border: OutlineInputBorder(borderRadius: BorderRadius.circular(14), borderSide: BorderSide.none),
               ),
               items: evrakCategories
-                  .map((c) => DropdownMenuItem(value: c, child: Text(c)))
+                  .map((c) => DropdownMenuItem(value: c.name, child: Text(c.name)))
                   .toList(),
               onChanged: (value) {
                 if (value != null) setState(() => _category = value);
               },
             ),
             const SizedBox(height: 16),
-            ListTile(
-              contentPadding: EdgeInsets.zero,
-              title: const Text('Tarih'),
-              subtitle: Text(
-                '${_date.day}.${_date.month}.${_date.year}',
+            DropdownButtonFormField<EvrakFileType>(
+              value: _fileType,
+              decoration: InputDecoration(
+                labelText: 'Dosya Türü',
+                filled: true,
+                fillColor: fieldBg,
+                border: OutlineInputBorder(borderRadius: BorderRadius.circular(14), borderSide: BorderSide.none),
               ),
-              trailing: const Icon(Icons.calendar_today),
+              items: EvrakFileType.values
+                  .map((t) => DropdownMenuItem(value: t, child: Text(t.label)))
+                  .toList(),
+              onChanged: (value) {
+                if (value != null) setState(() => _fileType = value);
+              },
+            ),
+            const SizedBox(height: 16),
+            InkWell(
+              borderRadius: BorderRadius.circular(14),
               onTap: _pickDate,
+              child: InputDecorator(
+                decoration: InputDecoration(
+                  labelText: 'Tarih',
+                  filled: true,
+                  fillColor: fieldBg,
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(14), borderSide: BorderSide.none),
+                ),
+                child: Text('${_date.day}.${_date.month}.${_date.year}'),
+              ),
             ),
             const SizedBox(height: 16),
             TextFormField(
-              controller: _notesController,
-              decoration: const InputDecoration(
-                labelText: 'Notlar',
-                border: OutlineInputBorder(),
+              controller: _descriptionController,
+              decoration: InputDecoration(
+                labelText: 'Açıklama',
+                filled: true,
+                fillColor: fieldBg,
+                border: OutlineInputBorder(borderRadius: BorderRadius.circular(14), borderSide: BorderSide.none),
               ),
-              maxLines: 4,
+              maxLines: 3,
+            ),
+            const SizedBox(height: 16),
+            TextFormField(
+              controller: _tagsController,
+              decoration: InputDecoration(
+                labelText: 'Etiketler (virgülle ayırın)',
+                filled: true,
+                fillColor: fieldBg,
+                border: OutlineInputBorder(borderRadius: BorderRadius.circular(14), borderSide: BorderSide.none),
+              ),
             ),
             const SizedBox(height: 24),
             FilledButton(
               onPressed: _save,
+              style: FilledButton.styleFrom(
+                backgroundColor: AppColors.accent,
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+              ),
               child: Text(_isEditing ? 'Kaydet' : 'Ekle'),
             ),
           ],
