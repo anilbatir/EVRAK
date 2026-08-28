@@ -5,6 +5,7 @@ import '../providers/auth_provider.dart';
 import '../providers/theme_provider.dart';
 import '../theme/app_theme.dart';
 import 'onboarding_login_screen.dart';
+import 'profile_edit_screen.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -89,6 +90,12 @@ class ProfileScreen extends StatelessWidget {
                       decoration: BoxDecoration(border: Border.all(color: border), borderRadius: BorderRadius.circular(18)),
                       child: Column(
                         children: [
+                          InkWell(
+                            onTap: () => Navigator.of(context).push(
+                              MaterialPageRoute(builder: (_) => const ProfileEditScreen()),
+                            ),
+                            child: _MenuRow(icon: Icons.badge_outlined, label: 'Profil Bilgilerim', border: border, color: textPrimary),
+                          ),
                           _MenuRow(icon: Icons.file_download_outlined, label: 'İndirilenler', border: border, color: textPrimary),
                           _MenuRow(icon: Icons.history, label: 'Son Görüntülenenler', border: border, color: textPrimary),
                           _MenuRow(

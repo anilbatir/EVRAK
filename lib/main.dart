@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import 'providers/auth_provider.dart';
 import 'providers/document_provider.dart';
+import 'providers/profile_provider.dart';
 import 'providers/theme_provider.dart';
 import 'screens/onboarding_login_screen.dart';
 import 'screens/root_shell.dart';
@@ -22,6 +23,7 @@ class EvrakApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => DocumentProvider()),
         ChangeNotifierProvider(create: (_) => AuthProvider()..loadSession()),
         ChangeNotifierProvider(create: (_) => ThemeProvider()..loadPreference()),
+        ChangeNotifierProvider(create: (_) => ProfileProvider()..load()),
       ],
       child: Consumer<ThemeProvider>(
         builder: (context, themeProvider, _) {

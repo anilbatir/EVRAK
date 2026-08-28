@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../data/pilot_templates.dart';
 import '../models/document.dart';
 import '../providers/document_provider.dart';
 import '../theme/app_theme.dart';
 import '../widgets/file_badge.dart';
 import 'document_detail_screen.dart';
+import 'document_template_detail_screen.dart';
 
 class CategoryDocumentsScreen extends StatefulWidget {
   const CategoryDocumentsScreen({super.key, this.category});
@@ -44,6 +46,10 @@ class _CategoryDocumentsScreenState extends State<CategoryDocumentsScreen> {
       final q = _query.toLowerCase();
       docs = docs.where((d) => d.title.toLowerCase().contains(q)).toList();
     }
+
+    final showPilotTemplate = widget.category == null || widget.category == pilotAssignmentRequestTemplate.categoryName;
+    final pilotMatchesQuery = _query.isEmpty ||
+        pilotAssignmentRequestTemplate.title.toLowerCase().contains(_query.toLowerCase());
 
     return Scaffold(
       body: SafeArea(
@@ -115,14 +121,56 @@ class _CategoryDocumentsScreenState extends State<CategoryDocumentsScreen> {
             ),
             const SizedBox(height: 18),
             Expanded(
-              child: docs.isEmpty
+              child: (docs.isEmpty && !(showPilotTemplate && pilotMatchesQuery))
                   ? Center(child: Text('Evrak bulunamadı', style: TextStyle(color: textSecondary)))
                   : ListView.separated(
                       padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
-                      itemCount: docs.length,
+                      itemCount: docs.length + (showPilotTemplate && pilotMatchesQuery ? 1 : 0),
                       separatorBuilder: (_, __) => const SizedBox(height: 10),
                       itemBuilder: (context, index) {
-                        final doc = docs[index];
+                        if (showPilotTemplate && pilotMatchesQuery && index == 0) {
+                          return InkWell(
+                            borderRadius: BorderRadius.circular(14),
+                            onTap: () => Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (_) => const DocumentTemplateDetailScreen(template: pilotAssignmentRequestTemplate),
+                              ),
+                            ),
+                            child: Container(
+                              padding: const EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                border: Border.all(color: AppColors.accent.withValues(alpha: 0.4)),
+                                borderRadius: BorderRadius.circular(14),
+                              ),
+                              child: Row(
+                                children: [
+                                  Container(
+                                    width: 38,
+                                    height: 38,
+                                    decoration: BoxDecoration(color: AppColors.accent, borderRadius: BorderRadius.circular(11)),
+                                    child: const Icon(Icons.auto_awesome_outlined, color: Colors.white, size: 18),
+                                  ),
+                                  const SizedBox(width: 12),
+                                  Expanded(
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text(pilotAssignmentRequestTemplate.title,
+                                            maxLines: 1, overflow: TextOverflow.ellipsis,
+                                            style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: textPrimary)),
+                                        const SizedBox(height: 2),
+                                        const Text('Bilgilerinle otomatik doldurulur',
+                                            style: TextStyle(fontSize: 12, color: AppColors.accent, fontWeight: FontWeight.w600)),
+                                      ],
+                                    ),
+                                  ),
+                                  const Icon(Icons.chevron_right, size: 17, color: AppColors.accent),
+                                ],
+                              ),
+                            ),
+                          );
+                        }
+                        final doc = docs[index - (showPilotTemplate && pilotMatchesQuery ? 1 : 0)];
                         return InkWell(
                           borderRadius: BorderRadius.circular(14),
                           onTap: () => Navigator.of(context).push(

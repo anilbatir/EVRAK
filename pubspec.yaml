@@ -48,6 +48,10 @@ dependencies:
   uuid: ^4.4.2
   shared_preferences: ^2.3.2
 
+  # Document generation
+  pdf: ^3.11.3
+  share_plus: ^10.1.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -72,6 +76,13 @@ flutter:
 
   assets:
     - assets/images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
