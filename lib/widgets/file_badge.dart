@@ -26,7 +26,7 @@ class FileBadge extends StatelessWidget {
                 child: Container(
                   width: size * 0.42,
                   height: size * 0.42,
-                  color: Colors.white.withOpacity(0.3),
+                  color: Colors.white.withValues(alpha: 0.3),
                 ),
               ),
             ),

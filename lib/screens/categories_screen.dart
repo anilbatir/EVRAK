@@ -46,7 +46,7 @@ class CategoriesScreen extends StatelessWidget {
                 height: 34,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
-                  children: [
+                  children: const [
                     _Tab(label: 'Tümü', selected: true),
                     _Tab(label: 'İşlemler'),
                     _Tab(label: 'Dilekçeler'),

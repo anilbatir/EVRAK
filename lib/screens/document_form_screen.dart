@@ -120,7 +120,7 @@ class _DocumentFormScreenState extends State<DocumentFormScreen> {
             ),
             const SizedBox(height: 16),
             DropdownButtonFormField<String>(
-              value: _category,
+              initialValue: _category,
               decoration: InputDecoration(
                 labelText: 'Kategori',
                 filled: true,
@@ -136,7 +136,7 @@ class _DocumentFormScreenState extends State<DocumentFormScreen> {
             ),
             const SizedBox(height: 16),
             DropdownButtonFormField<EvrakFileType>(
-              value: _fileType,
+              initialValue: _fileType,
               decoration: InputDecoration(
                 labelText: 'Dosya Türü',
                 filled: true,

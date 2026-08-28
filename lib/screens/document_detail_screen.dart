@@ -196,7 +196,7 @@ class _DetailFileBadge extends StatelessWidget {
               right: -10,
               child: Transform.rotate(
                 angle: 0.785398,
-                child: Container(width: 24, height: 24, color: Colors.white.withOpacity(0.3)),
+                child: Container(width: 24, height: 24, color: Colors.white.withValues(alpha: 0.3)),
               ),
             ),
             Center(

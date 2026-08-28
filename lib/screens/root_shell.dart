@@ -37,7 +37,7 @@ class _RootShellState extends State<RootShell> {
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final inactive = isDark ? AppColors.darkTextSecondary : const Color(0xFFA8A5BC);
-    final accent = AppColors.accent;
+    const accent = AppColors.accent;
 
     return Scaffold(
       body: IndexedStack(index: _index, children: _screens),

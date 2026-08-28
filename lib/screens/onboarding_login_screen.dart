@@ -76,7 +76,7 @@ class _OnboardingLoginScreenState extends State<OnboardingLoginScreen> {
                       style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800, height: 1.28),
                     ),
                     const SizedBox(height: 6),
-                    Text(
+                    const Text(
                       'Resmi evraklara hızlıca ulaşın, indirin ve işlerinizi kolaylaştırın.',
                       style: TextStyle(fontSize: 12.5, height: 1.55, color: AppColors.lightTextSecondary),
                     ),
@@ -106,7 +106,7 @@ class _OnboardingLoginScreenState extends State<OnboardingLoginScreen> {
                       ),
                     ),
                     const SizedBox(height: 12),
-                    Align(
+                    const Align(
                       alignment: Alignment.centerRight,
                       child: Text(
                         'Şifremi Unuttum',
@@ -129,10 +129,10 @@ class _OnboardingLoginScreenState extends State<OnboardingLoginScreen> {
                     const SizedBox(height: 20),
                     Center(
                       child: RichText(
-                        text: TextSpan(
+                        text: const TextSpan(
                           style: TextStyle(fontSize: 12.5, color: AppColors.lightTextSecondary),
                           children: [
-                            const TextSpan(text: 'Hesabın yok mu? '),
+                            TextSpan(text: 'Hesabın yok mu? '),
                             TextSpan(
                               text: 'Kayıt Ol',
                               style: TextStyle(fontWeight: FontWeight.w700, color: AppColors.accent),

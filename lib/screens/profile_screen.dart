@@ -51,7 +51,7 @@ class ProfileScreen extends StatelessWidget {
                   Container(
                     width: 76,
                     height: 76,
-                    decoration: BoxDecoration(color: const Color(0xFFF1EEFF), shape: BoxShape.circle),
+                    decoration: const BoxDecoration(color: Color(0xFFF1EEFF), shape: BoxShape.circle),
                     child: Center(
                       child: Text(
                         _initials(auth.userName),
@@ -98,7 +98,7 @@ class ProfileScreen extends StatelessWidget {
                             color: textPrimary,
                             trailing: Switch(
                               value: themeProvider.isDarkMode,
-                              activeColor: AppColors.accent,
+                              activeThumbColor: AppColors.accent,
                               onChanged: (_) => context.read<ThemeProvider>().toggle(),
                             ),
                           ),
@@ -171,7 +171,7 @@ class _MenuRow extends StatelessWidget {
           Icon(icon, size: 19, color: color),
           const SizedBox(width: 16),
           Expanded(child: Text(label, style: TextStyle(fontSize: 14.5, fontWeight: FontWeight.w700, color: color))),
-          trailing ?? Icon(Icons.chevron_right, size: 16, color: color.withOpacity(0.4)),
+          trailing ?? Icon(Icons.chevron_right, size: 16, color: color.withValues(alpha: 0.4)),
         ],
       ),
     );
