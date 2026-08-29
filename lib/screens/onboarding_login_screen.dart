@@ -41,27 +41,27 @@ class _OnboardingLoginScreenState extends State<OnboardingLoginScreen> {
           child: Column(
             children: [
               SizedBox(
-                height: 210,
+                height: 232,
                 child: Stack(
                   alignment: Alignment.center,
                   children: [
                     Positioned(
-                      top: -6,
-                      child: Image.asset('assets/images/blob.png', width: 230),
-                    ),
-                    Positioned(
-                      top: 6,
-                      right: 66,
-                      child: Image.asset('assets/images/badge_purple.png', width: 44),
-                    ),
-                    Positioned(
-                      top: 92,
-                      right: 54,
-                      child: Image.asset('assets/images/badge_blue.png', width: 40),
+                      top: 8,
+                      child: Image.asset('assets/images/blob.png', width: 208),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top: 34),
-                      child: Image.asset('assets/images/teacher.png', width: 150),
+                      padding: const EdgeInsets.only(top: 46),
+                      child: Image.asset('assets/images/teacher.png', width: 140),
+                    ),
+                    Positioned(
+                      top: 26,
+                      right: 84,
+                      child: Image.asset('assets/images/badge_purple.png', width: 36),
+                    ),
+                    Positioned(
+                      top: 108,
+                      right: 68,
+                      child: Image.asset('assets/images/badge_blue.png', width: 32),
                     ),
                   ],
                 ),
