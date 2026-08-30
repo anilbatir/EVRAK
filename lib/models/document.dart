@@ -34,13 +34,30 @@ class EvrakCategory {
   const EvrakCategory({required this.name, required this.color, required this.icon});
 }
 
+/// The unified category taxonomy: the 11 categories from the official
+/// 50-document catalog (docs/catalog/) plus 5 more surfaced by the
+/// "ÖğretmenEvrak" reference app's sidebar (Maarif Evrakları, Planlar,
+/// Kulüp Evrakları, Aday Öğretmenlik, Diğer Evraklar). Items from that
+/// sidebar that already had a home in the official catalog - Zümre
+/// Tutanakları, Veli Toplantı Tutanakları, Rehberlik Raporları - were
+/// not duplicated; see lib/data/extended_catalog_seed.dart.
 const List<EvrakCategory> evrakCategories = [
-  EvrakCategory(name: 'Atama İşlemleri', color: Color(0xFF6C5CE7), icon: Icons.work_outline),
-  EvrakCategory(name: 'Maaş İşlemleri', color: Color(0xFF16A34A), icon: Icons.payments_outlined),
+  EvrakCategory(name: 'Atama ve Görevlendirme', color: Color(0xFF6C5CE7), icon: Icons.work_outline),
   EvrakCategory(name: 'İzin İşlemleri', color: Color(0xFFF5A623), icon: Icons.event_note_outlined),
-  EvrakCategory(name: 'Sözleşmeler', color: Color(0xFF2F6FED), icon: Icons.description_outlined),
-  EvrakCategory(name: 'Formlar', color: Color(0xFF0EA5A5), icon: Icons.assignment_outlined),
-  EvrakCategory(name: 'Diğer Evraklar', color: Color(0xFF3B5BDB), icon: Icons.folder_outlined),
+  EvrakCategory(name: 'Maaş ve Ek Ders', color: Color(0xFF16A34A), icon: Icons.payments_outlined),
+  EvrakCategory(name: 'Kurul ve Zümre', color: Color(0xFF0EA5A5), icon: Icons.groups_outlined),
+  EvrakCategory(name: 'Veli İşlemleri', color: Color(0xFFEC4899), icon: Icons.family_restroom_outlined),
+  EvrakCategory(name: 'BEP ve Rehberlik', color: Color(0xFF4F46E5), icon: Icons.psychology_outlined),
+  EvrakCategory(name: 'Sınıf / Şube İşlemleri', color: Color(0xFF06B6D4), icon: Icons.class_outlined),
+  EvrakCategory(name: 'Sınav ve Ölçme', color: Color(0xFFDC2626), icon: Icons.fact_check_outlined),
+  EvrakCategory(name: 'Proje ve Ödev', color: Color(0xFFD97706), icon: Icons.assignment_turned_in_outlined),
+  EvrakCategory(name: 'İdari Evraklar', color: Color(0xFF64748B), icon: Icons.admin_panel_settings_outlined),
+  EvrakCategory(name: 'Öğrenci Davranışları', color: Color(0xFFE11D48), icon: Icons.report_gmailerrorred_outlined),
+  EvrakCategory(name: 'Maarif Evrakları', color: Color(0xFF2563EB), icon: Icons.bar_chart_outlined),
+  EvrakCategory(name: 'Planlar', color: Color(0xFF7C3AED), icon: Icons.calendar_month_outlined),
+  EvrakCategory(name: 'Kulüp Evrakları', color: Color(0xFF65A30D), icon: Icons.diversity_3_outlined),
+  EvrakCategory(name: 'Aday Öğretmenlik', color: Color(0xFFEA580C), icon: Icons.school_outlined),
+  EvrakCategory(name: 'Diğer Evraklar', color: Color(0xFF6B7280), icon: Icons.folder_outlined),
 ];
 
 EvrakCategory categoryByName(String name) {

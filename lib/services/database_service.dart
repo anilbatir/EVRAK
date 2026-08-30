@@ -51,7 +51,7 @@ class DatabaseService {
       EvrakDocument(
         id: uuid.v4(),
         title: 'Görevlendirme Onay Formu',
-        category: 'Atama İşlemleri',
+        category: 'Atama ve Görevlendirme',
         fileType: EvrakFileType.pdf,
         fileSizeKB: 245,
         description: 'Öğretmenlerin görevlendirme işlemleri için kullanılan onay formudur.',
@@ -63,7 +63,7 @@ class DatabaseService {
       EvrakDocument(
         id: uuid.v4(),
         title: 'Atama Talep Dilekçesi',
-        category: 'Atama İşlemleri',
+        category: 'Atama ve Görevlendirme',
         fileType: EvrakFileType.docx,
         fileSizeKB: 132,
         description: 'Atama talebinde bulunmak için doldurulan dilekçe örneğidir.',
@@ -74,7 +74,7 @@ class DatabaseService {
       EvrakDocument(
         id: uuid.v4(),
         title: 'Norm Kadro Fazlası Formu',
-        category: 'Atama İşlemleri',
+        category: 'Atama ve Görevlendirme',
         fileType: EvrakFileType.pdf,
         fileSizeKB: 210,
         description: 'Norm kadro fazlası durumunda kullanılan bildirim formudur.',
@@ -85,7 +85,7 @@ class DatabaseService {
       EvrakDocument(
         id: uuid.v4(),
         title: 'Okul İçi Görevlendirme Formu',
-        category: 'Atama İşlemleri',
+        category: 'Atama ve Görevlendirme',
         fileType: EvrakFileType.xlsx,
         fileSizeKB: 98,
         description: 'Okul içi görev dağılımı için kullanılan tablo formudur.',
@@ -96,7 +96,7 @@ class DatabaseService {
       EvrakDocument(
         id: uuid.v4(),
         title: 'Görevlendirme İptal Dilekçesi',
-        category: 'Atama İşlemleri',
+        category: 'Atama ve Görevlendirme',
         fileType: EvrakFileType.docx,
         fileSizeKB: 115,
         description: 'Onaylanmış bir görevlendirmenin iptali için kullanılan dilekçedir.',
@@ -107,7 +107,7 @@ class DatabaseService {
       EvrakDocument(
         id: uuid.v4(),
         title: 'Yer Değiştirme Başvuru Formu',
-        category: 'Atama İşlemleri',
+        category: 'Atama ve Görevlendirme',
         fileType: EvrakFileType.pdf,
         fileSizeKB: 220,
         description: 'İl/ilçe içi veya iller arası yer değiştirme başvurusu için kullanılır.',
@@ -130,7 +130,7 @@ class DatabaseService {
       EvrakDocument(
         id: uuid.v4(),
         title: 'Maaş Bordro Örneği',
-        category: 'Maaş İşlemleri',
+        category: 'Maaş ve Ek Ders',
         fileType: EvrakFileType.pdf,
         fileSizeKB: 180,
         description: 'Aylık maaş bordrosu örnek çıktısıdır.',
@@ -141,7 +141,7 @@ class DatabaseService {
       EvrakDocument(
         id: uuid.v4(),
         title: 'Harcirah Bildirim Formu',
-        category: 'Maaş İşlemleri',
+        category: 'Maaş ve Ek Ders',
         fileType: EvrakFileType.xlsx,
         fileSizeKB: 95,
         description: 'Görev yolluğu (harcirah) bildirimi için kullanılan formdur.',
