@@ -145,11 +145,12 @@ const zumreSeneBasiTemplate = DocumentTemplate(
     'school.name',
     'school.city',
     'school.district',
+    'academic.year',
     'meeting.date',
-    'meeting.topic',
-    'meeting.decisions',
+    'meeting.time',
+    'meeting.location',
   ],
-  optionalFields: ['school.principalName'],
+  optionalFields: ['zumreMembers', 'agendaItems', 'decisions'],
   outputFormats: ['pdf', 'docx'],
   version: 1,
   lifecycleStatus: LifecycleStatus.verified,
@@ -157,23 +158,25 @@ const zumreSeneBasiTemplate = DocumentTemplate(
   description: 'Eğitim öğretim yılı başında yapılan zümre öğretmenler kurulu toplantısının tutanağı.',
   bodyText: '''T.C.
 {{school.city}} VALİLİĞİ
-{{school.district}} İlçe Millî Eğitim Müdürlüğü
-{{school.name}} Müdürlüğü
+{{school.district}} KAYMAKAMLIĞI
+{{school.name}}
 
-SENE BAŞI ZÜMRE ÖĞRETMENLER KURULU TOPLANTI TUTANAĞI
+{{teacher.branch}} ZÜMRE ÖĞRETMENLER KURULU TOPLANTI TUTANAĞI
 
 Toplantı Tarihi: {{meeting.date}}
-Zümre/Branş: {{teacher.branch}}
-Gündem: {{meeting.topic}}
+Toplantı Saati: {{meeting.time}}
+Toplantı Yeri: {{meeting.location}}
+Eğitim Öğretim Yılı: {{academic.year}}
+Zümre Başkanı: {{teacher.fullName}}
 
-Alınan Kararlar:
-{{meeting.decisions}}
+Katılımcılar (Ad Soyad - Branş, her satıra bir kişi):
+{{zumreMembers}}
 
-Katılımcı Öğretmen: {{teacher.fullName}}
-İmza:
+Gündem Maddeleri:
+{{agendaItems}}
 
-Onaylayan: {{school.principalName}}
-İmza:''',
+Görüşülen Konular ve Alınan Kararlar:
+{{decisions}}''',
   tags: ['zümre', 'tutanak', 'sene başı'],
 );
 
@@ -187,29 +190,35 @@ const zumreAraDonemTemplate = DocumentTemplate(
     'teacher.fullName',
     'teacher.branch',
     'school.name',
+    'academic.year',
     'meeting.date',
-    'meeting.topic',
-    'meeting.decisions',
+    'meeting.time',
+    'meeting.location',
   ],
-  optionalFields: [],
+  optionalFields: ['zumreMembers', 'agendaItems', 'decisions'],
   outputFormats: ['pdf', 'docx'],
   version: 1,
   lifecycleStatus: LifecycleStatus.verified,
   isActive: true,
   description: 'Dönem ortasında yapılan zümre toplantısının tutanağı.',
   bodyText: '''{{school.name}}
+{{academic.year}} EĞİTİM ÖĞRETİM YILI
 
-ARA DÖNEM ZÜMRE TOPLANTI TUTANAĞI
+{{teacher.branch}} ARA DÖNEM ZÜMRE TOPLANTI TUTANAĞI
 
 Toplantı Tarihi: {{meeting.date}}
-Zümre/Branş: {{teacher.branch}}
-Gündem: {{meeting.topic}}
+Toplantı Saati: {{meeting.time}}
+Toplantı Yeri: {{meeting.location}}
+Zümre Başkanı: {{teacher.fullName}}
 
-Alınan Kararlar:
-{{meeting.decisions}}
+Katılımcılar (Ad Soyad - Branş, her satıra bir kişi):
+{{zumreMembers}}
 
-Katılımcı Öğretmen: {{teacher.fullName}}
-İmza:''',
+Gündem:
+{{agendaItems}}
+
+Kararlar:
+{{decisions}}''',
   tags: ['zümre', 'tutanak', 'ara dönem'],
 );
 
@@ -223,29 +232,35 @@ const zumreSeneSonuTemplate = DocumentTemplate(
     'teacher.fullName',
     'teacher.branch',
     'school.name',
+    'academic.year',
     'meeting.date',
-    'meeting.topic',
-    'meeting.decisions',
+    'meeting.time',
+    'meeting.location',
   ],
-  optionalFields: [],
+  optionalFields: ['zumreMembers', 'agendaItems', 'decisions'],
   outputFormats: ['pdf', 'docx'],
   version: 1,
   lifecycleStatus: LifecycleStatus.verified,
   isActive: true,
   description: 'Eğitim öğretim yılı sonunda yapılan zümre öğretmenler kurulu toplantısının tutanağı.',
   bodyText: '''{{school.name}}
+{{academic.year}} EĞİTİM ÖĞRETİM YILI
 
-SENE SONU ZÜMRE ÖĞRETMENLER KURULU TOPLANTI TUTANAĞI
+{{teacher.branch}} SENE SONU ZÜMRE ÖĞRETMENLER KURULU TOPLANTI TUTANAĞI
 
 Toplantı Tarihi: {{meeting.date}}
-Zümre/Branş: {{teacher.branch}}
-Gündem: {{meeting.topic}}
+Toplantı Saati: {{meeting.time}}
+Toplantı Yeri: {{meeting.location}}
+Zümre Başkanı: {{teacher.fullName}}
 
-Alınan Kararlar:
-{{meeting.decisions}}
+Katılımcılar (Ad Soyad - Branş, her satıra bir kişi):
+{{zumreMembers}}
 
-Katılımcı Öğretmen: {{teacher.fullName}}
-İmza:''',
+Yıl Sonu Değerlendirme Başlıkları:
+{{agendaItems}}
+
+Alınan Kararlar / Sonraki Yıla Öneriler:
+{{decisions}}''',
   tags: ['zümre', 'tutanak', 'sene sonu'],
 );
 

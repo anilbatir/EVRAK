@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../data/featured_templates.dart';
+import '../data/imported_templates.dart';
 import '../data/pilot_templates.dart';
 import '../models/document.dart';
 import '../models/document_template.dart';
@@ -17,6 +18,7 @@ import 'document_template_detail_screen.dart';
 const List<DocumentTemplate> _activeTemplates = [
   pilotAssignmentRequestTemplate,
   ...featuredTemplates,
+  ...importedTemplates,
 ];
 
 class CategoryDocumentsScreen extends StatefulWidget {

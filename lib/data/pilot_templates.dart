@@ -14,6 +14,11 @@ import '../models/document_template.dart';
 /// before expanding the catalog. This is the `custom_template` pilot
 /// (id ATG-001); the `official_form` pilot will follow once a real
 /// official-form DOCX/PDF reference is available to build it from.
+///
+/// Body text and field set updated to the version the user's ChatGPT
+/// workflow produced (Google Drive "EVRAK" folder) - more specific about
+/// the assignment request itself (reason/place/date range) than the
+/// original placeholder draft.
 const pilotAssignmentRequestTemplate = DocumentTemplate(
   id: 'ATG-001',
   title: 'Görevlendirme Talep Dilekçesi',
@@ -26,12 +31,14 @@ const pilotAssignmentRequestTemplate = DocumentTemplate(
     'school.name',
     'school.city',
     'school.district',
+    'request.assignmentReason',
+    'request.assignmentPlace',
+    'request.startDate',
+    'request.endDate',
     'document.date',
   ],
   optionalFields: [
-    'teacher.registrationNo',
-    'teacher.phone',
-    'document.description',
+    'request.notes',
   ],
   outputFormats: ['pdf', 'docx'],
   version: 1,
@@ -40,20 +47,17 @@ const pilotAssignmentRequestTemplate = DocumentTemplate(
   description: 'Görevlendirme talebi için kişiselleştirilebilir şablon (örnek/kişiselleştirilebilir belge - resmi standart form değildir).',
   bodyText: '''T.C.
 {{school.city}} VALİLİĞİ
-{{school.district}} İlçe Millî Eğitim Müdürlüğü
-{{school.name}} Müdürlüğüne
+{{school.district}} KAYMAKAMLIĞI
+{{school.name}} MÜDÜRLÜĞÜNE
 
-{{teacher.fullName}}, okulunuzda {{teacher.branch}} öğretmeni olarak görev yapmaktayım.
+Konu: Görevlendirme Talebi
 
-{{document.description}}
-
-Gereğini arz ederim.
+Kurumunuzda {{teacher.branch}} öğretmeni olarak görev yapmaktayım. {{request.assignmentReason}} nedeniyle {{request.assignmentPlace}} kurumunda/alanında {{request.startDate}} - {{request.endDate}} tarihleri arasında görevlendirilmem hususunda gereğini arz ederim.
 
 Tarih: {{document.date}}
-
 Ad Soyad: {{teacher.fullName}}
-Sicil No: {{teacher.registrationNo}}
-Telefon: {{teacher.phone}}
-İmza:''',
+İmza:
+
+Ek/Açıklama: {{request.notes}}''',
   tags: ['görevlendirme', 'atama', 'dilekçe'],
 );
