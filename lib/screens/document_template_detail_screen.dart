@@ -5,10 +5,12 @@ import '../theme/app_theme.dart';
 import 'prepare_document_screen.dart';
 import 'weekly_plan_screen.dart';
 
-/// Templates for which a pilot Yıllık Plan (real MEB curriculum data,
-/// browsable week by week) is available. Currently only 9. Sınıf
-/// Matematik - see assets/plans/9-matematik.json.
-const _weeklyPlanPilotTemplateIds = {'PLN-001', 'KZN-001'};
+/// Templates for which a pilot weekly kazanım viewer (real MEB curriculum
+/// data, browsable week by week) is available. Currently only Kazanımlar
+/// -> 9. Sınıf Matematik - see assets/plans/9-matematik.json. Yıllık Plan
+/// stays a normal single-document template (the whole year in one file);
+/// only Kazanımlar opens the week-by-week screen.
+const _weeklyPlanPilotTemplateIds = {'KZN-001'};
 
 /// Detail screen for a template-backed document (real, dynamically
 /// generated) as opposed to the static demo `EvrakDocument` catalog.
