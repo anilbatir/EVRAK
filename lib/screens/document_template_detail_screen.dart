@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../data/yillik_plan_pilot.dart';
 import '../models/document_template.dart';
 import '../theme/app_theme.dart';
 import 'prepare_document_screen.dart';
@@ -7,10 +8,13 @@ import 'weekly_plan_screen.dart';
 
 /// Templates for which a pilot weekly kazanım viewer (real MEB curriculum
 /// data, browsable week by week) is available. Currently only Kazanımlar
-/// -> 9. Sınıf Matematik - see assets/plans/9-matematik.json. Yıllık Plan
-/// stays a normal single-document template (the whole year in one file);
-/// only Kazanımlar opens the week-by-week screen.
+/// -> 9. Sınıf Matematik - see assets/plans/9-matematik.json.
 const _weeklyPlanPilotTemplateIds = {'KZN-001'};
+
+/// Templates for which a pilot full-year Yıllık Plan document (the same
+/// real curriculum data as the Kazanımlar viewer, but as one downloadable
+/// document instead of a week-by-week screen) is available.
+const _yillikPlanPilotTemplateIds = {'PLN-001'};
 
 /// Detail screen for a template-backed document (real, dynamically
 /// generated) as opposed to the static demo `EvrakDocument` catalog.
@@ -114,6 +118,30 @@ class DocumentTemplateDetailScreen extends StatelessWidget {
                         label: const Text(
                           '9. Sınıf Matematik Örneğini Gör (Pilot)',
                           style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                  ],
+                  if (_yillikPlanPilotTemplateIds.contains(template.id)) ...[
+                    SizedBox(
+                      width: double.infinity,
+                      child: OutlinedButton.icon(
+                        onPressed: () => Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (_) => const PrepareDocumentScreen(template: yillikPlan9MatematikTemplate),
+                          ),
+                        ),
+                        style: OutlinedButton.styleFrom(
+                          foregroundColor: AppColors.accent,
+                          side: const BorderSide(color: AppColors.accent),
+                          padding: const EdgeInsets.symmetric(vertical: 16),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                        ),
+                        icon: const Icon(Icons.description_outlined, size: 18),
+                        label: const Text(
+                          '9. Sınıf Matematik Yıllık Planını Hazırla (Pilot)',
+                          style: TextStyle(fontSize: 13.5, fontWeight: FontWeight.w700),
                         ),
                       ),
                     ),
