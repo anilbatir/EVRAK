@@ -4,6 +4,8 @@ import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 import '../providers/theme_provider.dart';
 import '../theme/app_theme.dart';
+import 'about_screen.dart';
+import 'help_screen.dart';
 import 'onboarding_login_screen.dart';
 import 'profile_edit_screen.dart';
 
@@ -40,7 +42,10 @@ class ProfileScreen extends StatelessWidget {
                 children: [
                   const SizedBox(width: 20),
                   Text('Profil', style: TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: textPrimary)),
-                  Icon(Icons.settings_outlined, color: textPrimary),
+                  GestureDetector(
+                    onTap: () => context.read<ThemeProvider>().toggle(),
+                    child: Icon(Icons.settings_outlined, color: textPrimary),
+                  ),
                 ],
               ),
             ),
@@ -96,21 +101,44 @@ class ProfileScreen extends StatelessWidget {
                             ),
                             child: _MenuRow(icon: Icons.badge_outlined, label: 'Profil Bilgilerim', border: border, color: textPrimary),
                           ),
-                          _MenuRow(icon: Icons.file_download_outlined, label: 'İndirilenler', border: border, color: textPrimary),
-                          _MenuRow(icon: Icons.history, label: 'Son Görüntülenenler', border: border, color: textPrimary),
-                          _MenuRow(
-                            icon: Icons.settings_outlined,
-                            label: 'Ayarlar',
-                            border: border,
-                            color: textPrimary,
-                            trailing: Switch(
-                              value: themeProvider.isDarkMode,
-                              activeThumbColor: AppColors.accent,
-                              onChanged: (_) => context.read<ThemeProvider>().toggle(),
+                          InkWell(
+                            onTap: () => ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(content: Text('İndirilen evraklar, evrak yükleme özelliği eklendiğinde burada listelenecek.')),
+                            ),
+                            child: _MenuRow(icon: Icons.file_download_outlined, label: 'İndirilenler', border: border, color: textPrimary),
+                          ),
+                          InkWell(
+                            onTap: () => ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(content: Text('Son görüntülenen evraklar yakında burada listelenecek.')),
+                            ),
+                            child: _MenuRow(icon: Icons.history, label: 'Son Görüntülenenler', border: border, color: textPrimary),
+                          ),
+                          InkWell(
+                            onTap: () => context.read<ThemeProvider>().toggle(),
+                            child: _MenuRow(
+                              icon: Icons.settings_outlined,
+                              label: 'Ayarlar',
+                              border: border,
+                              color: textPrimary,
+                              trailing: Switch(
+                                value: themeProvider.isDarkMode,
+                                activeThumbColor: AppColors.accent,
+                                onChanged: (_) => context.read<ThemeProvider>().toggle(),
+                              ),
                             ),
                           ),
-                          _MenuRow(icon: Icons.help_outline, label: 'Yardım ve Destek', border: border, color: textPrimary),
-                          _MenuRow(icon: Icons.info_outline, label: 'Hakkımızda', border: border, color: textPrimary, isLast: true),
+                          InkWell(
+                            onTap: () => Navigator.of(context).push(
+                              MaterialPageRoute(builder: (_) => const HelpScreen()),
+                            ),
+                            child: _MenuRow(icon: Icons.help_outline, label: 'Yardım ve Destek', border: border, color: textPrimary),
+                          ),
+                          InkWell(
+                            onTap: () => Navigator.of(context).push(
+                              MaterialPageRoute(builder: (_) => const AboutScreen()),
+                            ),
+                            child: _MenuRow(icon: Icons.info_outline, label: 'Hakkımızda', border: border, color: textPrimary, isLast: true),
+                          ),
                         ],
                       ),
                     ),

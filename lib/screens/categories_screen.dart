@@ -34,29 +34,15 @@ class CategoriesScreen extends StatelessWidget {
                       : const SizedBox(width: 44),
                   Text('Kategoriler', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: textPrimary)),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () => Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const CategoryDocumentsScreen()),
+                    ),
                     icon: Icon(Icons.search, color: textPrimary),
                   ),
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: SizedBox(
-                height: 34,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: const [
-                    _Tab(label: 'Tümü', selected: true),
-                    _Tab(label: 'İşlemler'),
-                    _Tab(label: 'Dilekçeler'),
-                    _Tab(label: 'Formlar'),
-                    _Tab(label: 'Belgeler'),
-                  ],
-                ),
-              ),
-            ),
-            const SizedBox(height: 18),
+            const SizedBox(height: 8),
             Expanded(
               child: ListView.separated(
                 padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
@@ -104,36 +90,6 @@ class CategoriesScreen extends StatelessWidget {
             ),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class _Tab extends StatelessWidget {
-  const _Tab({required this.label, this.selected = false});
-
-  final String label;
-  final bool selected;
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(right: 20),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Text(
-            label,
-            style: TextStyle(
-              fontSize: 13,
-              fontWeight: FontWeight.w600,
-              color: selected ? AppColors.accent : const Color(0xFF9A97B0),
-            ),
-          ),
-          const SizedBox(height: 8),
-          if (selected)
-            Container(width: 24, height: 2.5, color: AppColors.accent),
-        ],
       ),
     );
   }
