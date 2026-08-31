@@ -19,25 +19,20 @@ class PdfService {
     final paragraphs = bodyText.split('\n');
 
     doc.addPage(
-      pw.Page(
+      pw.MultiPage(
         pageFormat: PdfPageFormat.a4,
         margin: const pw.EdgeInsets.fromLTRB(56, 56, 56, 56),
         theme: pw.ThemeData.withFont(base: regularFont, bold: boldFont),
-        build: (context) {
-          return pw.Column(
-            crossAxisAlignment: pw.CrossAxisAlignment.start,
-            children: [
-              for (final line in paragraphs)
-                pw.Padding(
-                  padding: const pw.EdgeInsets.only(bottom: 6),
-                  child: pw.Text(
-                    line,
-                    style: const pw.TextStyle(fontSize: 12, lineSpacing: 3),
-                  ),
-                ),
-            ],
-          );
-        },
+        build: (context) => [
+          for (final line in paragraphs)
+            pw.Padding(
+              padding: const pw.EdgeInsets.only(bottom: 6),
+              child: pw.Text(
+                line,
+                style: const pw.TextStyle(fontSize: 12, lineSpacing: 3),
+              ),
+            ),
+        ],
       ),
     );
 

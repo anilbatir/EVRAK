@@ -1,13 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../data/featured_templates.dart';
 import '../data/pilot_templates.dart';
 import '../models/document.dart';
+import '../models/document_template.dart';
 import '../providers/document_provider.dart';
 import '../theme/app_theme.dart';
 import '../widgets/file_badge.dart';
 import 'document_detail_screen.dart';
 import 'document_template_detail_screen.dart';
+
+/// All templates actually wired to the generation pipeline (real body
+/// text), shown ahead of the static demo documents wherever their
+/// category matches.
+const List<DocumentTemplate> _activeTemplates = [
+  pilotAssignmentRequestTemplate,
+  ...featuredTemplates,
+];
 
 class CategoryDocumentsScreen extends StatefulWidget {
   const CategoryDocumentsScreen({super.key, this.category});
@@ -47,9 +57,13 @@ class _CategoryDocumentsScreenState extends State<CategoryDocumentsScreen> {
       docs = docs.where((d) => d.title.toLowerCase().contains(q)).toList();
     }
 
-    final showPilotTemplate = widget.category == null || widget.category == pilotAssignmentRequestTemplate.categoryId;
-    final pilotMatchesQuery = _query.isEmpty ||
-        pilotAssignmentRequestTemplate.title.toLowerCase().contains(_query.toLowerCase());
+    var templates = widget.category != null
+        ? _activeTemplates.where((t) => t.categoryId == widget.category).toList()
+        : _activeTemplates;
+    if (_query.isNotEmpty) {
+      final q = _query.toLowerCase();
+      templates = templates.where((t) => t.title.toLowerCase().contains(q)).toList();
+    }
 
     return Scaffold(
       body: SafeArea(
@@ -121,19 +135,20 @@ class _CategoryDocumentsScreenState extends State<CategoryDocumentsScreen> {
             ),
             const SizedBox(height: 18),
             Expanded(
-              child: (docs.isEmpty && !(showPilotTemplate && pilotMatchesQuery))
+              child: (docs.isEmpty && templates.isEmpty)
                   ? Center(child: Text('Evrak bulunamadı', style: TextStyle(color: textSecondary)))
                   : ListView.separated(
                       padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
-                      itemCount: docs.length + (showPilotTemplate && pilotMatchesQuery ? 1 : 0),
+                      itemCount: templates.length + docs.length,
                       separatorBuilder: (_, __) => const SizedBox(height: 10),
                       itemBuilder: (context, index) {
-                        if (showPilotTemplate && pilotMatchesQuery && index == 0) {
+                        if (index < templates.length) {
+                          final template = templates[index];
                           return InkWell(
                             borderRadius: BorderRadius.circular(14),
                             onTap: () => Navigator.of(context).push(
                               MaterialPageRoute(
-                                builder: (_) => const DocumentTemplateDetailScreen(template: pilotAssignmentRequestTemplate),
+                                builder: (_) => DocumentTemplateDetailScreen(template: template),
                               ),
                             ),
                             child: Container(
@@ -155,7 +170,7 @@ class _CategoryDocumentsScreenState extends State<CategoryDocumentsScreen> {
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
-                                        Text(pilotAssignmentRequestTemplate.title,
+                                        Text(template.title,
                                             maxLines: 1, overflow: TextOverflow.ellipsis,
                                             style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: textPrimary)),
                                         const SizedBox(height: 2),
@@ -170,7 +185,7 @@ class _CategoryDocumentsScreenState extends State<CategoryDocumentsScreen> {
                             ),
                           );
                         }
-                        final doc = docs[index - (showPilotTemplate && pilotMatchesQuery ? 1 : 0)];
+                        final doc = docs[index - templates.length];
                         return InkWell(
                           borderRadius: BorderRadius.circular(14),
                           onTap: () => Navigator.of(context).push(

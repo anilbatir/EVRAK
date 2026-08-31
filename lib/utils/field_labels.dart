@@ -27,8 +27,13 @@ const Map<String, String> _fieldLabels = {
   'parent.fullName': 'Veli Adı Soyadı',
   'meeting.date': 'Toplantı Tarihi',
   'meeting.topic': 'Toplantı Konusu',
+  'meeting.decisions': 'Alınan Kararlar',
   'leave.startDate': 'İzin Başlangıç Tarihi',
   'leave.endDate': 'İzin Bitiş Tarihi',
+  'lesson.subject': 'Ders Adı',
+  'lesson.gradeLevel': 'Sınıf/Şube',
+  'lesson.topic': 'Konu',
+  'plan.content': 'Konular ve Kazanımlar',
 };
 
 String fieldLabel(String key) => _fieldLabels[key] ?? key;
