@@ -3,6 +3,12 @@ import 'package:flutter/material.dart';
 import '../models/document_template.dart';
 import '../theme/app_theme.dart';
 import 'prepare_document_screen.dart';
+import 'weekly_plan_screen.dart';
+
+/// Templates for which a pilot Yıllık Plan (real MEB curriculum data,
+/// browsable week by week) is available. Currently only 9. Sınıf
+/// Matematik - see assets/plans/9-matematik.json.
+const _weeklyPlanPilotTemplateIds = {'PLN-001', 'KZN-001'};
 
 /// Detail screen for a template-backed document (real, dynamically
 /// generated) as opposed to the static demo `EvrakDocument` catalog.
@@ -85,20 +91,48 @@ class DocumentTemplateDetailScreen extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(24, 0, 24, 26),
-              child: SizedBox(
-                width: double.infinity,
-                child: FilledButton.icon(
-                  onPressed: () => Navigator.of(context).push(
-                    MaterialPageRoute(builder: (_) => PrepareDocumentScreen(template: template)),
+              child: Column(
+                children: [
+                  if (_weeklyPlanPilotTemplateIds.contains(template.id)) ...[
+                    SizedBox(
+                      width: double.infinity,
+                      child: OutlinedButton.icon(
+                        onPressed: () => Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (_) => const WeeklyPlanScreen(assetPath: 'assets/plans/9-matematik.json'),
+                          ),
+                        ),
+                        style: OutlinedButton.styleFrom(
+                          foregroundColor: AppColors.accent,
+                          side: const BorderSide(color: AppColors.accent),
+                          padding: const EdgeInsets.symmetric(vertical: 16),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                        ),
+                        icon: const Icon(Icons.calendar_view_week_outlined, size: 18),
+                        label: const Text(
+                          '9. Sınıf Matematik Örneğini Gör (Pilot)',
+                          style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                  ],
+                  SizedBox(
+                    width: double.infinity,
+                    child: FilledButton.icon(
+                      onPressed: () => Navigator.of(context).push(
+                        MaterialPageRoute(builder: (_) => PrepareDocumentScreen(template: template)),
+                      ),
+                      style: FilledButton.styleFrom(
+                        backgroundColor: AppColors.accent,
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                      ),
+                      icon: const Icon(Icons.auto_awesome_outlined, color: Colors.white, size: 18),
+                      label: const Text('Belgeyi Hazırla', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: Colors.white)),
+                    ),
                   ),
-                  style: FilledButton.styleFrom(
-                    backgroundColor: AppColors.accent,
-                    padding: const EdgeInsets.symmetric(vertical: 16),
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                  ),
-                  icon: const Icon(Icons.auto_awesome_outlined, color: Colors.white, size: 18),
-                  label: const Text('Belgeyi Hazırla', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: Colors.white)),
-                ),
+                ],
               ),
             ),
           ],

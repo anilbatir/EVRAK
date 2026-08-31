@@ -1,0 +1,386 @@
+{
+  "grade": "9",
+  "subject": "Matematik",
+  "academicYear": "2026-2027",
+  "source": "yillik_plan",
+  "weeks": [
+    {
+      "month": "Eylül",
+      "dateRange": "14 - 18 Eylül",
+      "weekLabel": "1. Hafta",
+      "hours": "6",
+      "unit": "1. TEMA: SAYILAR",
+      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
+      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Eylül",
+      "dateRange": "21 - 25 Eylül",
+      "weekLabel": "2. Hafta",
+      "hours": "6",
+      "unit": "1. TEMA: SAYILAR",
+      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
+      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Eylül",
+      "dateRange": "28 Eylül - 02 Ekim",
+      "weekLabel": "3. Hafta",
+      "hours": "6",
+      "unit": "1. TEMA: SAYILAR",
+      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
+      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Ekim",
+      "dateRange": "05 - 09 Ekim",
+      "weekLabel": "4. Hafta",
+      "hours": "6",
+      "unit": "1. TEMA: SAYILAR",
+      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
+      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Ekim",
+      "dateRange": "12 - 16 Ekim",
+      "weekLabel": "5. Hafta",
+      "hours": "6",
+      "unit": "1. TEMA: SAYILAR",
+      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
+      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Ekim",
+      "dateRange": "19 - 23 Ekim",
+      "weekLabel": "6. Hafta",
+      "hours": "6",
+      "unit": "1. TEMA: SAYILAR",
+      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
+      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Ekim",
+      "dateRange": "26 - 30 Ekim",
+      "weekLabel": "7. Hafta (29 Ekim Bayramı)",
+      "hours": "6",
+      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
+      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Kasım",
+      "dateRange": "02 - 06 Kasım",
+      "weekLabel": "8. Hafta",
+      "hours": "6",
+      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
+      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Kasım",
+      "dateRange": "09 - 13 Kasım",
+      "weekLabel": "9. Hafta",
+      "hours": "6",
+      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
+      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "16 - 20 KASIM 2026",
+      "weekLabel": "1. ARA TATİL",
+      "isHoliday": true
+    },
+    {
+      "month": "Kasım",
+      "dateRange": "23 - 27 Kasım",
+      "weekLabel": "10. Hafta",
+      "hours": "6",
+      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
+      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Kasım",
+      "dateRange": "30 Kasım - 04 Aralık",
+      "weekLabel": "11. Hafta",
+      "hours": "6",
+      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
+      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Aralık",
+      "dateRange": "07 - 11 Aralık",
+      "weekLabel": "12. Hafta",
+      "hours": "6",
+      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
+      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
+      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "isHoliday": false
+    },
+    {
+      "month": "Aralık",
+      "dateRange": "14 - 18 Aralık",
+      "weekLabel": "13. Hafta",
+      "hours": "6",
+      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
+      "kazanim": "MAT.9.3. Mantık ve Kümeler",
+      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "isHoliday": false
+    },
+    {
+      "month": "Aralık",
+      "dateRange": "21 - 25 Aralık",
+      "weekLabel": "14. Hafta",
+      "hours": "6",
+      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
+      "kazanim": "MAT.9.3. Mantık ve Kümeler",
+      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "isHoliday": false
+    },
+    {
+      "month": "Aralık",
+      "dateRange": "28 Aralık - 01 Ocak",
+      "weekLabel": "15. Hafta",
+      "hours": "6",
+      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
+      "kazanim": "MAT.9.3. Mantık ve Kümeler",
+      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "isHoliday": false
+    },
+    {
+      "month": "Ocak",
+      "dateRange": "04 - 08 Ocak",
+      "weekLabel": "16. Hafta",
+      "hours": "6",
+      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
+      "kazanim": "MAT.9.3. Mantık ve Kümeler",
+      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "isHoliday": false
+    },
+    {
+      "month": "Ocak",
+      "dateRange": "11 - 15 Ocak",
+      "weekLabel": "17. Hafta",
+      "hours": "6",
+      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
+      "kazanim": "MAT.9.3. Mantık ve Kümeler",
+      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "isHoliday": false
+    },
+    {
+      "month": "Ocak",
+      "dateRange": "18 - 22 Ocak",
+      "weekLabel": "18. Hafta (1. Dönem Sonu)",
+      "hours": "6",
+      "unit": "OKUL TEMELLİ",
+      "kazanim": "1. Dönem Sonu Okul Temelli Planlama",
+      "description": "Sosyal etkinlikler, rehberlik ve genel akademik değerlendirmeler",
+      "isHoliday": false
+    },
+    {
+      "month": "OCAK - ŞUBAT",
+      "dateRange": "25 OCAK - 05 ŞUBAT 2027",
+      "weekLabel": "YARIYIL TATİLİ (SÖMESTR)",
+      "isHoliday": true
+    },
+    {
+      "month": "Şubat",
+      "dateRange": "08 - 12 Şubat",
+      "weekLabel": "19. Hafta",
+      "hours": "6",
+      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
+      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
+      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "isHoliday": false
+    },
+    {
+      "month": "Şubat",
+      "dateRange": "15 - 19 Şubat",
+      "weekLabel": "20. Hafta",
+      "hours": "6",
+      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
+      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
+      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "isHoliday": false
+    },
+    {
+      "month": "Şubat",
+      "dateRange": "22 - 26 Şubat",
+      "weekLabel": "21. Hafta",
+      "hours": "6",
+      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
+      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
+      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "isHoliday": false
+    },
+    {
+      "month": "Mart",
+      "dateRange": "01 - 05 Mart",
+      "weekLabel": "22. Hafta",
+      "hours": "6",
+      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
+      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
+      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "isHoliday": false
+    },
+    {
+      "month": "MART",
+      "dateRange": "08 - 12 MART 2027",
+      "weekLabel": "2. ARA TATİL (Ramazan Bayramı)",
+      "isHoliday": true
+    },
+    {
+      "month": "Mart",
+      "dateRange": "15 - 19 Mart",
+      "weekLabel": "23. Hafta",
+      "hours": "6",
+      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
+      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
+      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "isHoliday": false
+    },
+    {
+      "month": "Mart",
+      "dateRange": "22 - 26 Mart",
+      "weekLabel": "24. Hafta",
+      "hours": "6",
+      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
+      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
+      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "isHoliday": false
+    },
+    {
+      "month": "Mart",
+      "dateRange": "29 Mart - 02 Nisan",
+      "weekLabel": "25. Hafta",
+      "hours": "6",
+      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
+      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
+      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "isHoliday": false
+    },
+    {
+      "month": "Nisan",
+      "dateRange": "05 - 09 Nisan",
+      "weekLabel": "26. Hafta",
+      "hours": "6",
+      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
+      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
+      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "isHoliday": false
+    },
+    {
+      "month": "Nisan",
+      "dateRange": "12 - 16 Nisan",
+      "weekLabel": "27. Hafta",
+      "hours": "6",
+      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
+      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
+      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "isHoliday": false
+    },
+    {
+      "month": "Nisan",
+      "dateRange": "19 - 23 Nisan",
+      "weekLabel": "28. Hafta (23 Nisan Bayramı)",
+      "hours": "6",
+      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
+      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
+      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "isHoliday": false
+    },
+    {
+      "month": "Nisan",
+      "dateRange": "26 - 30 Nisan",
+      "weekLabel": "29. Hafta",
+      "hours": "6",
+      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
+      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
+      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "isHoliday": false
+    },
+    {
+      "month": "Mayıs",
+      "dateRange": "03 - 07 Mayıs",
+      "weekLabel": "30. Hafta",
+      "hours": "6",
+      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
+      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
+      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "isHoliday": false
+    },
+    {
+      "month": "Mayıs",
+      "dateRange": "10 - 14 Mayıs",
+      "weekLabel": "31. Hafta",
+      "hours": "6",
+      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
+      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "isHoliday": false
+    },
+    {
+      "month": "Mayıs",
+      "dateRange": "17 - 21 Mayıs",
+      "weekLabel": "32. Hafta (19 Mayıs / Kurban B.)",
+      "hours": "6",
+      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
+      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "isHoliday": false
+    },
+    {
+      "month": "Mayıs",
+      "dateRange": "24 - 28 Mayıs",
+      "weekLabel": "33. Hafta",
+      "hours": "6",
+      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
+      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "isHoliday": false
+    },
+    {
+      "month": "Mayıs",
+      "dateRange": "31 Mayıs - 04 Haziran",
+      "weekLabel": "34. Hafta",
+      "hours": "6",
+      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
+      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "isHoliday": false
+    },
+    {
+      "month": "Haziran",
+      "dateRange": "07 - 11 Haziran",
+      "weekLabel": "35. Hafta",
+      "hours": "6",
+      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
+      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "isHoliday": false
+    },
+    {
+      "month": "Haziran",
+      "dateRange": "14 - 18 Haziran",
+      "weekLabel": "36. Hafta (Yıl Sonu)",
+      "hours": "6",
+      "unit": "OKUL TEMELLİ",
+      "kazanim": "Yıl Sonu Okul Temelli Planlama",
+      "description": "Sosyal etkinlikler, rehberlik ve genel akademik değerlendirmeler",
+      "isHoliday": false
+    }
+  ]
+}
