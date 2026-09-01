@@ -138,7 +138,7 @@ class DocumentTemplateDetailScreen extends StatelessWidget {
                             if (!context.mounted) return;
                             Navigator.of(context).push(
                               MaterialPageRoute(
-                                builder: (_) => PrepareDocumentScreen(template: builtTemplate),
+                                builder: (_) => PrepareDocumentScreen(template: builtTemplate, weeklyPlan: plan),
                               ),
                             );
                           },

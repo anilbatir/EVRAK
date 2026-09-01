@@ -5,6 +5,7 @@ import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
 import '../models/document_template.dart';
+import '../models/weekly_plan.dart';
 import '../providers/profile_provider.dart';
 import '../services/pdf_service.dart';
 import '../services/template_engine.dart';
@@ -14,10 +15,16 @@ import 'document_result_screen.dart';
 
 /// Collects only the fields the user's profile doesn't already cover,
 /// then renders the template and generates the PDF.
+///
+/// When [weeklyPlan] is supplied (Yıllık Plan documents built by
+/// buildYillikPlanTemplate), the PDF is rendered as an actual table - one
+/// row per week - via [PdfService.generateYillikPlanPdf], instead of the
+/// generic flat-paragraph renderer used for every other document.
 class PrepareDocumentScreen extends StatefulWidget {
-  const PrepareDocumentScreen({super.key, required this.template});
+  const PrepareDocumentScreen({super.key, required this.template, this.weeklyPlan});
 
   final DocumentTemplate template;
+  final WeeklyPlan? weeklyPlan;
 
   @override
   State<PrepareDocumentScreen> createState() => _PrepareDocumentScreenState();
@@ -64,10 +71,20 @@ class _PrepareDocumentScreenState extends State<PrepareDocumentScreen> {
     final result = TemplateEngine.render(widget.template, _data);
 
     try {
-      final file = await PdfService.generateDocumentPdf(
-        title: widget.template.title,
-        bodyText: result.text,
-      );
+      final plan = widget.weeklyPlan;
+      final file = plan != null
+          ? await PdfService.generateYillikPlanPdf(
+              title: widget.template.title,
+              plan: plan,
+              teacherName: _data['teacher.fullName'] ?? '',
+              branch: _data['teacher.branch'] ?? '',
+              schoolName: _data['school.name'] ?? '',
+              principalName: _data['school.principalName'],
+            )
+          : await PdfService.generateDocumentPdf(
+              title: widget.template.title,
+              bodyText: result.text,
+            );
       if (mounted) {
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (_) => DocumentResultScreen(template: widget.template, file: file)),
