@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-import '../data/yillik_plan_pilot.dart';
+import '../data/curriculum/curriculum_catalog.dart';
+import '../data/curriculum/yillik_plan_builder.dart';
 import '../models/document_template.dart';
+import '../models/weekly_plan.dart';
 import '../theme/app_theme.dart';
 import 'prepare_document_screen.dart';
 import 'weekly_plan_screen.dart';
 
-/// Templates for which a pilot weekly kazanım viewer (real MEB curriculum
-/// data, browsable week by week) is available. Currently only Kazanımlar
-/// -> 9. Sınıf Matematik - see assets/plans/9-matematik.json.
+/// Templates for which the real MEB curriculum data (assets/plans/*.json,
+/// see lib/data/curriculum/curriculum_catalog.dart) is available - browsable
+/// week by week (Kazanımlar) or as one full Yıllık Plan document. Every
+/// grade/subject combo in [curriculumCatalog] is offered as a picker option
+/// under these two templates.
 const _weeklyPlanPilotTemplateIds = {'KZN-001'};
-
-/// Templates for which a pilot full-year Yıllık Plan document (the same
-/// real curriculum data as the Kazanımlar viewer, but as one downloadable
-/// document instead of a week-by-week screen) is available.
 const _yillikPlanPilotTemplateIds = {'PLN-001'};
 
 /// Detail screen for a template-backed document (real, dynamically
@@ -99,54 +99,64 @@ class DocumentTemplateDetailScreen extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(24, 0, 24, 26),
               child: Column(
                 children: [
-                  if (_weeklyPlanPilotTemplateIds.contains(template.id)) ...[
-                    SizedBox(
-                      width: double.infinity,
-                      child: OutlinedButton.icon(
-                        onPressed: () => Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (_) => const WeeklyPlanScreen(assetPath: 'assets/plans/9-matematik.json'),
+                  if (_weeklyPlanPilotTemplateIds.contains(template.id))
+                    for (final combo in curriculumCatalog) ...[
+                      SizedBox(
+                        width: double.infinity,
+                        child: OutlinedButton.icon(
+                          onPressed: () => Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (_) => WeeklyPlanScreen(assetPath: combo.assetPath),
+                            ),
+                          ),
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: AppColors.accent,
+                            side: const BorderSide(color: AppColors.accent),
+                            padding: const EdgeInsets.symmetric(vertical: 16),
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                          ),
+                          icon: const Icon(Icons.calendar_view_week_outlined, size: 18),
+                          label: Text(
+                            '${combo.title} Kazanımlarını Gör',
+                            style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
                           ),
                         ),
-                        style: OutlinedButton.styleFrom(
-                          foregroundColor: AppColors.accent,
-                          side: const BorderSide(color: AppColors.accent),
-                          padding: const EdgeInsets.symmetric(vertical: 16),
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                        ),
-                        icon: const Icon(Icons.calendar_view_week_outlined, size: 18),
-                        label: const Text(
-                          '9. Sınıf Matematik Örneğini Gör (Pilot)',
-                          style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
-                        ),
                       ),
-                    ),
-                    const SizedBox(height: 10),
-                  ],
-                  if (_yillikPlanPilotTemplateIds.contains(template.id)) ...[
-                    SizedBox(
-                      width: double.infinity,
-                      child: OutlinedButton.icon(
-                        onPressed: () => Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (_) => const PrepareDocumentScreen(template: yillikPlan9MatematikTemplate),
+                      const SizedBox(height: 10),
+                    ],
+                  if (_yillikPlanPilotTemplateIds.contains(template.id))
+                    for (final combo in curriculumCatalog) ...[
+                      SizedBox(
+                        width: double.infinity,
+                        child: OutlinedButton.icon(
+                          onPressed: () async {
+                            final plan = await WeeklyPlan.loadAsset(combo.assetPath);
+                            final builtTemplate = buildYillikPlanTemplate(
+                              id: combo.yillikPlanTemplateId,
+                              plan: plan,
+                            );
+                            if (!context.mounted) return;
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (_) => PrepareDocumentScreen(template: builtTemplate),
+                              ),
+                            );
+                          },
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: AppColors.accent,
+                            side: const BorderSide(color: AppColors.accent),
+                            padding: const EdgeInsets.symmetric(vertical: 16),
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                          ),
+                          icon: const Icon(Icons.description_outlined, size: 18),
+                          label: Text(
+                            '${combo.title} Yıllık Planını Hazırla',
+                            style: const TextStyle(fontSize: 13.5, fontWeight: FontWeight.w700),
                           ),
                         ),
-                        style: OutlinedButton.styleFrom(
-                          foregroundColor: AppColors.accent,
-                          side: const BorderSide(color: AppColors.accent),
-                          padding: const EdgeInsets.symmetric(vertical: 16),
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                        ),
-                        icon: const Icon(Icons.description_outlined, size: 18),
-                        label: const Text(
-                          '9. Sınıf Matematik Yıllık Planını Hazırla (Pilot)',
-                          style: TextStyle(fontSize: 13.5, fontWeight: FontWeight.w700),
-                        ),
                       ),
-                    ),
-                    const SizedBox(height: 10),
-                  ],
+                      const SizedBox(height: 10),
+                    ],
                   SizedBox(
                     width: double.infinity,
                     child: FilledButton.icon(

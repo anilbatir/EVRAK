@@ -10,8 +10,12 @@ class WeeklyPlanWeek {
   final String? dateRange;
   final String? hours;
   final String? unit;
+  final String? kazanimKod;
   final String? kazanim;
   final String? description;
+  final String? icerik;
+  final String? olcme;
+  final String? aciklama;
   final bool isHoliday;
 
   const WeeklyPlanWeek({
@@ -20,8 +24,12 @@ class WeeklyPlanWeek {
     this.dateRange,
     this.hours,
     this.unit,
+    this.kazanimKod,
     this.kazanim,
     this.description,
+    this.icerik,
+    this.olcme,
+    this.aciklama,
     required this.isHoliday,
   });
 
@@ -32,8 +40,12 @@ class WeeklyPlanWeek {
       dateRange: json['dateRange'] as String?,
       hours: json['hours'] as String?,
       unit: json['unit'] as String?,
+      kazanimKod: json['kazanimKod'] as String?,
       kazanim: json['kazanim'] as String?,
       description: json['description'] as String?,
+      icerik: json['icerik'] as String?,
+      olcme: json['olcme'] as String?,
+      aciklama: json['aciklama'] as String?,
       isHoliday: json['isHoliday'] as bool? ?? false,
     );
   }
@@ -46,12 +58,14 @@ class WeeklyPlan {
   final String grade;
   final String subject;
   final String academicYear;
+  final String? weeklyHours;
   final List<WeeklyPlanWeek> weeks;
 
   const WeeklyPlan({
     required this.grade,
     required this.subject,
     required this.academicYear,
+    this.weeklyHours,
     required this.weeks,
   });
 
@@ -62,6 +76,7 @@ class WeeklyPlan {
       grade: json['grade'] as String? ?? '',
       subject: json['subject'] as String? ?? '',
       academicYear: json['academicYear'] as String? ?? '',
+      weeklyHours: json['weeklyHours'] as String?,
       weeks: (json['weeks'] as List<dynamic>? ?? [])
           .map((w) => WeeklyPlanWeek.fromJson(w as Map<String, dynamic>))
           .toList(),
