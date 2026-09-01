@@ -62,6 +62,32 @@ void main() {
     expect(result.text.contains('Kaynaklar'), isFalse);
   });
 
+  test('9. Sınıf Din Kültürü ve Ahlak Bilgisi: 5 ünite, 20 kazanım doğru render edilir', () async {
+    final dkab = curriculumCatalog.firstWhere((c) => c.subject == 'Din Kültürü ve Ahlak Bilgisi');
+    final plan = await WeeklyPlan.loadAsset(dkab.assetPath);
+    final template = buildYillikPlanTemplate(id: dkab.yillikPlanTemplateId, plan: plan);
+
+    final data = <String, String>{
+      for (final f in [...template.requiredFields, ...template.optionalFields]) f: 'x',
+    };
+    final result = TemplateEngine.render(template, data);
+    expect(result.isComplete, isTrue);
+    expect(result.text.contains('{{'), isFalse);
+
+    for (var i = 1; i <= 37; i++) {
+      expect(result.text.contains('$i. Hafta'), isTrue, reason: '$i. Hafta metinde yok');
+    }
+
+    // All 5 üniteler (DKAB.9.1-DKAB.9.5) must be represented, each with its
+    // first and last kazanım code, matching the official DKAB Öğretim
+    // Programı (9-12. Sınıflar).
+    for (final unite in [1, 2, 3, 4, 5]) {
+      expect(result.text.contains('DKAB.9.$unite.1'), isTrue, reason: 'DKAB.9.$unite.1 eksik');
+      expect(result.text.contains('DKAB.9.$unite.4'), isTrue, reason: 'DKAB.9.$unite.4 eksik');
+    }
+    expect(result.text.contains('DKAB.9.6.1'), isFalse); // only 5 üniteler exist for 9. Sınıf
+  });
+
   test('bir haftada birden fazla kazanım (saat paylaşımlı) doğru render edilir', () {
     final plan = WeeklyPlan.fromJson({
       'grade': '12',

@@ -18,11 +18,11 @@ class CurriculumCombo {
 
   /// Stable id for the generated Yıllık Plan DocumentTemplate, e.g. PLN-9-BIY.
   String get yillikPlanTemplateId {
-    final subjectCode = subject
+    final stripped = subject
         .toUpperCase()
         .replaceAll('İ', 'I')
-        .replaceAll(RegExp('[^A-Z]'), '')
-        .substring(0, subject.length >= 3 ? 3 : subject.length);
+        .replaceAll(RegExp('[^A-Z]'), '');
+    final subjectCode = stripped.substring(0, stripped.length >= 3 ? 3 : stripped.length);
     return 'PLN-$grade-$subjectCode';
   }
 }
@@ -30,4 +30,5 @@ class CurriculumCombo {
 const curriculumCatalog = <CurriculumCombo>[
   CurriculumCombo(grade: '9', subject: 'Matematik', assetPath: 'assets/plans/9-matematik.json'),
   CurriculumCombo(grade: '9', subject: 'Biyoloji', assetPath: 'assets/plans/9-biyoloji.json'),
+  CurriculumCombo(grade: '9', subject: 'Din Kültürü ve Ahlak Bilgisi', assetPath: 'assets/plans/9-din-kulturu.json'),
 ];
