@@ -1,13 +1,7 @@
 {
   "name": "EVRAK (Flutter)",
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
-  "features": {
-    "ghcr.io/devcontainers-extra/features/flutter-sdk:2": {
-      "version": "3.47.2",
-      "channel": "stable"
-    }
-  },
-  "postCreateCommand": "flutter pub get",
+  "postCreateCommand": "bash .devcontainer/setup-flutter.sh",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -15,10 +9,9 @@
         "Dart-Code.flutter"
       ],
       "settings": {
-        "dart.flutterSdkPath": "/usr/local/flutter"
+        "dart.flutterSdkPath": "~/flutter"
       }
     }
   },
-  "forwardPorts": [],
   "remoteUser": "vscode"
 }
