@@ -8,6 +8,12 @@ REPO_DIR="$(pwd)"
 FLUTTER_VERSION="3.47.2"
 INSTALL_DIR="$HOME/flutter"
 
+# If a previous attempt (ours or the Dart extension's) left a partial/broken
+# clone behind, remove it so we can clone cleanly instead of erroring out.
+if [ -d "$INSTALL_DIR" ] && [ ! -d "$INSTALL_DIR/.git" ]; then
+  rm -rf "$INSTALL_DIR"
+fi
+
 if [ ! -d "$INSTALL_DIR" ]; then
   git clone https://github.com/flutter/flutter.git -b stable "$INSTALL_DIR"
 fi

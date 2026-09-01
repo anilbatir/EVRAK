@@ -9,7 +9,9 @@
         "Dart-Code.flutter"
       ],
       "settings": {
-        "dart.flutterSdkPath": "~/flutter"
+        "dart.flutterSdkPath": "~/flutter",
+        "dart.promptToGetPackages": false,
+        "dart.checkForSdkUpdates": false
       }
     }
   },
