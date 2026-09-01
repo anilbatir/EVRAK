@@ -220,16 +220,41 @@ class _WeekCard extends StatelessWidget {
                   Text(week.unit!, style: TextStyle(fontSize: 14.5, fontWeight: FontWeight.w700, color: textPrimary)),
                   const SizedBox(height: 18),
                 ],
-                if (week.kazanim != null) ...[
-                  const _SectionLabel(label: 'Kazanım'),
+                if (week.topic != null && week.topic!.isNotEmpty) ...[
+                  const _SectionLabel(label: 'Konu'),
                   const SizedBox(height: 6),
-                  Text(week.kazanim!, style: TextStyle(fontSize: 14, height: 1.5, color: textPrimary)),
+                  Text(week.topic!, style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: textPrimary)),
                   const SizedBox(height: 18),
                 ],
-                if (week.description != null) ...[
-                  const _SectionLabel(label: 'Açıklama / Beceriler'),
+                for (final k in week.kazanimlar) ...[
+                  _SectionLabel(label: k.kod != null && k.kod!.isNotEmpty ? 'Kazanım — ${k.kod}' : 'Kazanım'),
                   const SizedBox(height: 6),
-                  Text(week.description!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
+                  Text(
+                    k.saat != null && k.saat!.isNotEmpty ? '${k.kazanim} (${k.saat} Saat)' : k.kazanim,
+                    style: TextStyle(fontSize: 14, height: 1.5, color: textPrimary),
+                  ),
+                  if (k.resmiAciklama != null && k.resmiAciklama!.isNotEmpty) ...[
+                    const SizedBox(height: 6),
+                    Text(k.resmiAciklama!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
+                  ],
+                  const SizedBox(height: 18),
+                ],
+                if (week.olcme != null && week.olcme!.isNotEmpty) ...[
+                  const _SectionLabel(label: 'Ölçme'),
+                  const SizedBox(height: 6),
+                  Text(week.olcme!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
+                  const SizedBox(height: 18),
+                ],
+                if (week.yontemTeknik != null && week.yontemTeknik!.isNotEmpty) ...[
+                  const _SectionLabel(label: 'Yöntem-Teknik'),
+                  const SizedBox(height: 6),
+                  Text(week.yontemTeknik!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
+                  const SizedBox(height: 18),
+                ],
+                if (week.aciklama != null && week.aciklama!.isNotEmpty) ...[
+                  const _SectionLabel(label: 'Belirli Gün / Hafta'),
+                  const SizedBox(height: 6),
+                  Text(week.aciklama!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
                   const SizedBox(height: 20),
                 ],
                 Align(

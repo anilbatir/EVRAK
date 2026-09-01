@@ -21,8 +21,8 @@ void main() {
 
     for (final week in lessonWeeks) {
       expect(week.unit, isNotNull, reason: '${week.weekLabel} eksik ünite');
-      expect(week.kazanim, isNotNull, reason: '${week.weekLabel} eksik kazanım');
-      expect(week.description, isNotNull, reason: '${week.weekLabel} eksik açıklama');
+      expect(week.kazanimlar, isNotEmpty, reason: '${week.weekLabel} eksik kazanım');
+      expect(week.kazanimlar.first.resmiAciklama, isNotNull, reason: '${week.weekLabel} eksik açıklama');
     }
 
     // Bug regression: the (broken) Günlük Plan source repeated the same

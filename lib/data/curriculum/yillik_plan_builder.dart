@@ -54,17 +54,24 @@ String _buildBodyText(WeeklyPlan plan) {
       continue;
     }
 
-    final unitPart = (week.unit ?? '').isNotEmpty ? ' — ${week.unit}' : '';
+    final topicPart = (week.topic ?? '').isNotEmpty ? ' — ${week.topic}' : (week.unit ?? '').isNotEmpty ? ' — ${week.unit}' : '';
     final range = (week.dateRange ?? '').isNotEmpty ? ' (${week.dateRange}' : ' (';
     final hoursPart = (week.hours ?? '').isNotEmpty ? ', ${week.hours} Saat)' : ')';
-    buffer.writeln('${week.weekLabel}$range$hoursPart$unitPart');
-
-    final kod = (week.kazanimKod ?? '').isNotEmpty ? '${week.kazanimKod} ' : '';
-    if ((week.kazanim ?? '').isNotEmpty) {
-      buffer.writeln('Kazanım: $kod${week.kazanim}');
+    buffer.writeln('${week.weekLabel}$range$hoursPart$topicPart');
+    if ((week.unit ?? '').isNotEmpty && week.topic != null && week.topic!.isNotEmpty) {
+      buffer.writeln('Ünite: ${week.unit}');
     }
-    if ((week.icerik ?? '').isNotEmpty) {
-      buffer.writeln('İçerik: ${week.icerik}');
+
+    for (final k in week.kazanimlar) {
+      final kod = (k.kod ?? '').isNotEmpty ? '${k.kod} ' : '';
+      final saat = (k.saat ?? '').isNotEmpty ? ' (${k.saat} Saat)' : '';
+      buffer.writeln('Kazanım: $kod${k.kazanim}$saat');
+      if ((k.resmiAciklama ?? '').isNotEmpty) {
+        buffer.writeln('Açıklama: ${k.resmiAciklama}');
+      }
+    }
+    if ((week.yontemTeknik ?? '').isNotEmpty) {
+      buffer.writeln('Yöntem-Teknik: ${week.yontemTeknik}');
     }
     if ((week.olcme ?? '').isNotEmpty) {
       buffer.writeln('Ölçme: ${week.olcme}');

@@ -56,4 +56,45 @@ void main() {
     expect(result.text.contains('EK-1'), isFalse);
     expect(result.text.contains('Kaynaklar'), isFalse);
   });
+
+  test('bir haftada birden fazla kazanım (saat paylaşımlı) doğru render edilir', () {
+    final plan = WeeklyPlan.fromJson({
+      'grade': '12',
+      'subject': 'Matematik',
+      'academicYear': '2026-2027',
+      'weeks': [
+        {
+          'weekLabel': '2. Hafta',
+          'dateRange': '15-19 Eylül',
+          'hours': '6',
+          'unit': 'SAYILAR VE CEBİR',
+          'topic': 'Üstel ve Logaritmik Fonksiyonlar',
+          'kazanimlar': [
+            {'kod': '12.1.1.1', 'kazanim': 'Üstel fonksiyonu açıklar.', 'saat': '2'},
+            {
+              'kod': '12.1.2.1',
+              'kazanim': 'Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer.',
+              'resmiAciklama': 'a) Logaritma fonksiyonunun grafiği üstel fonksiyonun grafiğinden yararlanarak çizilir.',
+              'saat': '4',
+            },
+          ],
+          'yontemTeknik': 'Kavram Haritası, Anlatım, Soru-Cevap',
+          'aciklama': 'Gaziler Günü',
+          'isHoliday': false,
+        },
+      ],
+    });
+
+    final week = plan.weeks.single;
+    expect(week.kazanimlar, hasLength(2));
+    expect(week.kazanimlar[0].saat, '2');
+    expect(week.kazanimlar[1].saat, '4');
+
+    final template = buildYillikPlanTemplate(id: 'PLN-TEST', plan: plan);
+    expect(template.bodyText.contains('12.1.1.1 Üstel fonksiyonu açıklar. (2 Saat)'), isTrue);
+    expect(template.bodyText.contains('12.1.2.1 Logaritma fonksiyonu ile üstel fonksiyonu ilişkilendirerek problemler çözer. (4 Saat)'), isTrue);
+    expect(template.bodyText.contains('a) Logaritma fonksiyonunun grafiği'), isTrue);
+    expect(template.bodyText.contains('Yöntem-Teknik: Kavram Haritası'), isTrue);
+    expect(template.bodyText.contains('Konu: Üstel ve Logaritmik Fonksiyonlar'), isFalse); // rendered inline in the week header, not as a separate line
+  });
 }

@@ -2,19 +2,45 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
 
-/// One row of an official Yıllık Plan: either a teaching week (with a
-/// ünite/tema, kazanım and description) or a holiday/break week.
+/// One kazanım taught within a week, with its own official curriculum
+/// explanation and hour share - a week can carry more than one when a
+/// topic only partially fills the week (e.g. "12.1.1.1 (2 Saat)" followed
+/// by "12.1.2.1 (4 Saat)" in the same week).
+class KazanimEntry {
+  final String? kod;
+  final String kazanim;
+  final String? resmiAciklama;
+  final String? saat;
+
+  const KazanimEntry({
+    this.kod,
+    required this.kazanim,
+    this.resmiAciklama,
+    this.saat,
+  });
+
+  factory KazanimEntry.fromJson(Map<String, dynamic> json) {
+    return KazanimEntry(
+      kod: json['kod'] as String?,
+      kazanim: json['kazanim'] as String? ?? '',
+      resmiAciklama: json['resmiAciklama'] as String?,
+      saat: json['saat'] as String?,
+    );
+  }
+}
+
+/// One row of an official Yıllık Plan: either a teaching week (ünite/konu,
+/// one or more kazanımlar, ölçme, yöntem-teknik) or a holiday/break week.
 class WeeklyPlanWeek {
   final String weekLabel;
   final String? month;
   final String? dateRange;
   final String? hours;
   final String? unit;
-  final String? kazanimKod;
-  final String? kazanim;
-  final String? description;
-  final String? icerik;
+  final String? topic;
+  final List<KazanimEntry> kazanimlar;
   final String? olcme;
+  final String? yontemTeknik;
   final String? aciklama;
   final bool isHoliday;
 
@@ -24,30 +50,48 @@ class WeeklyPlanWeek {
     this.dateRange,
     this.hours,
     this.unit,
-    this.kazanimKod,
-    this.kazanim,
-    this.description,
-    this.icerik,
+    this.topic,
+    this.kazanimlar = const [],
     this.olcme,
+    this.yontemTeknik,
     this.aciklama,
     required this.isHoliday,
   });
 
   factory WeeklyPlanWeek.fromJson(Map<String, dynamic> json) {
+    final rawList = json['kazanimlar'] as List<dynamic>?;
+    final kazanimlar = rawList != null
+        ? rawList.map((k) => KazanimEntry.fromJson(k as Map<String, dynamic>)).toList()
+        : _legacySingleKazanim(json);
+
     return WeeklyPlanWeek(
       weekLabel: json['weekLabel'] as String? ?? '',
       month: json['month'] as String?,
       dateRange: json['dateRange'] as String?,
       hours: json['hours'] as String?,
       unit: json['unit'] as String?,
-      kazanimKod: json['kazanimKod'] as String?,
-      kazanim: json['kazanim'] as String?,
-      description: json['description'] as String?,
-      icerik: json['icerik'] as String?,
+      topic: json['topic'] as String?,
+      kazanimlar: kazanimlar,
       olcme: json['olcme'] as String?,
+      yontemTeknik: json['yontemTeknik'] as String?,
       aciklama: json['aciklama'] as String?,
       isHoliday: json['isHoliday'] as bool? ?? false,
     );
+  }
+
+  /// Reads the pre-multi-kazanım schema (single `kazanimKod`/`kazanim`/
+  /// `icerik` fields) so any not-yet-migrated JSON still loads correctly.
+  static List<KazanimEntry> _legacySingleKazanim(Map<String, dynamic> json) {
+    final kazanim = json['kazanim'] as String?;
+    if (kazanim == null || kazanim.isEmpty) return const [];
+    return [
+      KazanimEntry(
+        kod: json['kazanimKod'] as String?,
+        kazanim: kazanim,
+        resmiAciklama: (json['icerik'] ?? json['description']) as String?,
+        saat: json['hours'] as String?,
+      ),
+    ];
   }
 }
 
