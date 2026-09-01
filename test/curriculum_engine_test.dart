@@ -45,11 +45,16 @@ void main() {
     expect(result.text.contains('Yarıyıl Tatili'), isTrue);
 
     // Different weeks must carry different kazanım codes (not the "every
-    // week repeats week 1" bug the Gemini-generated documents had).
+    // week repeats week 1" bug the Gemini-generated documents had), and the
+    // codes must match the official MEB Biyoloji Dersi Öğretim Programı
+    // (9.1.1-9.1.8 in Tema 1: YAŞAM, 9.2.1-9.2.6 in Tema 2: ORGANİZASYON -
+    // the earlier ChatGPT-sourced draft had these codes shifted/wrong).
     expect(result.text.contains('BİY.9.1.1'), isTrue);
-    expect(result.text.contains('BİY.9.1.7'), isTrue);
+    expect(result.text.contains('BİY.9.1.8'), isTrue);
     expect(result.text.contains('BİY.9.2.1'), isTrue);
-    expect(result.text.contains('BİY.9.2.8'), isTrue);
+    expect(result.text.contains('BİY.9.2.6'), isTrue);
+    expect(result.text.contains('BİY.9.2.7'), isFalse); // does not exist in the official program
+    expect(result.text.contains('BİY.9.2.8'), isFalse); // does not exist in the official program
 
     // The notes/EK-1 sections the teacher asked to drop must not appear.
     expect(result.text.contains('Önemli uygulama notları'), isFalse);

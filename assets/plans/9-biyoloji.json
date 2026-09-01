@@ -2,48 +2,689 @@
   "grade": "9",
   "subject": "Biyoloji",
   "academicYear": "2026-2027",
-  "source": "yillik_plan",
+  "source": "meb_ogretim_programi",
   "weeklyHours": "2",
   "weeks": [
-    {"month": "EYLÜL", "dateRange": "14.09.2026 - 18.09.2026", "weekLabel": "1. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.1", "kazanim": "Biyolojideki dönüm noktalarının insan hayatına katkılarını sorgulayabilme", "icerik": "Biyolojinin önemi; biyoloji biliminin gelişimindeki dönüm noktaları; biyolojik araştırma ve buluşların sağlık, çevre, enerji ve gıda alanlarına katkıları", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "İlköğretim Haftası; Öğrenciler Günü; Gaziler Günü", "isHoliday": false},
-    {"month": "EYLÜL", "dateRange": "21.09.2026 - 25.09.2026", "weekLabel": "2. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.1", "kazanim": "Biyolojideki dönüm noktalarının insan hayatına katkılarını sorgulayabilme", "icerik": "Biyolojinin önemi; biyoloji biliminin gelişimindeki dönüm noktaları; biyolojik araştırma ve buluşların sağlık, çevre, enerji ve gıda alanlarına katkıları", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "", "isHoliday": false},
-    {"month": "EYLÜL", "dateRange": "28.09.2026 - 02.10.2026", "weekLabel": "3. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.1", "kazanim": "Biyolojideki dönüm noktalarının insan hayatına katkılarını sorgulayabilme", "icerik": "Biyolojinin önemi; biyoloji biliminin gelişimindeki dönüm noktaları; biyolojik araştırma ve buluşların sağlık, çevre, enerji ve gıda alanlarına katkıları", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Dünya Okul Sütü Günü; Hayvanları Koruma Günü", "isHoliday": false},
-    {"month": "EKİM", "dateRange": "05.10.2026 - 09.10.2026", "weekLabel": "4. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.2", "kazanim": "Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme", "icerik": "Bilimin doğası; bilimsel araştırma süreçleri; araştırılabilir problem ve soru; kanıta dayalı açıklama", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Ahilik Kültürü Haftası", "isHoliday": false},
-    {"month": "EKİM", "dateRange": "12.10.2026 - 16.10.2026", "weekLabel": "5. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.2", "kazanim": "Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme", "icerik": "Bilimin doğası; bilimsel araştırma süreçleri; araştırılabilir problem ve soru; kanıta dayalı açıklama", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Ahilik Kültürü Haftası", "isHoliday": false},
-    {"month": "EKİM", "dateRange": "19.10.2026 - 23.10.2026", "weekLabel": "6. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.3", "kazanim": "Bilimsel araştırmaların bilim etiğine uygunluğu ile ilgili bilgi toplayabilme", "icerik": "Bilim etiği; güvenilir kaynak kullanımı; bilimsel dürüstlük; etik ihlal örnekleri", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Birleşmiş Milletler Günü", "isHoliday": false},
-    {"month": "EKİM", "dateRange": "26.10.2026 - 30.10.2026", "weekLabel": "7. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.3", "kazanim": "Bilimsel araştırmaların bilim etiğine uygunluğu ile ilgili bilgi toplayabilme", "icerik": "Bilim etiği; güvenilir kaynak kullanımı; bilimsel dürüstlük; etik ihlal örnekleri", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Cumhuriyet Bayramı; Kızılay Haftası; Cumhuriyet Bayramı tatili (28 Ekim 13.00'ten itibaren)", "isHoliday": false},
-    {"month": "KASIM", "dateRange": "02.11.2026 - 06.11.2026", "weekLabel": "8. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.4", "kazanim": "Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme", "icerik": "Canlıların ortak özellikleri; hücresel yapı, organizasyon, beslenme, enerji üretimi ve tüketimi, boşaltım, büyüme-gelişme, metabolizma, uyarılara tepki, homeostazi, üreme, varyasyon ve adaptasyon; virüsler", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Kızılay Haftası; Lösemili Çocuklar Haftası; Organ Bağışı ve Nakli Haftası", "isHoliday": false},
-    {"month": "KASIM", "dateRange": "09.11.2026 - 13.11.2026", "weekLabel": "9. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.4", "kazanim": "Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme", "icerik": "Canlıların ortak özellikleri; hücresel yapı, organizasyon, beslenme, enerji üretimi ve tüketimi, boşaltım, büyüme-gelişme, metabolizma, uyarılara tepki, homeostazi, üreme, varyasyon ve adaptasyon; virüsler", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Organ Bağışı ve Nakli Haftası; Atatürk Haftası; Afet Eğitimi Hazırlık Günü; Dünya Diyabet Günü", "isHoliday": false},
-    {"month": "KASIM", "dateRange": "16.11.2026 - 20.11.2026", "weekLabel": "1. Ara Tatil", "isHoliday": true},
-    {"month": "KASIM", "dateRange": "23.11.2026 - 27.11.2026", "weekLabel": "10. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.4", "kazanim": "Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme", "icerik": "Canlıların ortak özellikleri; hücresel yapı, organizasyon, beslenme, enerji üretimi ve tüketimi, boşaltım, büyüme-gelişme, metabolizma, uyarılara tepki, homeostazi, üreme, varyasyon ve adaptasyon; virüsler", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Ağız ve Diş Sağlığı Haftası; Öğretmenler Günü", "isHoliday": false},
-    {"month": "KASIM", "dateRange": "30.11.2026 - 04.12.2026", "weekLabel": "11. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.5", "kazanim": "Canlıları sınıflandırabilme", "icerik": "Sınıflandırmanın amacı; temel yaklaşımlar; modern sınıflandırma; sınıflandırma kategorileri; Linne ve ikili adlandırma", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Dünya Engelliler Günü; Türk Kadınına Seçme ve Seçilme Hakkının Verilişi", "isHoliday": false},
-    {"month": "ARALIK", "dateRange": "07.12.2026 - 11.12.2026", "weekLabel": "12. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.5", "kazanim": "Canlıları sınıflandırabilme", "icerik": "Sınıflandırmanın amacı; temel yaklaşımlar; modern sınıflandırma; sınıflandırma kategorileri; Linne ve ikili adlandırma", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "İnsan Hakları ve Demokrasi Haftası; Tutum, Yatırım ve Türk Malları Haftası", "isHoliday": false},
-    {"month": "ARALIK", "dateRange": "14.12.2026 - 18.12.2026", "weekLabel": "13. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.5", "kazanim": "Canlıları sınıflandırabilme", "icerik": "Sınıflandırmanın amacı; temel yaklaşımlar; modern sınıflandırma; sınıflandırma kategorileri; Linne ve ikili adlandırma", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Tutum, Yatırım ve Türk Malları Haftası", "isHoliday": false},
-    {"month": "ARALIK", "dateRange": "21.12.2026 - 25.12.2026", "weekLabel": "14. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.6", "kazanim": "Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili çıkarım yapabilme", "icerik": "Bakteriler, Arkeler ve Ökaryotlar; protistler, bitkiler, mantarlar ve hayvanların genel özellikleri", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "", "isHoliday": false},
-    {"month": "ARALIK", "dateRange": "28.12.2026 - 01.01.2027", "weekLabel": "15. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.6", "kazanim": "Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili çıkarım yapabilme", "icerik": "Bakteriler, Arkeler ve Ökaryotlar; protistler, bitkiler, mantarlar ve hayvanların genel özellikleri", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Yılbaşı", "isHoliday": false},
-    {"month": "OCAK", "dateRange": "04.01.2027 - 08.01.2027", "weekLabel": "16. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.6", "kazanim": "Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili çıkarım yapabilme", "icerik": "Bakteriler, Arkeler ve Ökaryotlar; protistler, bitkiler, mantarlar ve hayvanların genel özellikleri", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "", "isHoliday": false},
-    {"month": "OCAK", "dateRange": "11.01.2027 - 15.01.2027", "weekLabel": "17. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.7", "kazanim": "Biyoçeşitliliği oluşturan unsurlarla ilgili bilimsel çıkarım yapabilme", "icerik": "Biyoçeşitlilik; Türkiye'nin biyolojik çeşitliliği; endemik türler; biyoçeşitliliğin önemi ve korunması", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Enerji Tasarrufu Haftası", "isHoliday": false},
-    {"month": "OCAK", "dateRange": "18.01.2027 - 22.01.2027", "weekLabel": "18. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.7", "kazanim": "Biyoçeşitliliği oluşturan unsurlarla ilgili bilimsel çıkarım yapabilme", "icerik": "Biyoçeşitlilik; Türkiye'nin biyolojik çeşitliliği; endemik türler; biyoçeşitliliğin önemi ve korunması", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "", "isHoliday": false},
-    {"month": "OCAK/ŞUBAT", "dateRange": "25.01.2027 - 05.02.2027", "weekLabel": "Yarıyıl Tatili", "isHoliday": true},
-    {"month": "ŞUBAT", "dateRange": "08.02.2027 - 12.02.2027", "weekLabel": "19. Hafta", "hours": "2", "unit": "YAŞAM", "kazanimKod": "BİY.9.1.7", "kazanim": "Biyoçeşitliliği oluşturan unsurlarla ilgili bilimsel çıkarım yapabilme", "icerik": "Biyoçeşitlilik; Türkiye'nin biyolojik çeşitliliği; endemik türler; biyoçeşitliliğin önemi ve korunması", "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli", "aciklama": "Ramazan başlangıcı", "isHoliday": false},
-    {"month": "ŞUBAT", "dateRange": "15.02.2027 - 19.02.2027", "weekLabel": "20. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.1", "kazanim": "İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme", "icerik": "İnorganik moleküller: su ve mineraller; canlılar için önemi", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "", "isHoliday": false},
-    {"month": "ŞUBAT", "dateRange": "22.02.2027 - 26.02.2027", "weekLabel": "21. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.1", "kazanim": "İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme", "icerik": "İnorganik moleküller: su ve mineraller; canlılar için önemi", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "Vergi Haftası; Sivil Savunma Günü", "isHoliday": false},
-    {"month": "MART", "dateRange": "01.03.2027 - 05.03.2027", "weekLabel": "22. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.2", "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme", "icerik": "Organik moleküller: karbohidratlar, lipitler, proteinler, enzimler, nükleik asitler ve vitaminler", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "Yeşilay Haftası; Girişimcilik Haftası; Kadir Gecesi", "isHoliday": false},
-    {"month": "MART", "dateRange": "08.03.2027 - 12.03.2027", "weekLabel": "2. Ara Tatil (Ramazan Bayramı)", "isHoliday": true},
-    {"month": "MART", "dateRange": "15.03.2027 - 19.03.2027", "weekLabel": "23. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.2", "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme", "icerik": "Organik moleküller: karbohidratlar, lipitler, proteinler, enzimler, nükleik asitler ve vitaminler", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "Tüketiciyi Koruma Haftası; Şehitler Günü; Yaşlılar Haftası; Türk Dünyası ve Toplulukları Haftası; Orman Haftası", "isHoliday": false},
-    {"month": "MART", "dateRange": "22.03.2027 - 26.03.2027", "weekLabel": "24. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.2", "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme", "icerik": "Organik moleküller: karbohidratlar, lipitler, proteinler, enzimler, nükleik asitler ve vitaminler", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "Yaşlılar Haftası; Orman Haftası; Dünya Tiyatrolar Günü", "isHoliday": false},
-    {"month": "MART", "dateRange": "29.03.2027 - 02.04.2027", "weekLabel": "25. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.3", "kazanim": "Besinlerin yapısında karbohidrat, lipit ve protein varlığının belirlenmesiyle ilgili deney yapabilme", "icerik": "Besinlerde karbohidrat, lipit ve proteinlerin ayıraçlarla belirlenmesine yönelik deney", "olcme": "Deney tasarımı ve uygulaması, deney raporu, analitik dereceli puanlama anahtarı, öz/grup değerlendirme", "aciklama": "Kütüphaneler Haftası; Kanser Haftası; Dünya Otizm Farkındalık Günü", "isHoliday": false},
-    {"month": "NİSAN", "dateRange": "05.04.2027 - 09.04.2027", "weekLabel": "26. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.4", "kazanim": "pH ve sıcaklığın enzim aktivitesini etkilediğini gösteren deney yapabilme", "icerik": "Enzim aktivitesine pH ve sıcaklığın etkisi; deney tasarlama, veri toplama ve analiz", "olcme": "Deney tasarımı ve uygulaması, deney raporu, analitik dereceli puanlama anahtarı, öz/grup değerlendirme", "aciklama": "Kanser Haftası; Kişisel Verileri Koruma Günü; Dünya Sağlık Günü / Dünya Sağlık Haftası", "isHoliday": false},
-    {"month": "NİSAN", "dateRange": "12.04.2027 - 16.04.2027", "weekLabel": "27. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.5", "kazanim": "Hücre alt birimlerini ve bu birimlerin işlevleri arasındaki ilişkileri çözümleyebilme", "icerik": "Prokaryot ve ökaryot hücre; hücre zarı, sitoplazma, sitoplazmik yapılar, organeller ve çekirdek", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "Dünya Sağlık Günü / Dünya Sağlık Haftası; Turizm Haftası", "isHoliday": false},
-    {"month": "NİSAN", "dateRange": "19.04.2027 - 23.04.2027", "weekLabel": "28. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.5", "kazanim": "Hücre alt birimlerini ve bu birimlerin işlevleri arasındaki ilişkileri çözümleyebilme", "icerik": "Prokaryot ve ökaryot hücre; hücre zarı, sitoplazma, sitoplazmik yapılar, organeller ve çekirdek", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "Turizm Haftası; Ulusal Egemenlik ve Çocuk Bayramı", "isHoliday": false},
-    {"month": "NİSAN", "dateRange": "26.04.2027 - 30.04.2027", "weekLabel": "29. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.5", "kazanim": "Hücre alt birimlerini ve bu birimlerin işlevleri arasındaki ilişkileri çözümleyebilme", "icerik": "Prokaryot ve ökaryot hücre; hücre zarı, sitoplazma, sitoplazmik yapılar, organeller ve çekirdek", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "Dünya Fikrî Mülkiyet Günü; Kût'ül Amâre Zaferi; Emek ve Dayanışma Günü", "isHoliday": false},
-    {"month": "MAYIS", "dateRange": "03.05.2027 - 07.05.2027", "weekLabel": "30. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.6", "kazanim": "Hücre zarından madde geçişlerini sınıflandırabilme", "icerik": "Pasif taşıma, difüzyon, ozmoz, aktif taşıma, endositoz ve ekzositoz", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "Bilişim Haftası; Trafik ve İlkyardım Haftası; İş Sağlığı ve Güvenliği Haftası; Anneler Günü", "isHoliday": false},
-    {"month": "MAYIS", "dateRange": "10.05.2027 - 14.05.2027", "weekLabel": "31. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.6", "kazanim": "Hücre zarından madde geçişlerini sınıflandırabilme", "icerik": "Pasif taşıma, difüzyon, ozmoz, aktif taşıma, endositoz ve ekzositoz", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "İş Sağlığı ve Güvenliği Haftası; Vakıflar Haftası; Engelliler Haftası; Kurban Bayramı", "isHoliday": false},
-    {"month": "MAYIS", "dateRange": "17.05.2027 - 21.05.2027", "weekLabel": "32. Hafta", "hours": "0", "unit": "TAKVİM / TELAFİ-ESNEKLİK", "kazanimKod": "", "kazanim": "Yeni öğrenme çıktısı planlanmamıştır.", "icerik": "17-19 Mayıs 2027 Kurban Bayramı ve 19 Mayıs resmî tatil çakışması nedeniyle ders programına göre telafi, tekrar, ölçme-değerlendirme veya zümre uyarlaması.", "olcme": "Ders çizelgesine göre telafi / tekrar / öğrenci ürünü geri bildirimi", "aciklama": "Müzeler Haftası; Atatürk'ü Anma, Gençlik ve Spor Bayramı; Kurban Bayramı", "isHoliday": false},
-    {"month": "MAYIS", "dateRange": "24.05.2027 - 28.05.2027", "weekLabel": "33. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.7", "kazanim": "Küçük moleküllerin hücre zarından pasif geçişi ile ilgili deney yapabilme", "icerik": "Difüzyon ve ozmoz deneyleri; günlük yaşam örnekleriyle ölçme ve veri analizi", "olcme": "Deney tasarımı ve uygulaması, deney raporu, analitik dereceli puanlama anahtarı, öz/grup değerlendirme", "aciklama": "Müzeler Haftası; Etik Günü; İstanbul'un Fethi", "isHoliday": false},
-    {"month": "MAYIS", "dateRange": "31.05.2027 - 04.06.2027", "weekLabel": "34. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.8", "kazanim": "Hücreden doku, organ ve sistemlerin organizasyonuyla ilgili tümevarımsal akıl yürütebilme", "icerik": "Hücre-doku-organ-sistem-organizma organizasyonu; örüntü kurma ve genelleme", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "", "isHoliday": false},
-    {"month": "HAZİRAN", "dateRange": "07.06.2027 - 11.06.2027", "weekLabel": "35. Hafta", "hours": "2", "unit": "ORGANİZASYON", "kazanimKod": "BİY.9.2.8", "kazanim": "Hücreden doku, organ ve sistemlerin organizasyonuyla ilgili tümevarımsal akıl yürütebilme", "icerik": "Hücre-doku-organ-sistem-organizma organizasyonu; örüntü kurma ve genelleme", "olcme": "Çalışma yaprağı, kavram haritası, bilgi görseli, açık uçlu soru, performans görevi", "aciklama": "Çevre Koruma Haftası", "isHoliday": false},
-    {"month": "HAZİRAN", "dateRange": "14.06.2027 - 18.06.2027", "weekLabel": "36. Hafta", "hours": "2", "unit": "OKUL TEMELLİ PLANLAMA", "kazanimKod": "", "kazanim": "Okul temelli planlama", "icerik": "Okul dışı öğrenme, araştırma-gözlem, proje/okuma çalışması, yerel çalışma veya kariyer farkındalığı etkinliği (zümre kararına göre)", "olcme": "Ürün/portfolyo, gözlem, öz değerlendirme, akran değerlendirme", "aciklama": "Babalar Günü; Aşure Günü", "isHoliday": false},
-    {"month": "HAZİRAN", "dateRange": "21.06.2027 - 25.06.2027", "weekLabel": "37. Hafta", "hours": "2", "unit": "OKUL TEMELLİ PLANLAMA", "kazanimKod": "", "kazanim": "Okul temelli planlama ve yıl sonu bütüncül değerlendirme", "icerik": "Eksik öğrenmelerin tamamlanması; öğrenci ürünlerinin paylaşımı; biyoloji alan becerilerinin yıl sonu yansıtması", "olcme": "Portfolyo, öz değerlendirme, akran değerlendirme, geri bildirim", "aciklama": "", "isHoliday": false}
+    {
+      "month": "EYLÜL",
+      "dateRange": "14.09.2026 - 18.09.2026",
+      "weekLabel": "1. Hafta",
+      "hours": "2",
+      "aciklama": "İlköğretim Haftası; Öğrenciler Günü; Gaziler Günü",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.1",
+          "kazanim": "Biyolojideki dönüm noktalarının insan hayatına katkılarını sorgulayabilme",
+          "resmiAciklama": "Aşı, antibiyotik, DNA'nın yapısı, kalıtım, PZR, rekombinant DNA teknolojisi gibi biyolojideki dönüm noktası buluşlar; Türk-İslam bilim insanlarından Akşemseddin'in katkıları örneklerle ele alınır. Öğrenciler bu buluşların insan yaşamına katkılarını farklı bakış açılarıyla değerlendirir.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "EYLÜL",
+      "dateRange": "21.09.2026 - 25.09.2026",
+      "weekLabel": "2. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.2",
+          "kazanim": "Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme",
+          "resmiAciklama": "Öğrenciler grup çalışmasıyla bir problem tespit edip araştırılabilir bir soru sorar, hipotez üretir ve bilimsel yöntem basamaklarını inceleyerek bilimin doğasına ilişkin özellikleri raporlaştırır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "EYLÜL",
+      "dateRange": "28.09.2026 - 02.10.2026",
+      "weekLabel": "3. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Okul Sütü Günü; Hayvanları Koruma Günü",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.2",
+          "kazanim": "Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme",
+          "resmiAciklama": "Öğrenciler grup çalışmasıyla bir problem tespit edip araştırılabilir bir soru sorar, hipotez üretir ve bilimsel yöntem basamaklarını inceleyerek bilimin doğasına ilişkin özellikleri raporlaştırır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "05.10.2026 - 09.10.2026",
+      "weekLabel": "4. Hafta",
+      "hours": "2",
+      "aciklama": "Ahilik Kültürü Haftası",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.3",
+          "kazanim": "Bilimsel araştırmaların bilim etiğine uygunluğu ile ilgili bilgi toplayabilme",
+          "resmiAciklama": "Bilim etiğine uygunluğun sorgulandığı örnek olaylar üzerinden küçük gruplar hâlinde bilgi toplanır, güvenilir kaynaklarla doğrulanarak rapor hazırlanır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "12.10.2026 - 16.10.2026",
+      "weekLabel": "5. Hafta",
+      "hours": "2",
+      "aciklama": "Ahilik Kültürü Haftası",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.4",
+          "kazanim": "Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme",
+          "resmiAciklama": "Öğrenciler çevrelerinden seçtikleri iki canlıyı düzenli aralıklarla gözlemleyip ortak canlılık özelliklerini belirler; görsel materyallerle virüslerin canlı/cansız özelliklerini tartışır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "19.10.2026 - 23.10.2026",
+      "weekLabel": "6. Hafta",
+      "hours": "2",
+      "aciklama": "Birleşmiş Milletler Günü",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.4",
+          "kazanim": "Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme",
+          "resmiAciklama": "Öğrenciler çevrelerinden seçtikleri iki canlıyı düzenli aralıklarla gözlemleyip ortak canlılık özelliklerini belirler; görsel materyallerle virüslerin canlı/cansız özelliklerini tartışır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "26.10.2026 - 30.10.2026",
+      "weekLabel": "7. Hafta",
+      "hours": "2",
+      "aciklama": "Cumhuriyet Bayramı; Kızılay Haftası; Cumhuriyet Bayramı tatili (28 Ekim 13.00'ten itibaren)",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.4",
+          "kazanim": "Çevresindeki canlıların özelliklerini bilimsel olarak gözlemleyebilme",
+          "resmiAciklama": "Öğrenciler çevrelerinden seçtikleri iki canlıyı düzenli aralıklarla gözlemleyip ortak canlılık özelliklerini belirler; görsel materyallerle virüslerin canlı/cansız özelliklerini tartışır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "02.11.2026 - 06.11.2026",
+      "weekLabel": "8. Hafta",
+      "hours": "2",
+      "aciklama": "Kızılay Haftası; Lösemili Çocuklar Haftası; Organ Bağışı ve Nakli Haftası",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.5",
+          "kazanim": "İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme",
+          "resmiAciklama": "Suyun adezyon-kohezyon, yüzey gerilimi, yoğunluk ve çözücülük özellikleri basit deneylerle incelenir; minerallerin (Ca, Mg, P, Fe, Na, K, I, S, Zn, F, Cl) görevleri ve eksikliklerinde ortaya çıkan sorunlar tablo üzerinden işlenir.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "09.11.2026 - 13.11.2026",
+      "weekLabel": "9. Hafta",
+      "hours": "2",
+      "aciklama": "Organ Bağışı ve Nakli Haftası; Atatürk Haftası; Afet Eğitimi Hazırlık Günü; Dünya Diyabet Günü",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.5",
+          "kazanim": "İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme",
+          "resmiAciklama": "Suyun adezyon-kohezyon, yüzey gerilimi, yoğunluk ve çözücülük özellikleri basit deneylerle incelenir; minerallerin (Ca, Mg, P, Fe, Na, K, I, S, Zn, F, Cl) görevleri ve eksikliklerinde ortaya çıkan sorunlar tablo üzerinden işlenir.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "16.11.2026 - 20.11.2026",
+      "weekLabel": "1. Ara Tatil",
+      "isHoliday": true
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "23.11.2026 - 27.11.2026",
+      "weekLabel": "10. Hafta",
+      "hours": "2",
+      "aciklama": "Ağız ve Diş Sağlığı Haftası; Öğretmenler Günü",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.5",
+          "kazanim": "İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme",
+          "resmiAciklama": "Suyun adezyon-kohezyon, yüzey gerilimi, yoğunluk ve çözücülük özellikleri basit deneylerle incelenir; minerallerin (Ca, Mg, P, Fe, Na, K, I, S, Zn, F, Cl) görevleri ve eksikliklerinde ortaya çıkan sorunlar tablo üzerinden işlenir.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "30.11.2026 - 04.12.2026",
+      "weekLabel": "11. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Engelliler Günü; Türk Kadınına Seçme ve Seçilme Hakkının Verilişi",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.6",
+          "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme",
+          "resmiAciklama": "Ayrılıp birleşme tekniğiyle oluşturulan uzmanlık gruplarında karbohidratlar, lipitler, proteinler, nükleik asitlerin yapı/işlev/çeşitleri; vitaminlerin çeşit ve işlevleri araştırılıp bilgi görseliyle sunulur.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "07.12.2026 - 11.12.2026",
+      "weekLabel": "12. Hafta",
+      "hours": "2",
+      "aciklama": "İnsan Hakları ve Demokrasi Haftası; Tutum, Yatırım ve Türk Malları Haftası",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.6",
+          "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme",
+          "resmiAciklama": "Ayrılıp birleşme tekniğiyle oluşturulan uzmanlık gruplarında karbohidratlar, lipitler, proteinler, nükleik asitlerin yapı/işlev/çeşitleri; vitaminlerin çeşit ve işlevleri araştırılıp bilgi görseliyle sunulur.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "14.12.2026 - 18.12.2026",
+      "weekLabel": "13. Hafta",
+      "hours": "2",
+      "aciklama": "Tutum, Yatırım ve Türk Malları Haftası",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.6",
+          "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme",
+          "resmiAciklama": "Ayrılıp birleşme tekniğiyle oluşturulan uzmanlık gruplarında karbohidratlar, lipitler, proteinler, nükleik asitlerin yapı/işlev/çeşitleri; vitaminlerin çeşit ve işlevleri araştırılıp bilgi görseliyle sunulur.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "21.12.2026 - 25.12.2026",
+      "weekLabel": "14. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.6",
+          "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme",
+          "resmiAciklama": "Ayrılıp birleşme tekniğiyle oluşturulan uzmanlık gruplarında karbohidratlar, lipitler, proteinler, nükleik asitlerin yapı/işlev/çeşitleri; vitaminlerin çeşit ve işlevleri araştırılıp bilgi görseliyle sunulur.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "28.12.2026 - 01.01.2027",
+      "weekLabel": "15. Hafta",
+      "hours": "2",
+      "aciklama": "Yılbaşı",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.6",
+          "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme",
+          "resmiAciklama": "Ayrılıp birleşme tekniğiyle oluşturulan uzmanlık gruplarında karbohidratlar, lipitler, proteinler, nükleik asitlerin yapı/işlev/çeşitleri; vitaminlerin çeşit ve işlevleri araştırılıp bilgi görseliyle sunulur.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "04.01.2027 - 08.01.2027",
+      "weekLabel": "16. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.6",
+          "kazanim": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme",
+          "resmiAciklama": "Ayrılıp birleşme tekniğiyle oluşturulan uzmanlık gruplarında karbohidratlar, lipitler, proteinler, nükleik asitlerin yapı/işlev/çeşitleri; vitaminlerin çeşit ve işlevleri araştırılıp bilgi görseliyle sunulur.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "11.01.2027 - 15.01.2027",
+      "weekLabel": "17. Hafta",
+      "hours": "2",
+      "aciklama": "Enerji Tasarrufu Haftası",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.7",
+          "kazanim": "Besinlerin yapısında karbohidrat, lipit ve protein varlığının belirlenmesiyle ilgili deney yapabilme",
+          "resmiAciklama": "Ayraçlar tanıtılarak öğrenciler ekmek, süt, yumurta, zeytinyağı gibi besinlerde karbohidrat/lipit/protein varlığını niteliksel olarak belirleyen deney tasarlar ve uygular.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "18.01.2027 - 22.01.2027",
+      "weekLabel": "18. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.7",
+          "kazanim": "Besinlerin yapısında karbohidrat, lipit ve protein varlığının belirlenmesiyle ilgili deney yapabilme",
+          "resmiAciklama": "Ayraçlar tanıtılarak öğrenciler ekmek, süt, yumurta, zeytinyağı gibi besinlerde karbohidrat/lipit/protein varlığını niteliksel olarak belirleyen deney tasarlar ve uygular.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "OCAK/ŞUBAT",
+      "dateRange": "25.01.2027 - 05.02.2027",
+      "weekLabel": "Yarıyıl Tatili",
+      "isHoliday": true
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "08.02.2027 - 12.02.2027",
+      "weekLabel": "19. Hafta",
+      "hours": "2",
+      "aciklama": "Ramazan başlangıcı",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.7",
+          "kazanim": "Besinlerin yapısında karbohidrat, lipit ve protein varlığının belirlenmesiyle ilgili deney yapabilme",
+          "resmiAciklama": "Ayraçlar tanıtılarak öğrenciler ekmek, süt, yumurta, zeytinyağı gibi besinlerde karbohidrat/lipit/protein varlığını niteliksel olarak belirleyen deney tasarlar ve uygular.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "15.02.2027 - 19.02.2027",
+      "weekLabel": "20. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.8",
+          "kazanim": "pH ve sıcaklığın enzim aktivitesini etkilediğini gösteren deney yapabilme",
+          "resmiAciklama": "Katalaz, amilaz, lipaz gibi enzimler üzerinde farklı pH ve sıcaklık değerlerinin etkisini gösteren deney tasarlanır; sonuçlar tablo ve grafiklerle analiz edilip günlük yaşam örnekleriyle ilişkilendirilir.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "22.02.2027 - 26.02.2027",
+      "weekLabel": "21. Hafta",
+      "hours": "2",
+      "aciklama": "Vergi Haftası; Sivil Savunma Günü",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.8",
+          "kazanim": "pH ve sıcaklığın enzim aktivitesini etkilediğini gösteren deney yapabilme",
+          "resmiAciklama": "Katalaz, amilaz, lipaz gibi enzimler üzerinde farklı pH ve sıcaklık değerlerinin etkisini gösteren deney tasarlanır; sonuçlar tablo ve grafiklerle analiz edilip günlük yaşam örnekleriyle ilişkilendirilir.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "MART",
+      "dateRange": "01.03.2027 - 05.03.2027",
+      "weekLabel": "22. Hafta",
+      "hours": "2",
+      "aciklama": "Yeşilay Haftası; Girişimcilik Haftası; Kadir Gecesi",
+      "isHoliday": false,
+      "unit": "YAŞAM",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.1.8",
+          "kazanim": "pH ve sıcaklığın enzim aktivitesini etkilediğini gösteren deney yapabilme",
+          "resmiAciklama": "Katalaz, amilaz, lipaz gibi enzimler üzerinde farklı pH ve sıcaklık değerlerinin etkisini gösteren deney tasarlanır; sonuçlar tablo ve grafiklerle analiz edilip günlük yaşam örnekleriyle ilişkilendirilir.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Öğrenme günlüğü, zihin haritası, araştırma raporu, performans görevi, yapılandırılmış grid, açık uçlu soru/çalışma yaprağı, bilgi görseli kullanılarak dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "MART",
+      "dateRange": "08.03.2027 - 12.03.2027",
+      "weekLabel": "2. Ara Tatil (Ramazan Bayramı)",
+      "isHoliday": true
+    },
+    {
+      "month": "MART",
+      "dateRange": "15.03.2027 - 19.03.2027",
+      "weekLabel": "23. Hafta",
+      "hours": "2",
+      "aciklama": "Tüketiciyi Koruma Haftası; Şehitler Günü; Yaşlılar Haftası; Türk Dünyası ve Toplulukları Haftası; Orman Haftası",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.1",
+          "kazanim": "Hücre alt birimlerini ve bu birimlerin işlevleri arasındaki ilişkileri çözümleyebilme",
+          "resmiAciklama": "Mikroskop/preparat veya animasyonlarla prokaryot-ökaryot hücre örnekleri incelenir; hücre alt birimlerinin görevleri ve işlevsel ilişkileri bilgi görseliyle sunulur.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "MART",
+      "dateRange": "22.03.2027 - 26.03.2027",
+      "weekLabel": "24. Hafta",
+      "hours": "2",
+      "aciklama": "Yaşlılar Haftası; Orman Haftası; Dünya Tiyatrolar Günü",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.1",
+          "kazanim": "Hücre alt birimlerini ve bu birimlerin işlevleri arasındaki ilişkileri çözümleyebilme",
+          "resmiAciklama": "Mikroskop/preparat veya animasyonlarla prokaryot-ökaryot hücre örnekleri incelenir; hücre alt birimlerinin görevleri ve işlevsel ilişkileri bilgi görseliyle sunulur.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "MART",
+      "dateRange": "29.03.2027 - 02.04.2027",
+      "weekLabel": "25. Hafta",
+      "hours": "2",
+      "aciklama": "Kütüphaneler Haftası; Kanser Haftası; Dünya Otizm Farkındalık Günü",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.2",
+          "kazanim": "Hücre zarından madde geçişlerini sınıflandırabilme",
+          "resmiAciklama": "Basit difüzyon, kolaylaştırılmış difüzyon, ozmoz, aktif taşıma, endositoz ve ekzositoz; molekül büyüklüğü, enerji gereksinimi, geçiş yönü ve konsantrasyon farkına göre ayrıştırılıp gruplandırılır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "05.04.2027 - 09.04.2027",
+      "weekLabel": "26. Hafta",
+      "hours": "2",
+      "aciklama": "Kanser Haftası; Kişisel Verileri Koruma Günü; Dünya Sağlık Günü / Dünya Sağlık Haftası",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.2",
+          "kazanim": "Hücre zarından madde geçişlerini sınıflandırabilme",
+          "resmiAciklama": "Basit difüzyon, kolaylaştırılmış difüzyon, ozmoz, aktif taşıma, endositoz ve ekzositoz; molekül büyüklüğü, enerji gereksinimi, geçiş yönü ve konsantrasyon farkına göre ayrıştırılıp gruplandırılır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "12.04.2027 - 16.04.2027",
+      "weekLabel": "27. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Sağlık Günü / Dünya Sağlık Haftası; Turizm Haftası",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.3",
+          "kazanim": "Küçük moleküllerin hücre zarından pasif geçişi ile ilgili deney yapabilme",
+          "resmiAciklama": "Tuzlanan soğan örneği gibi günlük olaylardan yola çıkılarak difüzyon ve ozmoz deneyi tasarlanır, sonuçlar diyaliz, sebze buruşması, çiçek kokusunun yayılması gibi örneklerle açıklanır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "19.04.2027 - 23.04.2027",
+      "weekLabel": "28. Hafta",
+      "hours": "2",
+      "aciklama": "Turizm Haftası; Ulusal Egemenlik ve Çocuk Bayramı",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.3",
+          "kazanim": "Küçük moleküllerin hücre zarından pasif geçişi ile ilgili deney yapabilme",
+          "resmiAciklama": "Tuzlanan soğan örneği gibi günlük olaylardan yola çıkılarak difüzyon ve ozmoz deneyi tasarlanır, sonuçlar diyaliz, sebze buruşması, çiçek kokusunun yayılması gibi örneklerle açıklanır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "26.04.2027 - 30.04.2027",
+      "weekLabel": "29. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Fikrî Mülkiyet Günü; Kût'ül Amâre Zaferi; Emek ve Dayanışma Günü",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.4",
+          "kazanim": "Canlıları sınıflandırabilme",
+          "resmiAciklama": "Öğrenciler çevrelerindeki canlıları listeleyip morfolojik yapı, yaşam alanı, beslenme gibi özelliklere göre kendi gruplama sistemlerini oluşturur, ardından modern sınıflandırmayla karşılaştırır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "03.05.2027 - 07.05.2027",
+      "weekLabel": "30. Hafta",
+      "hours": "2",
+      "aciklama": "Bilişim Haftası; Trafik ve İlkyardım Haftası; İş Sağlığı ve Güvenliği Haftası; Anneler Günü",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.4",
+          "kazanim": "Canlıları sınıflandırabilme",
+          "resmiAciklama": "Öğrenciler çevrelerindeki canlıları listeleyip morfolojik yapı, yaşam alanı, beslenme gibi özelliklere göre kendi gruplama sistemlerini oluşturur, ardından modern sınıflandırmayla karşılaştırır.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "10.05.2027 - 14.05.2027",
+      "weekLabel": "31. Hafta",
+      "hours": "2",
+      "aciklama": "İş Sağlığı ve Güvenliği Haftası; Vakıflar Haftası; Engelliler Haftası; Kurban Bayramı",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.5",
+          "kazanim": "Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili çıkarım yapabilme",
+          "resmiAciklama": "Bakteri, Arke ve Ökaryot domainlerini ayıran temel özellikler bilgi kartları ve görsellerle incelenir; \"Üç Domaini Birbirinden Ayıran Temel Özellikler\" tablosu doldurularak karşılaştırma ve önerme geliştirilir.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "17.05.2027 - 21.05.2027",
+      "weekLabel": "32. Hafta",
+      "hours": "0",
+      "aciklama": "Müzeler Haftası; Atatürk'ü Anma, Gençlik ve Spor Bayramı; Kurban Bayramı",
+      "isHoliday": false,
+      "unit": "TAKVİM / TELAFİ-ESNEKLİK",
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "Yeni öğrenme çıktısı planlanmamıştır.",
+          "resmiAciklama": "17-19 Mayıs 2027 Kurban Bayramı ve 19 Mayıs resmî tatilinin çakışması nedeniyle ders programına göre telafi, tekrar, ölçme-değerlendirme veya zümre uyarlaması yapılır."
+        }
+      ],
+      "olcme": "Ders çizelgesine göre telafi / tekrar / öğrenci ürünü geri bildirimi"
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "24.05.2027 - 28.05.2027",
+      "weekLabel": "33. Hafta",
+      "hours": "2",
+      "aciklama": "Müzeler Haftası; Etik Günü; İstanbul'un Fethi",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.5",
+          "kazanim": "Üç üst âlem (domain) sisteminde yer alan canlıların özellikleri ile ilgili çıkarım yapabilme",
+          "resmiAciklama": "Bakteri, Arke ve Ökaryot domainlerini ayıran temel özellikler bilgi kartları ve görsellerle incelenir; \"Üç Domaini Birbirinden Ayıran Temel Özellikler\" tablosu doldurularak karşılaştırma ve önerme geliştirilir.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "31.05.2027 - 04.06.2027",
+      "weekLabel": "34. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.6",
+          "kazanim": "Biyoçeşitliliği oluşturan unsurlarla ilgili bilimsel çıkarım yapabilme",
+          "resmiAciklama": "Türkiye ve KKTC'nin biyolojik çeşitliliği tanıtılır; öğrenciler güvenilir kaynaklardan (örn. Ulusal Biyolojik Çeşitlilik Veritabanı) veri toplayıp yorumlayarak bilgi görseli hazırlar.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "07.06.2027 - 11.06.2027",
+      "weekLabel": "35. Hafta",
+      "hours": "2",
+      "aciklama": "Çevre Koruma Haftası",
+      "isHoliday": false,
+      "unit": "ORGANİZASYON",
+      "kazanimlar": [
+        {
+          "kod": "BİY.9.2.6",
+          "kazanim": "Biyoçeşitliliği oluşturan unsurlarla ilgili bilimsel çıkarım yapabilme",
+          "resmiAciklama": "Türkiye ve KKTC'nin biyolojik çeşitliliği tanıtılır; öğrenciler güvenilir kaynaklardan (örn. Ulusal Biyolojik Çeşitlilik Veritabanı) veri toplayıp yorumlayarak bilgi görseli hazırlar.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Deney, poster, broşür, performans görevi, bilgi görseli, yapılandırılmış grid, kavram haritası kullanılarak analitik/bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "14.06.2027 - 18.06.2027",
+      "weekLabel": "36. Hafta",
+      "hours": "2",
+      "aciklama": "Babalar Günü; Aşure Günü",
+      "isHoliday": false,
+      "unit": "OKUL TEMELLİ PLANLAMA",
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "Okul temelli planlama",
+          "resmiAciklama": "Okul dışı öğrenme, araştırma-gözlem, proje/okuma çalışması, yerel çalışma veya kariyer farkındalığı etkinliği (zümre kararına göre)."
+        }
+      ],
+      "olcme": "Ürün/portfolyo, gözlem, öz değerlendirme, akran değerlendirme"
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "21.06.2027 - 25.06.2027",
+      "weekLabel": "37. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "OKUL TEMELLİ PLANLAMA",
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "Okul temelli planlama ve yıl sonu bütüncül değerlendirme",
+          "resmiAciklama": "Eksik öğrenmelerin tamamlanması; öğrenci ürünlerinin paylaşımı; biyoloji alan becerilerinin yıl sonu yansıtması."
+        }
+      ],
+      "olcme": "Portfolyo, öz değerlendirme, akran değerlendirme, geri bildirim"
+    }
   ]
 }
