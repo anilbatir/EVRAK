@@ -88,6 +88,45 @@ void main() {
     expect(result.text.contains('DKAB.9.6.1'), isFalse); // only 5 üniteler exist for 9. Sınıf
   });
 
+  test('4. Sınıf Türkçe: beceri alanlarına (Dinleme/Konuşma/Okuma/Yazma) göre gruplanır', () async {
+    final turkce = curriculumCatalog.firstWhere((c) => c.subject == 'Türkçe');
+    final plan = await WeeklyPlan.loadAsset(turkce.assetPath);
+    final template = buildYillikPlanTemplate(id: turkce.yillikPlanTemplateId, plan: plan);
+
+    final data = <String, String>{
+      for (final f in [...template.requiredFields, ...template.optionalFields]) f: 'x',
+    };
+    final result = TemplateEngine.render(template, data);
+    expect(result.isComplete, isTrue);
+    expect(result.text.contains('{{'), isFalse);
+
+    for (var i = 1; i <= 37; i++) {
+      expect(result.text.contains('$i. Hafta'), isTrue, reason: '$i. Hafta metinde yok');
+    }
+    expect(result.text.contains('1. DÖNEM ARA TATİLİ'), isTrue);
+    expect(result.text.contains('YARIYIL TATİLİ'), isTrue);
+    expect(result.text.contains('2. DÖNEM ARA TATİLİ'), isTrue);
+    expect(result.text.contains('KURBAN BAYRAMI'), isTrue);
+
+    // Week 1's kazanımlar must be grouped by skill domain, not flattened.
+    expect(result.text.contains('Konuşma:'), isTrue);
+    expect(result.text.contains('Okuma:'), isTrue);
+    expect(result.text.contains('Yazma:'), isTrue);
+    expect(result.text.contains('T.4.2.1'), isTrue);
+
+    // A week with a reading text (metin) must show it alongside the tema.
+    expect(result.text.contains('OKULUM AÇILIYOR'), isTrue);
+  });
+
+  test('beceriAlanı gruplaması KazanimEntry.beceriAlani doğru parse edilir', () {
+    final entry = KazanimEntry.fromJson({
+      'kod': 'T.4.2.1',
+      'kazanim': 'Kelimeleri anlamlarına uygun kullanır.',
+      'beceriAlani': 'Konuşma',
+    });
+    expect(entry.beceriAlani, 'Konuşma');
+  });
+
   test('bir haftada birden fazla kazanım (saat paylaşımlı) doğru render edilir', () {
     final plan = WeeklyPlan.fromJson({
       'grade': '12',

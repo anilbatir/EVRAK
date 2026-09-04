@@ -62,12 +62,30 @@ String _buildBodyText(WeeklyPlan plan) {
       buffer.writeln('Ünite: ${week.unit}');
     }
 
-    for (final k in week.kazanimlar) {
-      final kod = (k.kod ?? '').isNotEmpty ? '${k.kod} ' : '';
-      final saat = (k.saat ?? '').isNotEmpty ? ' (${k.saat} Saat)' : '';
-      buffer.writeln('Kazanım: $kod${k.kazanim}$saat');
-      if ((k.resmiAciklama ?? '').isNotEmpty) {
-        buffer.writeln('Açıklama: ${k.resmiAciklama}');
+    if (week.kazanimlar.any((k) => (k.beceriAlani ?? '').isNotEmpty)) {
+      // Dersler like İlkokul/Ortaokul Türkçe track several skill domains
+      // (Dinleme/İzleme, Konuşma, Okuma, Yazma) per week instead of one
+      // linear kazanım - group by domain so the document reads the way
+      // the official plan does, not as one undifferentiated list.
+      final byDomain = <String, List<KazanimEntry>>{};
+      for (final k in week.kazanimlar) {
+        byDomain.putIfAbsent(k.beceriAlani ?? 'Diğer', () => []).add(k);
+      }
+      for (final domain in byDomain.keys) {
+        buffer.writeln('$domain:');
+        for (final k in byDomain[domain]!) {
+          final kod = (k.kod ?? '').isNotEmpty ? '${k.kod}. ' : '';
+          buffer.writeln('  $kod${k.kazanim}');
+        }
+      }
+    } else {
+      for (final k in week.kazanimlar) {
+        final kod = (k.kod ?? '').isNotEmpty ? '${k.kod} ' : '';
+        final saat = (k.saat ?? '').isNotEmpty ? ' (${k.saat} Saat)' : '';
+        buffer.writeln('Kazanım: $kod${k.kazanim}$saat');
+        if ((k.resmiAciklama ?? '').isNotEmpty) {
+          buffer.writeln('Açıklama: ${k.resmiAciklama}');
+        }
       }
     }
     if ((week.yontemTeknik ?? '').isNotEmpty) {

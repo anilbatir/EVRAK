@@ -4,6 +4,17 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/weekly_plan.dart';
 import '../theme/app_theme.dart';
 
+/// Groups a week's kazanımlar by beceriAlanı (Dinleme/İzleme, Konuşma,
+/// Okuma, Yazma) for dersler that track several skill domains per week
+/// (e.g. İlkokul/Ortaokul Türkçe) instead of one linear kazanım.
+Map<String, List<KazanimEntry>> _groupByBeceriAlani(List<KazanimEntry> kazanimlar) {
+  final byDomain = <String, List<KazanimEntry>>{};
+  for (final k in kazanimlar) {
+    byDomain.putIfAbsent(k.beceriAlani ?? 'Diğer', () => []).add(k);
+  }
+  return byDomain;
+}
+
 /// Swipeable week-by-week viewer for a Yıllık Plan: one week per screen
 /// (ünite/tema, kazanım, açıklama), matching the reference app the user
 /// shared. The teacher reads a week, writes it into the sınıf defteri,
@@ -226,19 +237,34 @@ class _WeekCard extends StatelessWidget {
                   Text(week.topic!, style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: textPrimary)),
                   const SizedBox(height: 18),
                 ],
-                for (final k in week.kazanimlar) ...[
-                  _SectionLabel(label: k.kod != null && k.kod!.isNotEmpty ? 'Kazanım — ${k.kod}' : 'Kazanım'),
-                  const SizedBox(height: 6),
-                  Text(
-                    k.saat != null && k.saat!.isNotEmpty ? '${k.kazanim} (${k.saat} Saat)' : k.kazanim,
-                    style: TextStyle(fontSize: 14, height: 1.5, color: textPrimary),
-                  ),
-                  if (k.resmiAciklama != null && k.resmiAciklama!.isNotEmpty) ...[
+                if (week.kazanimlar.any((k) => (k.beceriAlani ?? '').isNotEmpty))
+                  for (final entry in _groupByBeceriAlani(week.kazanimlar).entries) ...[
+                    _SectionLabel(label: entry.key),
                     const SizedBox(height: 6),
-                    Text(k.resmiAciklama!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
+                    for (final k in entry.value)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 4),
+                        child: Text(
+                          k.kod != null && k.kod!.isNotEmpty ? '${k.kod}. ${k.kazanim}' : k.kazanim,
+                          style: TextStyle(fontSize: 13.5, height: 1.5, color: textPrimary),
+                        ),
+                      ),
+                    const SizedBox(height: 18),
+                  ]
+                else
+                  for (final k in week.kazanimlar) ...[
+                    _SectionLabel(label: k.kod != null && k.kod!.isNotEmpty ? 'Kazanım — ${k.kod}' : 'Kazanım'),
+                    const SizedBox(height: 6),
+                    Text(
+                      k.saat != null && k.saat!.isNotEmpty ? '${k.kazanim} (${k.saat} Saat)' : k.kazanim,
+                      style: TextStyle(fontSize: 14, height: 1.5, color: textPrimary),
+                    ),
+                    if (k.resmiAciklama != null && k.resmiAciklama!.isNotEmpty) ...[
+                      const SizedBox(height: 6),
+                      Text(k.resmiAciklama!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
+                    ],
+                    const SizedBox(height: 18),
                   ],
-                  const SizedBox(height: 18),
-                ],
                 if (week.olcme != null && week.olcme!.isNotEmpty) ...[
                   const _SectionLabel(label: 'Ölçme'),
                   const SizedBox(height: 6),

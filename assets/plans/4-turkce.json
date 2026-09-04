@@ -1,0 +1,4009 @@
+{
+  "grade": "4",
+  "subject": "Türkçe",
+  "academicYear": "2026-2027",
+  "source": "yayinevi_taslak_cerceve_plan",
+  "weeklyHours": "8",
+  "weeks": [
+    {
+      "month": "EYLÜL",
+      "dateRange": "14-18 Eylül",
+      "weekLabel": "1. Hafta",
+      "hours": "8",
+      "unit": "ÇOCUK DÜNYASI",
+      "topic": "OKULUM AÇILIYOR",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.2",
+          "kazanim": "Vurgu, tonlama ve telaffuza dikkat ederek okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.3",
+          "kazanim": "Şiir okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.7",
+          "kazanim": "Kelimelerin zıt anlamlılarını bulur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.21",
+          "kazanim": "Okuduğu metnin içeriğine uygun başlık belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.3",
+          "kazanim": "Hikâye edici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.8",
+          "kazanim": "Yazdıklarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "İlköğretim Haftası",
+      "isHoliday": false,
+      "olcme": "Ölçme ve değerlendirme yöntemleri kazanımın düzeyi, konu içeriği dikkate alınarak planlanmalıdır. Kazanıma ve konunun içeriğine uygun olarak belirlenen bu ölçme ve değerlendirme yöntemlerinden klasik ve tamamlayıcı (alternatif) ölçme ve değerlendirme yöntemleri birlikte kullanılarak öğrencinin bütüncül olarak değerlendirilmesi sağlanmalıdır. Ölçme ve değerlendirme çalışmalarında sadece sonuca odaklı değerlendirme yapılmamalı süreç değerlendirmeye yönelik ölçme etkinlikleri de planlanmalıdır, süreçte planlanan değerlendirmeler öğretimde ve öğrenmelerde bir eksiklik olup olmadığının tespit edilmesi ve giderilmesinde önemlidir. Kaynaştırma/Bütünleştirme yoluyla eğitim ve öğretimlerine devam eden öğrencilere yönelik ölçme değerlendirmede Bireyselleştirilmiş Eğitim Programı (BEP) esas alınır.",
+      "yontemTeknik": "Yöntem ve teknikler seçilirken kazanım, öğrenci özellikleri (hazırbulunuşluk düzeyleri, öğrenme stilleri, ilgi alanları vb.), öğretmenin ve konunun özellikleri, materyaller, maliyet, zaman, sınıf mevcudu ve okul türü farklılığı dikkate alınması gerekir. Öğretim sürecinde yer alan okul dışı öğrenme etkinlikleri, ders yılı başı okul zümre öğretmenleri toplantısında belirlenecektir. Seçilen yöntem ve tekniklere uygun olarak ölçme ve değerlendirme faaliyetlerinin de yapılandırılması eşgüdümlü bir şekilde yapılmalıdır. Öğrenme süreçlerinde değerlendirme faaliyetleri mümkün olduğu kadar süreci değerlendirecek biçimde tasarlanmalıdır."
+    },
+    {
+      "month": "EYLÜL",
+      "dateRange": "21-25 Eylül",
+      "weekLabel": "2. Hafta",
+      "hours": "8",
+      "unit": "ÇOCUK DÜNYASI",
+      "topic": "SÜRPRİİİİİİİZ!",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.5",
+          "kazanim": "Farklı yazı karakterleri ile yazılmış yazıları okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.7",
+          "kazanim": "Kelimelerin zıt anlamlılarını bulur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.23",
+          "kazanim": "Metin türlerini ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.31",
+          "kazanim": "Metinler arasında karşılaştırma yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.21",
+          "kazanim": "Yazma stratejilerini uygular.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "15 Temmuz Demokrasi ve Millî Birlik Günü",
+      "isHoliday": false
+    },
+    {
+      "month": "EYLÜL",
+      "dateRange": "22 Eylül-2 Ekim",
+      "weekLabel": "3. Hafta",
+      "hours": "8",
+      "unit": "ÇOCUK DÜNYASI",
+      "topic": "HAYDİ UÇURTMA YAPALIM",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.27",
+          "kazanim": "Okuduğu metindeki kahramanların özelliklerini karşılaştırır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.32",
+          "kazanim": "Kısa ve basit dijital metinlerdeki mesajı kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "Hayvanları Koruma Günü (4 Ekim)",
+      "isHoliday": false
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "5-9 Ekim",
+      "weekLabel": "4. Hafta",
+      "hours": "8",
+      "unit": "ÇOCUK DÜNYASI",
+      "topic": "ÇOCUKLUĞUM BİTTİ Mİ? (Dinleme/İzleme Metni) SÖZÜN GÜCÜ (Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.6.1.1",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen olayların gelişimi ve sonucu hakkında tahminde bulunur.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.6.1.2",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder. Öğrencilerin tahminlerini kelimelerin sözlük anlamları ile karşılaştırmaları sağlanır.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.6.1.4",
+          "kazanim": "Dinledikleri/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.6.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik farklı başlıklar önerir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.7",
+          "kazanim": "Kelimelerin zıt anlamlılarını bulur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.8",
+          "kazanim": "Kelimelerin eş anlamlılarını bulur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.14",
+          "kazanim": "Görsellerden ve başlıktan hareketle okuyacağı metnin konusunu tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.20",
+          "kazanim": "Okuduğu metinlerdeki hikâye unsurlarını belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.25",
+          "kazanim": "Yönergeleri kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.26",
+          "kazanim": "Metindeki gerçek ve hayalî ögeleri ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.3",
+          "kazanim": "Hikâye edici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.7",
+          "kazanim": "Yazdıklarının içeriğine uygun başlık belirler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.9",
+          "kazanim": "Formları yönergelerine uygun doldurur.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.14",
+          "kazanim": "Yazdıklarını zenginleştirmek için çizim, grafik ve görseller kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "12-16 Ekim",
+      "weekLabel": "5. Hafta",
+      "hours": "8",
+      "unit": "MİLLÎ MÜCADELE VE ATATÜRK",
+      "topic": "ÖMRÜMÜN EN GÜZEL RÜYASI",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.7",
+          "kazanim": "Kelimelerin zıt anlamlılarını bulur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.8",
+          "kazanim": "Kelimelerin eş anlamlılarını bulur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.14",
+          "kazanim": "Görsellerden ve başlıktan hareketle okuyacağı metnin konusunu tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.20",
+          "kazanim": "Okuduğu metinlerdeki hikâye unsurlarını belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.25",
+          "kazanim": "Yönergeleri kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.26",
+          "kazanim": "Metindeki gerçek ve hayalî ögeleri ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "19-23 Ekim",
+      "weekLabel": "6. Hafta",
+      "hours": "8",
+      "unit": "MİLLÎ MÜCADELE VE ATATÜRK",
+      "topic": "ATATÜRK DUMLUPINAR'DA",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.31",
+          "kazanim": "Metinler arasında karşılaştırma yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.5",
+          "kazanim": "Hayalî ögeler barındıran kısa metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.21",
+          "kazanim": "Yazma stratejilerini uygular.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "26-30 Ekim",
+      "weekLabel": "7. Hafta",
+      "hours": "8",
+      "unit": "MİLLÎ MÜCADELE VE ATATÜRK",
+      "topic": "TÜRK BAYRAĞI",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.3",
+          "kazanim": "Şiir okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.9",
+          "kazanim": "Eş sesli kelimelerin anlamlarını ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.1",
+          "kazanim": "Şiir yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.13",
+          "kazanim": "Yazılarında eş sesli kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.15",
+          "kazanim": "İmza atar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "29 Ekim Cumhuriyet Bayramı",
+      "isHoliday": false
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "2-6 Kasım",
+      "weekLabel": "8. Hafta",
+      "hours": "16",
+      "unit": "MİLLÎ MÜCADELE VE ATATÜRK",
+      "topic": "ÇANAKKALE TÜRKÜSÜ (Dinleme/İzleme Metni) ŞİŞLİ'DEKİ EV (Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.5",
+          "kazanim": "Dinlediklerinin/izlediklerinin konusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.6",
+          "kazanim": "Dinlediklerinin/izlediklerinin ana fikrini/ana duygusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.9",
+          "kazanim": "Dinledikleriyle/izledikleriyle ilgili görüşlerini ifade eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.2",
+          "kazanim": "Vurgu, tonlama ve telaffuza dikkat ederek okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.9",
+          "kazanim": "Eş sesli kelimelerin anlamlarını ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.7",
+          "kazanim": "Yazdıklarının içeriğine uygun başlık belirler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.13",
+          "kazanim": "Yazılarında eş sesli kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.15",
+          "kazanim": "İmza atar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "Kızılay Haftası (29 Ekim-4 Kasım)",
+      "isHoliday": false
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "9-13 Kasım",
+      "weekLabel": "9. Hafta",
+      "hours": "8",
+      "unit": "ERDEMLER",
+      "topic": "YILIN BABASI",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Okuma stratejilerini uygular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.20",
+          "kazanim": "Okuduğu metinlerdeki hikâye unsurlarını belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.21",
+          "kazanim": "Okuduğu metnin içeriğine uygun başlık belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.26",
+          "kazanim": "Metindeki gerçek ve hayalî ögeleri ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.3",
+          "kazanim": "Hikaye edici metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "Atatürk Haftası (10-16 Kasım) Afet Eğitimi Hazırlık Günü (12 Kasım) Dünya Çocuk Hakları Günü (20 Kasım)",
+      "isHoliday": false
+    },
+    {
+      "month": "1. DÖNEM ARA TATİLİ: 16-20 KASIM",
+      "dateRange": "16-20 KASIM",
+      "weekLabel": "1. DÖNEM ARA TATİLİ",
+      "isHoliday": true
+    },
+    {
+      "month": "1. DÖNEM ARA TATİLİ: 16-20 KASIM",
+      "dateRange": "23-27 Kasım",
+      "weekLabel": "10. Hafta",
+      "hours": "8",
+      "unit": "ERDEMLER",
+      "topic": "USTALARIN USTASI MİMAR SİNAN",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.10",
+          "kazanim": "Okuduğu metindeki gerçek, mecaz ve terim anlamlı sözcükleri belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.2",
+          "kazanim": "Bir işin işlem basamaklarına ilişkin yönergeler yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.19",
+          "kazanim": "Yazılarında kelimeleri gerçek, mecaz ve terim anlamları ile kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "24 Kasım Öğretmenler Günü",
+      "isHoliday": false
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "30 Kasım - 4 Aralık",
+      "weekLabel": "11. Hafta",
+      "hours": "8",
+      "unit": "ERDEMLER",
+      "topic": "NAR EKŞİSİ SOKAK",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.3",
+          "kazanim": "Şiir okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.11",
+          "kazanim": "Deyim ve atasözlerinin metnin anlamına katkısını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.27",
+          "kazanim": "Okuduğu metindeki kahramanların özelliklerini karşılaştırır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.36",
+          "kazanim": "Bilgi kaynaklarının güvenilirliğini sorgular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.1",
+          "kazanim": "Şiir yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.3",
+          "kazanim": "Hikâye edici metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "3 Aralık Dünya Engelliler Günü",
+      "isHoliday": false
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "7-11 Aralık",
+      "weekLabel": "12. Hafta",
+      "hours": "8",
+      "unit": "ERDEMLER",
+      "topic": "BÖLÜŞMEK GÜZELDİR (Dinleme/İzleme Metni) TAVŞANIN ZİYAFETİ (Serbest Okuma Metni",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.5",
+          "kazanim": "Dinlediklerinin/izlediklerinin konusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.6",
+          "kazanim": "Dinlediklerinin/izlediklerinin ana fikrini/ana duygusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.8",
+          "kazanim": "Dinlediklerine/izlediklerine farklı başlıklar önerir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.9",
+          "kazanim": "Dinledikleriyle/izledikleriyle ilgili görüşlerini ifade eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.10",
+          "kazanim": "Dinlediği/izlediği hikâye edici metinleri canlandırır.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Okuma stratejilerini uygular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.8",
+          "kazanim": "Kelimelerin eş anlamlılarını bulur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "14-18 Aralık",
+      "weekLabel": "13. Hafta",
+      "hours": "8",
+      "unit": "MİLLÎ KÜLTÜRÜMÜZ",
+      "topic": "HIRSIZLARLA HOCA",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.10",
+          "kazanim": "Okuduğu metindeki gerçek, mecaz ve terim anlamlı sözcükleri belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.30",
+          "kazanim": "Metindeki renkli, altı çizili, koyu ifadelerin önemli noktaları vurguladığını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.18",
+          "kazanim": "Yazılarında bağlaçları kuralına uygun kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.19",
+          "kazanim": "Yazılarında kelimeleri gerçek, mecaz ve terim anlamları ile kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "Tutum, Yatırım ve Türk Malları Haftası (12-18 Aralık)",
+      "isHoliday": false
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "21-25 Aralık",
+      "weekLabel": "14. Hafta",
+      "hours": "8",
+      "unit": "MİLLÎ KÜLTÜRÜMÜZ",
+      "topic": "GÜMÜŞHANE",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.9",
+          "kazanim": "Formları yönergelerine uygun doldurur.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.18",
+          "kazanim": "Yazılarında bağlaçları kuralına uygun kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "28 Aralık-1 Ocak",
+      "weekLabel": "15. Hafta",
+      "hours": "8",
+      "unit": "MİLLÎ KÜLTÜRÜMÜZ",
+      "topic": "BAYRAM SABAHI",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.22",
+          "kazanim": "Şekil, sembol ve işaretlerin anlamlarını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.26",
+          "kazanim": "Metindeki gerçek ve hayalî ögeleri ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.32",
+          "kazanim": "Kısa ve basit dijital metinlerdeki mesajı kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.14",
+          "kazanim": "Yazdıklarını zenginleştirmek için çizim, grafik ve görseller kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.21",
+          "kazanim": "Yazma stratejilerini uygular.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "4-8 Ocak",
+      "weekLabel": "16. Hafta",
+      "hours": "8",
+      "unit": "MİLLÎ KÜLTÜRÜMÜZ",
+      "topic": "SADECE MİLLÎ ŞAİR Mİ? (Dinleme/İzleme Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.1",
+          "kazanim": "Görselden/görsellerden hareketle dinleyeceği/izleyeceği metnin konusunu tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.5",
+          "kazanim": "Dinlediklerinin/izlediklerinin konusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.6",
+          "kazanim": "Dinlediklerinin/izlediklerinin ana fikrini/ana duygusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.8",
+          "kazanim": "Dinlediklerine/izlediklerine farklı başlıklar önerir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.22",
+          "kazanim": "Şekil, sembol ve işaretlerin anlamlarını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.26",
+          "kazanim": "Metindeki gerçek ve hayalî ögeleri ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.32",
+          "kazanim": "Kısa ve basit dijital metinlerdeki mesajı kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.14",
+          "kazanim": "Yazdıklarını zenginleştirmek için çizim, grafik ve görseller kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.21",
+          "kazanim": "Yazma stratejilerini uygular.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "11-15 Ocak",
+      "weekLabel": "17. Hafta",
+      "hours": "8",
+      "unit": "MİLLÎ KÜLTÜRÜMÜZ",
+      "topic": "SADECE MİLLÎ ŞAİR Mİ? (Dinleme/İzleme Metni) EVLİYA ÇELEBİ (Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.1",
+          "kazanim": "Görselden/görsellerden hareketle dinleyeceği/izleyeceği metnin konusunu tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.5",
+          "kazanim": "Dinlediklerinin/izlediklerinin konusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.6",
+          "kazanim": "Dinlediklerinin/izlediklerinin ana fikrini/ana duygusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.8",
+          "kazanim": "Dinlediklerine/izlediklerine farklı başlıklar önerir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.22",
+          "kazanim": "Şekil, sembol ve işaretlerin anlamlarını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.26",
+          "kazanim": "Metindeki gerçek ve hayalî ögeleri ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.32",
+          "kazanim": "Kısa ve basit dijital metinlerdeki mesajı kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.14",
+          "kazanim": "Yazdıklarını zenginleştirmek için çizim, grafik ve görseller kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.21",
+          "kazanim": "Yazma stratejilerini uygular.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "18-22 Ocak",
+      "weekLabel": "18. Hafta",
+      "hours": "8",
+      "unit": "DOĞA VE EVREN",
+      "topic": "MARTI JONATHAN LIVINGSTON",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.15",
+          "kazanim": "Okuduklarını ana hatlarıyla anlatır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.21",
+          "kazanim": "Okuduğu metnin içeriğine uygun başlık belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.3",
+          "kazanim": "Hikâye edici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "YARIYIL TATİLİ: 25 Ocak - 5 Şubat 2027",
+      "dateRange": "25 Ocak - 5 Şubat 2027",
+      "weekLabel": "YARIYIL TATİLİ",
+      "isHoliday": true
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "8-12 Şubat",
+      "weekLabel": "19. Hafta",
+      "hours": "8",
+      "unit": "DOĞA VE EVREN",
+      "topic": "PLASTİĞİN YOLCULUĞU",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.10",
+          "kazanim": "Okuduğu metindeki gerçek, mecaz ve terim anlamlı sözcükleri belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.30",
+          "kazanim": "Metindeki renkli, altı çizili, koyu ifadelerin önemli noktaları vurguladığını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.7",
+          "kazanim": "Yazdıklarının içeriğine uygun başlık belirler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "15-19 Şubat",
+      "weekLabel": "20. Hafta",
+      "hours": "8",
+      "unit": "DOĞA VE EVREN",
+      "topic": "KIR KAHVESİ",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.22",
+          "kazanim": "Şekil, sembol ve işaretlerin anlamlarını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.2",
+          "kazanim": "Bir işin işlem basamaklarına ilişkin yönergeler yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.6",
+          "kazanim": "Görselleri ilişkilendirerek bir olayı anlatır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.14",
+          "kazanim": "Yazdıklarını zenginleştirmek için çizim, grafik ve görseller kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "22-26 Şubat",
+      "weekLabel": "21. Hafta",
+      "hours": "8",
+      "unit": "DOĞA VE EVREN",
+      "topic": "KIŞ (Dinleme/İzleme Metni) DÜNYAMIZA NELER OLUYOR? (Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.1",
+          "kazanim": "Görselden/görsellerden hareketle dinleyeceği/izleyeceği metnin konusunu tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.5",
+          "kazanim": "Dinlediklerinin/izlediklerinin konusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.6",
+          "kazanim": "Dinlediklerinin/izlediklerinin ana fikrini/ana duygusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.13",
+          "kazanim": "Konuşmacının sözlü olmayan mesajlarını kavrar.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.2",
+          "kazanim": "Vurgu, tonlama ve telaffuza dikkat ederek okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.3",
+          "kazanim": "Şiir okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.10",
+          "kazanim": "Okuduğu metindeki gerçek, mecaz ve terim anlamlı sözcükleri belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.21",
+          "kazanim": "Okuduğu metnin içeriğine uygun başlık belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.1",
+          "kazanim": "Şiir yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.7",
+          "kazanim": "Yazdıklarının içeriğine uygun başlık belirler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.19",
+          "kazanim": "Yazılarında kelimeleri gerçek, mecaz ve terim anlamları ile kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "MART",
+      "dateRange": "1-5 Mart",
+      "weekLabel": "22. Hafta",
+      "hours": "8",
+      "unit": "SANAT",
+      "topic": "ÜNLÜ RESSAM",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Okuma stratejilerini uygular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.19",
+          "kazanim": "Metinle ilgili sorular sorar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.29",
+          "kazanim": "Görsellerle okuduğu metnin içeriğini ilişkilendirir.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.6",
+          "kazanim": "Görselleri ilişkilendirerek bir olayı anlatır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "Yeşilay Haftası (1 Mart gününü içine alan hafta)",
+      "isHoliday": false
+    },
+    {
+      "month": "MART",
+      "dateRange": "8-12 MART 2027",
+      "weekLabel": "2. DÖNEM ARA TATİLİ",
+      "isHoliday": true
+    },
+    {
+      "month": "MART",
+      "dateRange": "15-19 Mart",
+      "weekLabel": "23. Hafta",
+      "hours": "8",
+      "unit": "SANAT",
+      "topic": "HAM MADDESİ METAL OLAN GELENEKSEL EL SANATLARI",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Okuma stratejilerini uygular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.8",
+          "kazanim": "Kelimelerin eş anlamlılarını bulur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.15",
+          "kazanim": "Okuduklarını ana hatlarıyla anlatır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.21",
+          "kazanim": "Okuduğu metnin içeriğine uygun başlık belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.24",
+          "kazanim": "Hikâye edici ve bilgilendirici metinleri oluşturan ögeleri tanır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.26",
+          "kazanim": "Metindeki gerçek ve hayalî ögeleri ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.1",
+          "kazanim": "Şiir yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.16",
+          "kazanim": "Kısaltmaları ve kısaltmalara gelen ekleri doğru yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.21",
+          "kazanim": "Yazma stratejilerini uygular",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "İstiklâl Marşı'nın Kabulü ve Mehmet Akif Ersoy'u Anma Günü (12 Mart) Şehitler Günü (18 Mart)",
+      "isHoliday": false
+    },
+    {
+      "month": "MART",
+      "dateRange": "22-26 Mart",
+      "weekLabel": "24. Hafta",
+      "hours": "8",
+      "unit": "SANAT",
+      "topic": "BİZ OKURUZ",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Okuma stratejilerini uygular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.24",
+          "kazanim": "Hikâye edici ve bilgilendirici metinleri oluşturan ögeleri tanır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.26",
+          "kazanim": "Metindeki gerçek ve hayalî ögeleri ayırt eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.1",
+          "kazanim": "Şiir yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "Orman Haftası (21-26 Mart)",
+      "isHoliday": false
+    },
+    {
+      "month": "MART",
+      "dateRange": "29 Mart-2 Nisan",
+      "weekLabel": "25. Hafta",
+      "hours": "8",
+      "unit": "SANAT",
+      "topic": "FİLM ŞENLİĞİ (Dinleme/İzleme Metni) ŞARKI ( Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.1",
+          "kazanim": "Görselden/görsellerden hareketle dinleyeceği/izleyeceği metnin konusunu tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.3",
+          "kazanim": "Dinlediği/izlediği metni ana hatlarıyla anlatır.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.9",
+          "kazanim": "Dinledikleriyle/izledikleriyle ilgili görüşlerini ifade eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.11",
+          "kazanim": "Deyim ve atasözlerinin metnin anlamına katkısını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.35",
+          "kazanim": "Bilgi kaynaklarını etkili bir şekilde kullanır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.3",
+          "kazanim": "Hikâye edici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.7",
+          "kazanim": "Yazdıklarının içeriğine uygun başlık belirler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.8",
+          "kazanim": "Yazdıklarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.22",
+          "kazanim": "Pekiştirmeli sözcükleri doğru yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "Kütüphaneler Haftası (Mart ayının son pazartesi gününü içine alan hafta)",
+      "isHoliday": false
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "5-9 Nisan",
+      "weekLabel": "26. Hafta",
+      "hours": "8",
+      "unit": "SANAT",
+      "topic": "FİLM ŞENLİĞİ (Dinleme/İzleme Metni) ŞARKI ( Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.1",
+          "kazanim": "Görselden/görsellerden hareketle dinleyeceği/izleyeceği metnin konusunu tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.9",
+          "kazanim": "Dinledikleriyle/izledikleriyle ilgili görüşlerini ifade eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.11",
+          "kazanim": "Deyim ve atasözlerinin metnin anlamına katkısını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.35",
+          "kazanim": "Bilgi kaynaklarını etkili bir şekilde kullanır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.3",
+          "kazanim": "Hikâye edici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.7",
+          "kazanim": "Yazdıklarının içeriğine uygun başlık belirler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.8",
+          "kazanim": "Yazdıklarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.22",
+          "kazanim": "Pekiştirmeli sözcükleri doğru yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "12-16 Nisan",
+      "weekLabel": "27. Hafta",
+      "hours": "8",
+      "unit": "BİREY VE TOPLUM",
+      "topic": "AYAKKABI TAMİRCİSİ",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.24",
+          "kazanim": "Hikâye edici ve bilgilendirici metinleri oluşturan ögeleri tanır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.9",
+          "kazanim": "Formları yönergelerine uygun doldurur.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.11",
+          "kazanim": "Yazdıklarını düzenler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.22",
+          "kazanim": "Pekiştirmeli sözcükleri doğru yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "19-23 Nisan",
+      "weekLabel": "28. Hafta",
+      "hours": "8",
+      "unit": "BİREY VE TOPLUM",
+      "topic": "TATLI DİLE DAİR",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.3",
+          "kazanim": "Şiir okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Okuma stratejilerini uygular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.30",
+          "kazanim": "Metindeki renkli, altı çizili, koyu ifadelerin önemli noktaları vurguladığını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.35",
+          "kazanim": "Bilgi kaynaklarını etkili bir şekilde kullanır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.36",
+          "kazanim": "Bilgi kaynaklarının güvenilirliğini sorgular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.17",
+          "kazanim": "Sayıları doğru yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı",
+      "isHoliday": false
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "26-30 Nisan",
+      "weekLabel": "29. Hafta",
+      "hours": "8",
+      "unit": "BİREY VE TOPLUM",
+      "topic": "AYŞE NİNE",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.1",
+          "kazanim": "Şiir yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.11",
+          "kazanim": "Yazdıklarını düzenler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.17",
+          "kazanim": "Sayıları doğru yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "3-7 Mayıs",
+      "weekLabel": "30. Hafta",
+      "hours": "8",
+      "unit": "BİREY VE TOPLUM",
+      "topic": "ÇİFTÇİYLE OĞULLARI (Dinleme/İzleme Metni) BEBEĞE NİNNİ ( Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.2",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen olayların gelişimi ve sonucu hakkında tahminde bulunur.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.3",
+          "kazanim": "Şiir okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.1",
+          "kazanim": "Şiir yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.7",
+          "kazanim": "Yazdıklarının içeriğine uygun başlık belirler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.9",
+          "kazanim": "Formları yönergelerine uygun doldurur.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.11",
+          "kazanim": "Yazdıklarını düzenler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.12",
+          "kazanim": "Yazdıklarını paylaşır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.16",
+          "kazanim": "Kısaltmaları ve kısaltmalara gelen ekleri doğru yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.17",
+          "kazanim": "Sayıları doğru yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "Trafik ve İlk Yardım Haftası (Mayıs ayının ilk haftası)",
+      "isHoliday": false
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "10-14 Mayıs",
+      "weekLabel": "31. Hafta",
+      "hours": "8",
+      "unit": "BİREY VE TOPLUM",
+      "topic": "ÇİFTÇİYLE OĞULLARI (Dinleme/İzleme Metni) BEBEĞE NİNNİ ( Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.2",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen olayların gelişimi ve sonucu hakkında tahminde bulunur.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.3",
+          "kazanim": "Şiir okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.1",
+          "kazanim": "Şiir yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.7",
+          "kazanim": "Yazdıklarının içeriğine uygun başlık belirler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.9",
+          "kazanim": "Formları yönergelerine uygun doldurur.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.11",
+          "kazanim": "Yazdıklarını düzenler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.12",
+          "kazanim": "Yazdıklarını paylaşır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.16",
+          "kazanim": "Kısaltmaları ve kısaltmalara gelen ekleri doğru yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.17",
+          "kazanim": "Sayıları doğru yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "15-16-17-18 ve 19 MAYIS 2027",
+      "weekLabel": "KURBAN BAYRAMI",
+      "isHoliday": true
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "20-21 Mayıs",
+      "weekLabel": "32. Hafta",
+      "hours": "8",
+      "unit": "BİREY VE TOPLUM",
+      "topic": "ÇİFTÇİYLE OĞULLARI (Dinleme/İzleme Metni) BEBEĞE NİNNİ ( Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.2",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen olayların gelişimi ve sonucu hakkında tahminde bulunur.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.3",
+          "kazanim": "Şiir okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.4",
+          "kazanim": "Metinleri türün özelliklerine uygun biçimde okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.28",
+          "kazanim": "Okudukları ile ilgili çıkarımlar yapar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.1",
+          "kazanim": "Şiir yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.4",
+          "kazanim": "Bilgilendirici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.7",
+          "kazanim": "Yazdıklarının içeriğine uygun başlık belirler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.9",
+          "kazanim": "Formları yönergelerine uygun doldurur.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.10",
+          "kazanim": "Büyük harfleri ve noktalama işaretlerini uygun yerlerde kullanır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.11",
+          "kazanim": "Yazdıklarını düzenler.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.12",
+          "kazanim": "Yazdıklarını paylaşır.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.16",
+          "kazanim": "Kısaltmaları ve kısaltmalara gelen ekleri doğru yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.17",
+          "kazanim": "Sayıları doğru yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "24-28 Mayıs",
+      "weekLabel": "33. Hafta",
+      "hours": "8",
+      "unit": "BİLİM VE TEKNOLOJİ",
+      "topic": "BİR VARMIŞ BİR YOKMUŞ TELEVİZYON BOZULMUŞ",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.10",
+          "kazanim": "Okuduğu metindeki gerçek, mecaz ve terim anlamlı sözcükleri belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.19",
+          "kazanim": "Metinle ilgili sorular sorar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.29",
+          "kazanim": "Görsellerle okuduğu metnin içeriğini ilişkilendirir.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.37",
+          "kazanim": "Okuduğu metindeki olaylara ilişkin düşüncelerini ifade eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.2",
+          "kazanim": "Bir işin işlem basamaklarına ilişkin yönergeler yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.3",
+          "kazanim": "Hikâye edici metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.19",
+          "kazanim": "Yazılarında kelimeleri gerçek, mecaz ve terim anlamları ile kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "19 Mayıs Atatürk'ü Anma ve Gençlik ve Spor Bayramı Müzeler Haftası (18-24 Mayıs)",
+      "isHoliday": false
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "31 Mayıs-4 Haziran",
+      "weekLabel": "34. Hafta",
+      "hours": "8",
+      "unit": "BİLİM VE TEKNOLOJİ",
+      "topic": "İNTERNET ACAYİP BİR ŞEY",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.13",
+          "kazanim": "Görsellerle ilgili soruları cevaplar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.20",
+          "kazanim": "Harflerin yapısal özelliklerine uygun metin yazar.",
+          "beceriAlani": "Yazma"
+        },
+        {
+          "kod": "T.4.4.21",
+          "kazanim": "Yazma stratejilerini uygular.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "7-11 Haziran",
+      "weekLabel": "35. Hafta",
+      "hours": "8",
+      "unit": "BİLİM VE TEKNOLOJİ",
+      "topic": "TEKNOLOJİ",
+      "kazanimlar": [
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.10",
+          "kazanim": "Okuduğu metindeki gerçek, mecaz ve terim anlamlı sözcükleri belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.20",
+          "kazanim": "Okuduğu metinlerdeki hikâye unsurlarını belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.25",
+          "kazanim": "Yönergeleri kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.30",
+          "kazanim": "Metindeki renkli, altı çizili, koyu ifadelerin önemli noktaları vurguladığını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.33",
+          "kazanim": "Medya metinlerini değerlendirir.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.35",
+          "kazanim": "Bilgi kaynaklarını etkili bir şekilde kullanır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.36",
+          "kazanim": "Bilgi kaynaklarının güvenilirliğini sorgular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.19",
+          "kazanim": "Yazılarında kelimeleri gerçek, mecaz ve terim anlamları ile kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "Çevre ve İklim Değişikliği Haftası (Haziran ayının ikinci haftası)",
+      "isHoliday": false
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "14-18 Haziran",
+      "weekLabel": "36. Hafta",
+      "hours": "8",
+      "unit": "BİLİM VE TEKNOLOJİ",
+      "topic": "ROBOTLAR (Dinleme/İzleme Metni) SİBERKENT (Serbest Okuma Metni)",
+      "kazanimlar": [
+        {
+          "kod": "T.4.1.1",
+          "kazanim": "Görselden/görsellerden hareketle dinleyeceği/izleyeceği metnin konusunu tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.4",
+          "kazanim": "Dinlediklerinde/izlediklerinde geçen, bilmediği kelimelerin anlamını tahmin eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.5",
+          "kazanim": "Dinlediklerinin/izlediklerinin konusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.6",
+          "kazanim": "Dinlediklerinin/izlediklerinin ana fikrini/ana duygusunu belirler.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.7",
+          "kazanim": "Dinlediklerine/izlediklerine yönelik sorulara cevap verir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.9",
+          "kazanim": "Dinledikleriyle/izledikleriyle ilgili görüşlerini ifade eder.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.11",
+          "kazanim": "Dinlediklerinin/izlediklerinin içeriğini değerlendirir.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.1.12",
+          "kazanim": "Dinleme stratejilerini uygular.",
+          "beceriAlani": "Dinleme/İzleme"
+        },
+        {
+          "kod": "T.4.2.1",
+          "kazanim": "Kelimeleri anlamlarına uygun kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.2",
+          "kazanim": "Hazırlıksız konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.3",
+          "kazanim": "Hazırlıklı konuşmalar yapar.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.4",
+          "kazanim": "Konuşma stratejilerini uygular.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.5",
+          "kazanim": "Sınıf içindeki tartışma ve konuşmalara katılır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.2.6",
+          "kazanim": "Konuşmalarında yabancı dillerden alınmış, dilimize henüz yerleşmemiş kelimelerin Türkçelerini kullanır.",
+          "beceriAlani": "Konuşma"
+        },
+        {
+          "kod": "T.4.3.1",
+          "kazanim": "Noktalama işaretlerine dikkat ederek sesli ve sessiz okur.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.10",
+          "kazanim": "Okuduğu metindeki gerçek, mecaz ve terim anlamlı sözcükleri belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.12",
+          "kazanim": "Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.16",
+          "kazanim": "Okuduğu metnin konusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.17",
+          "kazanim": "Metnin ana fikri/ana duygusunu belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.18",
+          "kazanim": "Okuduğu metinle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.20",
+          "kazanim": "Okuduğu metinlerdeki hikâye unsurlarını belirler.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.25",
+          "kazanim": "Yönergeleri kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.30",
+          "kazanim": "Metindeki renkli, altı çizili, koyu ifadelerin önemli noktaları vurguladığını kavrar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.33",
+          "kazanim": "Medya metinlerini değerlendirir.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.34",
+          "kazanim": "Grafik, tablo ve çizelgelerle ilgili soruları cevaplar.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.35",
+          "kazanim": "Bilgi kaynaklarını etkili bir şekilde kullanır.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.3.36",
+          "kazanim": "Bilgi kaynaklarının güvenilirliğini sorgular.",
+          "beceriAlani": "Okuma"
+        },
+        {
+          "kod": "T.4.4.19",
+          "kazanim": "Yazılarında kelimeleri gerçek, mecaz ve terim anlamları ile kullanır.",
+          "beceriAlani": "Yazma"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "21-25 Haziran",
+      "weekLabel": "37. Hafta",
+      "hours": "8",
+      "unit": "SOSYAL ETKİNLİK",
+      "topic": null,
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "Sosyal etkinlik / yıl sonu değerlendirme haftası (zümre kararına göre).",
+          "beceriAlani": null
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    }
+  ]
+}

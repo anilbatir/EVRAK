@@ -31,4 +31,5 @@ const curriculumCatalog = <CurriculumCombo>[
   CurriculumCombo(grade: '9', subject: 'Matematik', assetPath: 'assets/plans/9-matematik.json'),
   CurriculumCombo(grade: '9', subject: 'Biyoloji', assetPath: 'assets/plans/9-biyoloji.json'),
   CurriculumCombo(grade: '9', subject: 'Din Kültürü ve Ahlak Bilgisi', assetPath: 'assets/plans/9-din-kulturu.json'),
+  CurriculumCombo(grade: '4', subject: 'Türkçe', assetPath: 'assets/plans/4-turkce.json'),
 ];

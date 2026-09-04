@@ -12,11 +12,18 @@ class KazanimEntry {
   final String? resmiAciklama;
   final String? saat;
 
+  /// Which language-skill domain this kazanım belongs to (Dinleme/İzleme,
+  /// Konuşma, Okuma, Yazma) - only set for dersler (e.g. İlkokul/Ortaokul
+  /// Türkçe) whose official plan tracks multiple skill areas per week
+  /// instead of one linear kazanım progression. Null for every other ders.
+  final String? beceriAlani;
+
   const KazanimEntry({
     this.kod,
     required this.kazanim,
     this.resmiAciklama,
     this.saat,
+    this.beceriAlani,
   });
 
   factory KazanimEntry.fromJson(Map<String, dynamic> json) {
@@ -25,6 +32,7 @@ class KazanimEntry {
       kazanim: json['kazanim'] as String? ?? '',
       resmiAciklama: json['resmiAciklama'] as String?,
       saat: json['saat'] as String?,
+      beceriAlani: json['beceriAlani'] as String?,
     );
   }
 }

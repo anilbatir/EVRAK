@@ -84,13 +84,24 @@ class PdfService {
         rows.add([week.month ?? '', week.weekLabel, week.dateRange ?? '', '', '', '', '', '', '']);
         continue;
       }
-      final kazanimText = week.kazanimlar
-          .map((k) {
-            final kod = (k.kod ?? '').isNotEmpty ? '${k.kod} ' : '';
-            final saat = (k.saat ?? '').isNotEmpty ? ' (${k.saat} Saat)' : '';
-            return '$kod${k.kazanim}$saat';
-          })
-          .join('\n');
+      final hasDomains = week.kazanimlar.any((k) => (k.beceriAlani ?? '').isNotEmpty);
+      String kazanimText;
+      if (hasDomains) {
+        final byDomain = <String, List<String>>{};
+        for (final k in week.kazanimlar) {
+          final kod = (k.kod ?? '').isNotEmpty ? '${k.kod}. ' : '';
+          byDomain.putIfAbsent(k.beceriAlani ?? 'Diğer', () => []).add('$kod${k.kazanim}');
+        }
+        kazanimText = byDomain.entries.map((e) => '${e.key}: ${e.value.join(' ')}').join('\n');
+      } else {
+        kazanimText = week.kazanimlar
+            .map((k) {
+              final kod = (k.kod ?? '').isNotEmpty ? '${k.kod} ' : '';
+              final saat = (k.saat ?? '').isNotEmpty ? ' (${k.saat} Saat)' : '';
+              return '$kod${k.kazanim}$saat';
+            })
+            .join('\n');
+      }
       final icerikText = week.kazanimlar
           .map((k) => k.resmiAciklama ?? '')
           .where((s) => s.isNotEmpty)
@@ -114,6 +125,10 @@ class PdfService {
         pageFormat: PdfPageFormat.a4.landscape,
         margin: const pw.EdgeInsets.fromLTRB(24, 28, 24, 28),
         theme: pw.ThemeData.withFont(base: regularFont, bold: boldFont),
+        // Some dersler (e.g. İlkokul Türkçe, 4 skill domains x several
+        // kazanımlar per week) legitimately produce a long table - the
+        // pdf package's default 20-page safety cap is too low for those.
+        maxPages: 200,
         build: (context) => [
           pw.Text(title, style: pw.TextStyle(fontSize: 13, font: boldFont)),
           pw.SizedBox(height: 4),
