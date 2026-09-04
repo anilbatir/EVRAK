@@ -1,0 +1,657 @@
+{
+  "grade": "9-11",
+  "subject": "Matematik Uygulamaları I",
+  "academicYear": "2026-2027",
+  "source": "meb_ogretim_programi",
+  "weeklyHours": "2",
+  "weeks": [
+    {
+      "month": "EYLÜL",
+      "dateRange": "14.09.2026 - 18.09.2026",
+      "weekLabel": "1. Hafta",
+      "hours": "2",
+      "aciklama": "İlköğretim Haftası; Öğrenciler Günü; Gaziler Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.1. STRATEJİ VE ZEKÂ OYUNLARININ MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.1.1",
+          "kazanim": "Strateji ve zekâ oyunlarında karşılaşılan duruma yönelik en uygun hamleye karar verebilme",
+          "resmiAciklama": "a) Karar vermesi gereken oyun senaryosunda ulaşmak istediği amacı belirler. b) Oyunun kuralları ve mevcut oyun durumu ile ilgili bilgi toplar. c) Edindiği bilgilere ve rakibin olası hamlelerine göre alternatif hamle seçenekleri oluşturur. ç) Hamle seçenekleri üzerinde mantıksal denetleme yapar. d) Hamle seçenekleri arasından en uygun seçimi yapar. e) Yaptığı seçimin sonuçları üzerinde yansıtma yapar.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Performans görevi, çalışma kâğıdı, öz değerlendirme formu ve dereceli puanlama anahtarı kullanılarak değerlendirilebilir."
+    },
+    {
+      "month": "EYLÜL",
+      "dateRange": "21.09.2026 - 25.09.2026",
+      "weekLabel": "2. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.1.1. STRATEJİ VE ZEKÂ OYUNLARININ MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.1.1",
+          "kazanim": "Strateji ve zekâ oyunlarında karşılaşılan duruma yönelik en uygun hamleye karar verebilme",
+          "resmiAciklama": "a) Karar vermesi gereken oyun senaryosunda ulaşmak istediği amacı belirler. b) Oyunun kuralları ve mevcut oyun durumu ile ilgili bilgi toplar. c) Edindiği bilgilere ve rakibin olası hamlelerine göre alternatif hamle seçenekleri oluşturur. ç) Hamle seçenekleri üzerinde mantıksal denetleme yapar. d) Hamle seçenekleri arasından en uygun seçimi yapar. e) Yaptığı seçimin sonuçları üzerinde yansıtma yapar.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EYLÜL",
+      "dateRange": "28.09.2026 - 02.10.2026",
+      "weekLabel": "3. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Okul Sütü Günü; Hayvanları Koruma Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.1. STRATEJİ VE ZEKÂ OYUNLARININ MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.1.1",
+          "kazanim": "Strateji ve zekâ oyunlarında karşılaşılan duruma yönelik en uygun hamleye karar verebilme",
+          "resmiAciklama": "a) Karar vermesi gereken oyun senaryosunda ulaşmak istediği amacı belirler. b) Oyunun kuralları ve mevcut oyun durumu ile ilgili bilgi toplar. c) Edindiği bilgilere ve rakibin olası hamlelerine göre alternatif hamle seçenekleri oluşturur. ç) Hamle seçenekleri üzerinde mantıksal denetleme yapar. d) Hamle seçenekleri arasından en uygun seçimi yapar. e) Yaptığı seçimin sonuçları üzerinde yansıtma yapar.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "05.10.2026 - 09.10.2026",
+      "weekLabel": "4. Hafta",
+      "hours": "2",
+      "aciklama": "Ahilik Kültürü Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.1. STRATEJİ VE ZEKÂ OYUNLARININ MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.1.2",
+          "kazanim": "Strateji ve zekâ oyunlarında olası durumları belirleyerek amaca yönelik matematiksel çözümler geliştirebilme",
+          "resmiAciklama": "a) Strateji ve zekâ oyunlarında amaca ulaşmak için olası durumlara dayalı bir çözüm stratejisi oluşturur. b) Oluşturduğu stratejiyi kullanarak oyundaki problem durumunu çözer. c) Oyundaki problem durumunun çözümünü kontrol eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "12.10.2026 - 16.10.2026",
+      "weekLabel": "5. Hafta",
+      "hours": "2",
+      "aciklama": "Ahilik Kültürü Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.1. STRATEJİ VE ZEKÂ OYUNLARININ MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.1.2",
+          "kazanim": "Strateji ve zekâ oyunlarında olası durumları belirleyerek amaca yönelik matematiksel çözümler geliştirebilme",
+          "resmiAciklama": "a) Strateji ve zekâ oyunlarında amaca ulaşmak için olası durumlara dayalı bir çözüm stratejisi oluşturur. b) Oluşturduğu stratejiyi kullanarak oyundaki problem durumunu çözer. c) Oyundaki problem durumunun çözümünü kontrol eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "19.10.2026 - 23.10.2026",
+      "weekLabel": "6. Hafta",
+      "hours": "2",
+      "aciklama": "Birleşmiş Milletler Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.1. STRATEJİ VE ZEKÂ OYUNLARININ MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.1.2",
+          "kazanim": "Strateji ve zekâ oyunlarında olası durumları belirleyerek amaca yönelik matematiksel çözümler geliştirebilme",
+          "resmiAciklama": "a) Strateji ve zekâ oyunlarında amaca ulaşmak için olası durumlara dayalı bir çözüm stratejisi oluşturur. b) Oluşturduğu stratejiyi kullanarak oyundaki problem durumunu çözer. c) Oyundaki problem durumunun çözümünü kontrol eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "26.10.2026 - 30.10.2026",
+      "weekLabel": "7. Hafta",
+      "hours": "2",
+      "aciklama": "Cumhuriyet Bayramı; Kızılay Haftası; Cumhuriyet Bayramı tatili (28 Ekim 13.00'ten itibaren)",
+      "isHoliday": false,
+      "unit": "MAT.U.1.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.2.1",
+          "kazanim": "Bilgisayar sistemlerinde kullanılan sayı sistemlerini ve bu sistemlerin mantıksal karşılıklarını çözümleyebilme",
+          "resmiAciklama": "a) Bilgisayar sistemlerinde matematiksel olarak kullanılan farklı sayı sistemlerine ilişkin parçaları belirler. b) Sayı sistemlerinin yapısal özellikleri ile bilgisayar sistemlerinde ve mantıksal devrelerdeki kullanımları arasındaki ilişkiyi belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "02.11.2026 - 06.11.2026",
+      "weekLabel": "8. Hafta",
+      "hours": "2",
+      "aciklama": "Kızılay Haftası; Lösemili Çocuklar Haftası; Organ Bağışı ve Nakli Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.2.1",
+          "kazanim": "Bilgisayar sistemlerinde kullanılan sayı sistemlerini ve bu sistemlerin mantıksal karşılıklarını çözümleyebilme",
+          "resmiAciklama": "a) Bilgisayar sistemlerinde matematiksel olarak kullanılan farklı sayı sistemlerine ilişkin parçaları belirler. b) Sayı sistemlerinin yapısal özellikleri ile bilgisayar sistemlerinde ve mantıksal devrelerdeki kullanımları arasındaki ilişkiyi belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "09.11.2026 - 13.11.2026",
+      "weekLabel": "9. Hafta",
+      "hours": "2",
+      "aciklama": "Organ Bağışı ve Nakli Haftası; Atatürk Haftası; Afet Eğitimi Hazırlık Günü; Dünya Diyabet Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.2.1",
+          "kazanim": "Bilgisayar sistemlerinde kullanılan sayı sistemlerini ve bu sistemlerin mantıksal karşılıklarını çözümleyebilme",
+          "resmiAciklama": "a) Bilgisayar sistemlerinde matematiksel olarak kullanılan farklı sayı sistemlerine ilişkin parçaları belirler. b) Sayı sistemlerinin yapısal özellikleri ile bilgisayar sistemlerinde ve mantıksal devrelerdeki kullanımları arasındaki ilişkiyi belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "16.11.2026 - 20.11.2026",
+      "weekLabel": "1. Ara Tatil",
+      "isHoliday": true
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "23.11.2026 - 27.11.2026",
+      "weekLabel": "10. Hafta",
+      "hours": "2",
+      "aciklama": "Ağız ve Diş Sağlığı Haftası; Öğretmenler Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.2.1",
+          "kazanim": "Bilgisayar sistemlerinde kullanılan sayı sistemlerini ve bu sistemlerin mantıksal karşılıklarını çözümleyebilme",
+          "resmiAciklama": "a) Bilgisayar sistemlerinde matematiksel olarak kullanılan farklı sayı sistemlerine ilişkin parçaları belirler. b) Sayı sistemlerinin yapısal özellikleri ile bilgisayar sistemlerinde ve mantıksal devrelerdeki kullanımları arasındaki ilişkiyi belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "30.11.2026 - 04.12.2026",
+      "weekLabel": "11. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Engelliler Günü; Türk Kadınına Seçme ve Seçilme Hakkının Verilişi",
+      "isHoliday": false,
+      "unit": "MAT.U.1.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.2.2",
+          "kazanim": "Sayı sistemleri ve matematiksel yöntemleri kullanarak farklı şifreleme algoritmalarına yönelik analojik akıl yürütebilme",
+          "resmiAciklama": "a) Farklı şifreleme algoritmalarını inceler. b) Şifreleme algoritmasında kullanılan sayı sistemleri ve matematiksel yöntemleri tespit eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "07.12.2026 - 11.12.2026",
+      "weekLabel": "12. Hafta",
+      "hours": "2",
+      "aciklama": "İnsan Hakları ve Demokrasi Haftası; Tutum, Yatırım ve Türk Malları Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.2.2",
+          "kazanim": "Sayı sistemleri ve matematiksel yöntemleri kullanarak farklı şifreleme algoritmalarına yönelik analojik akıl yürütebilme",
+          "resmiAciklama": "a) Farklı şifreleme algoritmalarını inceler. b) Şifreleme algoritmasında kullanılan sayı sistemleri ve matematiksel yöntemleri tespit eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "14.12.2026 - 18.12.2026",
+      "weekLabel": "13. Hafta",
+      "hours": "2",
+      "aciklama": "Tutum, Yatırım ve Türk Malları Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.2.2",
+          "kazanim": "Sayı sistemleri ve matematiksel yöntemleri kullanarak farklı şifreleme algoritmalarına yönelik analojik akıl yürütebilme",
+          "resmiAciklama": "a) Farklı şifreleme algoritmalarını inceler. b) Şifreleme algoritmasında kullanılan sayı sistemleri ve matematiksel yöntemleri tespit eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "21.12.2026 - 25.12.2026",
+      "weekLabel": "14. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.1.3. UZAYIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.3.1",
+          "kazanim": "Astronomide kullanılan uzaklık ölçü birimlerini kullanarak gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları hesaplamada matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Astronomide kullanılan uzaklık ölçü birimlerini (astronomik birim, ışık yılı, parsek) tanır. b) Gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları matematiksel temsillerle belirler. c) Gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları ifade etmede matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "28.12.2026 - 01.01.2027",
+      "weekLabel": "15. Hafta",
+      "hours": "2",
+      "aciklama": "Yılbaşı",
+      "isHoliday": false,
+      "unit": "MAT.U.1.3. UZAYIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.3.1",
+          "kazanim": "Astronomide kullanılan uzaklık ölçü birimlerini kullanarak gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları hesaplamada matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Astronomide kullanılan uzaklık ölçü birimlerini (astronomik birim, ışık yılı, parsek) tanır. b) Gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları matematiksel temsillerle belirler. c) Gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları ifade etmede matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "04.01.2027 - 08.01.2027",
+      "weekLabel": "16. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.1.3. UZAYIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.3.1",
+          "kazanim": "Astronomide kullanılan uzaklık ölçü birimlerini kullanarak gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları hesaplamada matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Astronomide kullanılan uzaklık ölçü birimlerini (astronomik birim, ışık yılı, parsek) tanır. b) Gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları matematiksel temsillerle belirler. c) Gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları ifade etmede matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "11.01.2027 - 15.01.2027",
+      "weekLabel": "17. Hafta",
+      "hours": "2",
+      "aciklama": "Enerji Tasarrufu Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.3. UZAYIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.3.2",
+          "kazanim": "Gezegenlerin çekim kuvvetine ilişkin hesaplamalarda matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Gezegenlerin çekim kuvvetini oluşturan yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri bağlamlarındaki anlamları ile tanır. b) Gezegenlerin çekim kuvveti, yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri matematiksel temsillerle belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "18.01.2027 - 22.01.2027",
+      "weekLabel": "18. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.1.3. UZAYIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.3.2",
+          "kazanim": "Gezegenlerin çekim kuvvetine ilişkin hesaplamalarda matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Gezegenlerin çekim kuvvetini oluşturan yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri bağlamlarındaki anlamları ile tanır. b) Gezegenlerin çekim kuvveti, yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri matematiksel temsillerle belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "OCAK/ŞUBAT",
+      "dateRange": "25.01.2027 - 05.02.2027",
+      "weekLabel": "Yarıyıl Tatili",
+      "isHoliday": true
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "08.02.2027 - 12.02.2027",
+      "weekLabel": "19. Hafta",
+      "hours": "2",
+      "aciklama": "Ramazan başlangıcı",
+      "isHoliday": false,
+      "unit": "MAT.U.1.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.4.1",
+          "kazanim": "Bütçe dengesi ve tasarruf planlamasında matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin verileri, matematiksel temsil bağlamındaki anlamıyla tanır. b) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin uygun matematiksel temsilleri belirler. c) Bütçe dengesi ve tasarruf planlamasında matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "15.02.2027 - 19.02.2027",
+      "weekLabel": "20. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.1.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.4.1",
+          "kazanim": "Bütçe dengesi ve tasarruf planlamasında matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin verileri, matematiksel temsil bağlamındaki anlamıyla tanır. b) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin uygun matematiksel temsilleri belirler. c) Bütçe dengesi ve tasarruf planlamasında matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "22.02.2027 - 26.02.2027",
+      "weekLabel": "21. Hafta",
+      "hours": "2",
+      "aciklama": "Vergi Haftası; Sivil Savunma Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.4.1",
+          "kazanim": "Bütçe dengesi ve tasarruf planlamasında matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin verileri, matematiksel temsil bağlamındaki anlamıyla tanır. b) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin uygun matematiksel temsilleri belirler. c) Bütçe dengesi ve tasarruf planlamasında matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MART",
+      "dateRange": "01.03.2027 - 05.03.2027",
+      "weekLabel": "22. Hafta",
+      "hours": "2",
+      "aciklama": "Yeşilay Haftası; Girişimcilik Haftası; Kadir Gecesi",
+      "isHoliday": false,
+      "unit": "MAT.U.1.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.4.1",
+          "kazanim": "Bütçe dengesi ve tasarruf planlamasında matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin verileri, matematiksel temsil bağlamındaki anlamıyla tanır. b) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin uygun matematiksel temsilleri belirler. c) Bütçe dengesi ve tasarruf planlamasında matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MART",
+      "dateRange": "08.03.2027 - 12.03.2027",
+      "weekLabel": "2. Ara Tatil (Ramazan Bayramı)",
+      "isHoliday": true
+    },
+    {
+      "month": "MART",
+      "dateRange": "15.03.2027 - 19.03.2027",
+      "weekLabel": "23. Hafta",
+      "hours": "2",
+      "aciklama": "Tüketiciyi Koruma Haftası; Şehitler Günü; Yaşlılar Haftası; Türk Dünyası ve Toplulukları Haftası; Orman Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.4.2",
+          "kazanim": "Yatırım karar süreçlerini matematiksel olarak değerlendirerek uygun yatırım kararları verebilme",
+          "resmiAciklama": "a) Yatırım karar süreçlerine ilişkin amacını belirler. b) Yatırım kararı ile ilgili bilgi toplar. c) Yatırım sürecine yönelik olası alternatif seçenekler oluşturur. ç) Alternatif yatırım seçenekleri üzerinde matematiksel verilerden yararlanarak mantıksal değerlendirme yapar.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MART",
+      "dateRange": "22.03.2027 - 26.03.2027",
+      "weekLabel": "24. Hafta",
+      "hours": "2",
+      "aciklama": "Yaşlılar Haftası; Orman Haftası; Dünya Tiyatrolar Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.4.2",
+          "kazanim": "Yatırım karar süreçlerini matematiksel olarak değerlendirerek uygun yatırım kararları verebilme",
+          "resmiAciklama": "a) Yatırım karar süreçlerine ilişkin amacını belirler. b) Yatırım kararı ile ilgili bilgi toplar. c) Yatırım sürecine yönelik olası alternatif seçenekler oluşturur. ç) Alternatif yatırım seçenekleri üzerinde matematiksel verilerden yararlanarak mantıksal değerlendirme yapar.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MART",
+      "dateRange": "29.03.2027 - 02.04.2027",
+      "weekLabel": "25. Hafta",
+      "hours": "2",
+      "aciklama": "Kütüphaneler Haftası; Kanser Haftası; Dünya Otizm Farkındalık Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.4.2",
+          "kazanim": "Yatırım karar süreçlerini matematiksel olarak değerlendirerek uygun yatırım kararları verebilme",
+          "resmiAciklama": "a) Yatırım karar süreçlerine ilişkin amacını belirler. b) Yatırım kararı ile ilgili bilgi toplar. c) Yatırım sürecine yönelik olası alternatif seçenekler oluşturur. ç) Alternatif yatırım seçenekleri üzerinde matematiksel verilerden yararlanarak mantıksal değerlendirme yapar.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "05.04.2027 - 09.04.2027",
+      "weekLabel": "26. Hafta",
+      "hours": "2",
+      "aciklama": "Kanser Haftası; Kişisel Verileri Koruma Günü; Dünya Sağlık Günü / Dünya Sağlık Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.4.2",
+          "kazanim": "Yatırım karar süreçlerini matematiksel olarak değerlendirerek uygun yatırım kararları verebilme",
+          "resmiAciklama": "a) Yatırım karar süreçlerine ilişkin amacını belirler. b) Yatırım kararı ile ilgili bilgi toplar. c) Yatırım sürecine yönelik olası alternatif seçenekler oluşturur. ç) Alternatif yatırım seçenekleri üzerinde matematiksel verilerden yararlanarak mantıksal değerlendirme yapar.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "12.04.2027 - 16.04.2027",
+      "weekLabel": "27. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Sağlık Günü / Dünya Sağlık Haftası; Turizm Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.5.1",
+          "kazanim": "Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan geometrik şekilleri çözümleyebilme",
+          "resmiAciklama": "a) Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan süslemelerde kullanılan geometrik şekilleri belirler. b) Türk el sanatları motifleri ve geleneksel mimari eserlerde kullanılan geometrik şekillerin matematiksel ilişkilerini (oran, yansıma, öteleme, dönme vb.) belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "19.04.2027 - 23.04.2027",
+      "weekLabel": "28. Hafta",
+      "hours": "2",
+      "aciklama": "Turizm Haftası; Ulusal Egemenlik ve Çocuk Bayramı",
+      "isHoliday": false,
+      "unit": "MAT.U.1.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.5.1",
+          "kazanim": "Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan geometrik şekilleri çözümleyebilme",
+          "resmiAciklama": "a) Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan süslemelerde kullanılan geometrik şekilleri belirler. b) Türk el sanatları motifleri ve geleneksel mimari eserlerde kullanılan geometrik şekillerin matematiksel ilişkilerini (oran, yansıma, öteleme, dönme vb.) belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "26.04.2027 - 30.04.2027",
+      "weekLabel": "29. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Fikrî Mülkiyet Günü; Kût'ül Amâre Zaferi; Emek ve Dayanışma Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.5.1",
+          "kazanim": "Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan geometrik şekilleri çözümleyebilme",
+          "resmiAciklama": "a) Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan süslemelerde kullanılan geometrik şekilleri belirler. b) Türk el sanatları motifleri ve geleneksel mimari eserlerde kullanılan geometrik şekillerin matematiksel ilişkilerini (oran, yansıma, öteleme, dönme vb.) belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "03.05.2027 - 07.05.2027",
+      "weekLabel": "30. Hafta",
+      "hours": "2",
+      "aciklama": "Bilişim Haftası; Trafik ve İlkyardım Haftası; İş Sağlığı ve Güvenliği Haftası; Anneler Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.5.1",
+          "kazanim": "Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan geometrik şekilleri çözümleyebilme",
+          "resmiAciklama": "a) Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan süslemelerde kullanılan geometrik şekilleri belirler. b) Türk el sanatları motifleri ve geleneksel mimari eserlerde kullanılan geometrik şekillerin matematiksel ilişkilerini (oran, yansıma, öteleme, dönme vb.) belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "10.05.2027 - 14.05.2027",
+      "weekLabel": "31. Hafta",
+      "hours": "2",
+      "aciklama": "İş Sağlığı ve Güvenliği Haftası; Vakıflar Haftası; Engelliler Haftası; Kurban Bayramı",
+      "isHoliday": false,
+      "unit": "MAT.U.1.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.5.2",
+          "kazanim": "Geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentezleyebilme",
+          "resmiAciklama": "a) Bir süslemeyi oluşturabilecek farklı geometrik şekilleri belirler. b) Farklı geometrik şekillerden bir süsleme oluşturabilmek için şekiller arasında matematiksel ilişkiler (yansıma, öteleme, dönme vb.) kurar. c) Belirlediği şekilleri birleştirerek özgün bir süsleme oluşturur.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "17.05.2027 - 21.05.2027",
+      "weekLabel": "32. Hafta",
+      "hours": "0",
+      "aciklama": "Müzeler Haftası; Atatürk'ü Anma, Gençlik ve Spor Bayramı; Kurban Bayramı",
+      "isHoliday": false,
+      "unit": "TAKVİM / TELAFİ-ESNEKLİK",
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "Yeni öğrenme çıktısı planlanmamıştır.",
+          "resmiAciklama": "17-19 Mayıs 2027 Kurban Bayramı ve 19 Mayıs resmî tatilinin çakışması nedeniyle ders programına göre telafi, tekrar, ölçme-değerlendirme veya zümre uyarlaması yapılır."
+        }
+      ],
+      "olcme": "Ders çizelgesine göre telafi / tekrar / öğrenci ürünü geri bildirimi"
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "24.05.2027 - 28.05.2027",
+      "weekLabel": "33. Hafta",
+      "hours": "2",
+      "aciklama": "Müzeler Haftası; Etik Günü; İstanbul'un Fethi",
+      "isHoliday": false,
+      "unit": "MAT.U.1.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.5.2",
+          "kazanim": "Geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentezleyebilme",
+          "resmiAciklama": "a) Bir süslemeyi oluşturabilecek farklı geometrik şekilleri belirler. b) Farklı geometrik şekillerden bir süsleme oluşturabilmek için şekiller arasında matematiksel ilişkiler (yansıma, öteleme, dönme vb.) kurar. c) Belirlediği şekilleri birleştirerek özgün bir süsleme oluşturur.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "31.05.2027 - 04.06.2027",
+      "weekLabel": "34. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.1.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.5.2",
+          "kazanim": "Geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentezleyebilme",
+          "resmiAciklama": "a) Bir süslemeyi oluşturabilecek farklı geometrik şekilleri belirler. b) Farklı geometrik şekillerden bir süsleme oluşturabilmek için şekiller arasında matematiksel ilişkiler (yansıma, öteleme, dönme vb.) kurar. c) Belirlediği şekilleri birleştirerek özgün bir süsleme oluşturur.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "07.06.2027 - 11.06.2027",
+      "weekLabel": "35. Hafta",
+      "hours": "2",
+      "aciklama": "Çevre Koruma Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.1.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.5.2",
+          "kazanim": "Geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentezleyebilme",
+          "resmiAciklama": "a) Bir süslemeyi oluşturabilecek farklı geometrik şekilleri belirler. b) Farklı geometrik şekillerden bir süsleme oluşturabilmek için şekiller arasında matematiksel ilişkiler (yansıma, öteleme, dönme vb.) kurar. c) Belirlediği şekilleri birleştirerek özgün bir süsleme oluşturur.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "14.06.2027 - 18.06.2027",
+      "weekLabel": "36. Hafta",
+      "hours": "2",
+      "aciklama": "Babalar Günü; Aşure Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.1.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.1.5.2",
+          "kazanim": "Geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentezleyebilme",
+          "resmiAciklama": "a) Bir süslemeyi oluşturabilecek farklı geometrik şekilleri belirler. b) Farklı geometrik şekillerden bir süsleme oluşturabilmek için şekiller arasında matematiksel ilişkiler (yansıma, öteleme, dönme vb.) kurar. c) Belirlediği şekilleri birleştirerek özgün bir süsleme oluşturur.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "21.06.2027 - 25.06.2027",
+      "weekLabel": "37. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "OKUL TEMELLİ PLANLAMA",
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "Okul temelli planlama",
+          "resmiAciklama": "Zümre öğretmenler kurulunca planlanır: okul dışı öğrenme etkinlikleri, araştırma ve gözlem, sosyal etkinlikler, proje/yerel çalışmalar; ayrıca öğrencilerin meslek seçimi ve kariyer planlaması için mesleki rehberlik ve kariyer danışmanlığı bu süre içinde yürütülür."
+        }
+      ],
+      "olcme": "Ürün/portfolyo, gözlem, öz değerlendirme"
+    }
+  ]
+}

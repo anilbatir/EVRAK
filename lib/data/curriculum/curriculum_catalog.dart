@@ -14,16 +14,23 @@ class CurriculumCombo {
     required this.assetPath,
   });
 
-  String get title => '$grade. Sınıf $subject';
+  String get title => grade.contains('-') ? '$grade. Sınıflar $subject' : '$grade. Sınıf $subject';
 
   /// Stable id for the generated Yıllık Plan DocumentTemplate, e.g. PLN-9-BIY.
+  /// Subjects that differ only by a trailing Roman numeral (e.g. "Matematik
+  /// Uygulamaları I" / "II") would otherwise collide on the same 3-letter
+  /// code, so that numeral is kept as an explicit suffix.
   String get yillikPlanTemplateId {
-    final stripped = subject
+    final words = subject.trim().split(RegExp(r'\s+'));
+    final firstWordLetters = words.first
         .toUpperCase()
         .replaceAll('İ', 'I')
         .replaceAll(RegExp('[^A-Z]'), '');
-    final subjectCode = stripped.substring(0, stripped.length >= 3 ? 3 : stripped.length);
-    return 'PLN-$grade-$subjectCode';
+    final code = firstWordLetters.substring(0, firstWordLetters.length >= 3 ? 3 : firstWordLetters.length);
+    final lastWord = words.last;
+    final hasRomanSuffix = words.length > 1 && RegExp(r'^[IVX]+$').hasMatch(lastWord);
+    final suffix = hasRomanSuffix ? '-$lastWord' : '';
+    return 'PLN-$grade-$code$suffix';
   }
 }
 
@@ -32,4 +39,6 @@ const curriculumCatalog = <CurriculumCombo>[
   CurriculumCombo(grade: '9', subject: 'Biyoloji', assetPath: 'assets/plans/9-biyoloji.json'),
   CurriculumCombo(grade: '9', subject: 'Din Kültürü ve Ahlak Bilgisi', assetPath: 'assets/plans/9-din-kulturu.json'),
   CurriculumCombo(grade: '4', subject: 'Türkçe', assetPath: 'assets/plans/4-turkce.json'),
+  CurriculumCombo(grade: '9-11', subject: 'Matematik Uygulamaları I', assetPath: 'assets/plans/9-11-matematik-uygulamalari-1.json'),
+  CurriculumCombo(grade: '9-11', subject: 'Matematik Uygulamaları II', assetPath: 'assets/plans/9-11-matematik-uygulamalari-2.json'),
 ];

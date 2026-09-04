@@ -88,6 +88,43 @@ void main() {
     expect(result.text.contains('DKAB.9.6.1'), isFalse); // only 5 üniteler exist for 9. Sınıf
   });
 
+  test('Matematik Uygulamaları I ve II ayrı, çakışmayan kimliklerle üretilir', () async {
+    final uyg1 = curriculumCatalog.firstWhere((c) => c.subject == 'Matematik Uygulamaları I');
+    final uyg2 = curriculumCatalog.firstWhere((c) => c.subject == 'Matematik Uygulamaları II');
+
+    // Regression: both used to collide on the same 3-letter template id.
+    expect(uyg1.yillikPlanTemplateId, isNot(equals(uyg2.yillikPlanTemplateId)));
+    expect(uyg1.yillikPlanTemplateId, 'PLN-9-11-MAT-I');
+    expect(uyg2.yillikPlanTemplateId, 'PLN-9-11-MAT-II');
+    expect(uyg1.title, contains('Sınıflar'));
+
+    for (final combo in [uyg1, uyg2]) {
+      final plan = await WeeklyPlan.loadAsset(combo.assetPath);
+      final template = buildYillikPlanTemplate(id: combo.yillikPlanTemplateId, plan: plan);
+      final data = <String, String>{
+        for (final f in [...template.requiredFields, ...template.optionalFields]) f: 'x',
+      };
+      final result = TemplateEngine.render(template, data);
+      expect(result.isComplete, isTrue);
+      expect(result.text.contains('{{'), isFalse);
+      for (var i = 1; i <= 37; i++) {
+        expect(result.text.contains('$i. Hafta'), isTrue, reason: '${combo.subject}: $i. Hafta metinde yok');
+      }
+      expect(result.text.contains('OKUL TEMELLİ PLANLAMA'), isTrue);
+    }
+
+    final plan1 = await WeeklyPlan.loadAsset(uyg1.assetPath);
+    final template1 = buildYillikPlanTemplate(id: uyg1.yillikPlanTemplateId, plan: plan1);
+    final data1 = <String, String>{
+      for (final f in [...template1.requiredFields, ...template1.optionalFields]) f: 'x',
+    };
+    final text1 = TemplateEngine.render(template1, data1).text;
+    // All 5 temas of Uygulamaları I must appear.
+    for (final kod in ['MAT.U.1.1.1', 'MAT.U.1.2.1', 'MAT.U.1.3.1', 'MAT.U.1.4.1', 'MAT.U.1.5.2']) {
+      expect(text1.contains(kod), isTrue, reason: '$kod eksik');
+    }
+  });
+
   test('4. Sınıf Türkçe: beceri alanlarına (Dinleme/Konuşma/Okuma/Yazma) göre gruplanır', () async {
     final turkce = curriculumCatalog.firstWhere((c) => c.subject == 'Türkçe');
     final plan = await WeeklyPlan.loadAsset(turkce.assetPath);

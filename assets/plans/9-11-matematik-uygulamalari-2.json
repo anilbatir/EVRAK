@@ -1,0 +1,657 @@
+{
+  "grade": "9-11",
+  "subject": "Matematik Uygulamaları II",
+  "academicYear": "2026-2027",
+  "source": "meb_ogretim_programi",
+  "weeklyHours": "2",
+  "weeks": [
+    {
+      "month": "EYLÜL",
+      "dateRange": "14.09.2026 - 18.09.2026",
+      "weekLabel": "1. Hafta",
+      "hours": "2",
+      "aciklama": "İlköğretim Haftası; Öğrenciler Günü; Gaziler Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.1. SAĞLIKLI YAŞAMIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.1.1",
+          "kazanim": "Sağlıklı yaşam bileşenlerini ilişkilendirmede matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Beslenme alışkanlıkları ve fiziksel aktivitenin bileşenlerini matematiksel temsil bağlamındaki anlamı ile tanır. b) Besinlerin kalori, glisemik yük değerini ve fiziksel aktivitelerde metabolizma hızı (ME), PAL (fiziksel aktivite hızı), BMH değerlerinin (bazal metabolizma hızı) kullanılmasında uygun matematiksel temsilleri belirler. c) Yaşam seçimlerine bağlı olarak beslenme ve fiziksel aktivite bileşenlerinin matematiksel temsillerini oluşturur.",
+          "saat": "2"
+        }
+      ],
+      "olcme": "Performans görevi, çalışma kâğıdı, öz değerlendirme formu ve dereceli puanlama anahtarı kullanılarak değerlendirilebilir."
+    },
+    {
+      "month": "EYLÜL",
+      "dateRange": "21.09.2026 - 25.09.2026",
+      "weekLabel": "2. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.2.1. SAĞLIKLI YAŞAMIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.1.1",
+          "kazanim": "Sağlıklı yaşam bileşenlerini ilişkilendirmede matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Beslenme alışkanlıkları ve fiziksel aktivitenin bileşenlerini matematiksel temsil bağlamındaki anlamı ile tanır. b) Besinlerin kalori, glisemik yük değerini ve fiziksel aktivitelerde metabolizma hızı (ME), PAL (fiziksel aktivite hızı), BMH değerlerinin (bazal metabolizma hızı) kullanılmasında uygun matematiksel temsilleri belirler. c) Yaşam seçimlerine bağlı olarak beslenme ve fiziksel aktivite bileşenlerinin matematiksel temsillerini oluşturur.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EYLÜL",
+      "dateRange": "28.09.2026 - 02.10.2026",
+      "weekLabel": "3. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Okul Sütü Günü; Hayvanları Koruma Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.1. SAĞLIKLI YAŞAMIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.1.1",
+          "kazanim": "Sağlıklı yaşam bileşenlerini ilişkilendirmede matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Beslenme alışkanlıkları ve fiziksel aktivitenin bileşenlerini matematiksel temsil bağlamındaki anlamı ile tanır. b) Besinlerin kalori, glisemik yük değerini ve fiziksel aktivitelerde metabolizma hızı (ME), PAL (fiziksel aktivite hızı), BMH değerlerinin (bazal metabolizma hızı) kullanılmasında uygun matematiksel temsilleri belirler. c) Yaşam seçimlerine bağlı olarak beslenme ve fiziksel aktivite bileşenlerinin matematiksel temsillerini oluşturur.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "05.10.2026 - 09.10.2026",
+      "weekLabel": "4. Hafta",
+      "hours": "2",
+      "aciklama": "Ahilik Kültürü Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.1. SAĞLIKLI YAŞAMIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.1.2",
+          "kazanim": "Yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçimleri konusunda matematiksel temsillerden yararlanarak karar verebilme",
+          "resmiAciklama": "a) Yaşam alışkanlıklarına uygun sağlıklı yaşam seçimleri için amacını belirler. b) Hangi besin türünden ne kadar beslenebileceği veya fiziksel aktivitenin hangi oranda olması gerekliliği üzerine bilgi toplar.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "12.10.2026 - 16.10.2026",
+      "weekLabel": "5. Hafta",
+      "hours": "2",
+      "aciklama": "Ahilik Kültürü Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.1. SAĞLIKLI YAŞAMIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.1.2",
+          "kazanim": "Yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçimleri konusunda matematiksel temsillerden yararlanarak karar verebilme",
+          "resmiAciklama": "a) Yaşam alışkanlıklarına uygun sağlıklı yaşam seçimleri için amacını belirler. b) Hangi besin türünden ne kadar beslenebileceği veya fiziksel aktivitenin hangi oranda olması gerekliliği üzerine bilgi toplar.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "19.10.2026 - 23.10.2026",
+      "weekLabel": "6. Hafta",
+      "hours": "2",
+      "aciklama": "Birleşmiş Milletler Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.1. SAĞLIKLI YAŞAMIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.1.2",
+          "kazanim": "Yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçimleri konusunda matematiksel temsillerden yararlanarak karar verebilme",
+          "resmiAciklama": "a) Yaşam alışkanlıklarına uygun sağlıklı yaşam seçimleri için amacını belirler. b) Hangi besin türünden ne kadar beslenebileceği veya fiziksel aktivitenin hangi oranda olması gerekliliği üzerine bilgi toplar.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "EKİM",
+      "dateRange": "26.10.2026 - 30.10.2026",
+      "weekLabel": "7. Hafta",
+      "hours": "2",
+      "aciklama": "Cumhuriyet Bayramı; Kızılay Haftası; Cumhuriyet Bayramı tatili (28 Ekim 13.00'ten itibaren)",
+      "isHoliday": false,
+      "unit": "MAT.U.2.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.2.1",
+          "kazanim": "Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme",
+          "resmiAciklama": "a) Çizgeyi oluşturan parçaları belirler. b) Çizgeyi oluşturan parçalar arasındaki ilişkileri belirler. c) Çizge teoremini oluşturan kavramları bağlamdan kopmadan matematiksel temsillerle ifade eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "02.11.2026 - 06.11.2026",
+      "weekLabel": "8. Hafta",
+      "hours": "2",
+      "aciklama": "Kızılay Haftası; Lösemili Çocuklar Haftası; Organ Bağışı ve Nakli Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.2.1",
+          "kazanim": "Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme",
+          "resmiAciklama": "a) Çizgeyi oluşturan parçaları belirler. b) Çizgeyi oluşturan parçalar arasındaki ilişkileri belirler. c) Çizge teoremini oluşturan kavramları bağlamdan kopmadan matematiksel temsillerle ifade eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "09.11.2026 - 13.11.2026",
+      "weekLabel": "9. Hafta",
+      "hours": "2",
+      "aciklama": "Organ Bağışı ve Nakli Haftası; Atatürk Haftası; Afet Eğitimi Hazırlık Günü; Dünya Diyabet Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.2.1",
+          "kazanim": "Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme",
+          "resmiAciklama": "a) Çizgeyi oluşturan parçaları belirler. b) Çizgeyi oluşturan parçalar arasındaki ilişkileri belirler. c) Çizge teoremini oluşturan kavramları bağlamdan kopmadan matematiksel temsillerle ifade eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "16.11.2026 - 20.11.2026",
+      "weekLabel": "1. Ara Tatil",
+      "isHoliday": true
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "23.11.2026 - 27.11.2026",
+      "weekLabel": "10. Hafta",
+      "hours": "2",
+      "aciklama": "Ağız ve Diş Sağlığı Haftası; Öğretmenler Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.2.1",
+          "kazanim": "Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme",
+          "resmiAciklama": "a) Çizgeyi oluşturan parçaları belirler. b) Çizgeyi oluşturan parçalar arasındaki ilişkileri belirler. c) Çizge teoremini oluşturan kavramları bağlamdan kopmadan matematiksel temsillerle ifade eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "30.11.2026 - 04.12.2026",
+      "weekLabel": "11. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Engelliler Günü; Türk Kadınına Seçme ve Seçilme Hakkının Verilişi",
+      "isHoliday": false,
+      "unit": "MAT.U.2.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.2.1",
+          "kazanim": "Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme",
+          "resmiAciklama": "a) Çizgeyi oluşturan parçaları belirler. b) Çizgeyi oluşturan parçalar arasındaki ilişkileri belirler. c) Çizge teoremini oluşturan kavramları bağlamdan kopmadan matematiksel temsillerle ifade eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "07.12.2026 - 11.12.2026",
+      "weekLabel": "12. Hafta",
+      "hours": "2",
+      "aciklama": "İnsan Hakları ve Demokrasi Haftası; Tutum, Yatırım ve Türk Malları Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.2. BİLİŞİMİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.2.1",
+          "kazanim": "Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme",
+          "resmiAciklama": "a) Çizgeyi oluşturan parçaları belirler. b) Çizgeyi oluşturan parçalar arasındaki ilişkileri belirler. c) Çizge teoremini oluşturan kavramları bağlamdan kopmadan matematiksel temsillerle ifade eder.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "14.12.2026 - 18.12.2026",
+      "weekLabel": "13. Hafta",
+      "hours": "2",
+      "aciklama": "Tutum, Yatırım ve Türk Malları Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.3. ROTA BELİRLEMENİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.3.1",
+          "kazanim": "Bir seyahat rotası planlama sürecini çözümleyebilme",
+          "resmiAciklama": "a) Bir seyahat rotası planında kullanılan temel bileşenleri (yön, açı, mesafe vb.) belirler. b) Seyahat rotasını oluşturan bileşenler arasındaki ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "21.12.2026 - 25.12.2026",
+      "weekLabel": "14. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.2.3. ROTA BELİRLEMENİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.3.1",
+          "kazanim": "Bir seyahat rotası planlama sürecini çözümleyebilme",
+          "resmiAciklama": "a) Bir seyahat rotası planında kullanılan temel bileşenleri (yön, açı, mesafe vb.) belirler. b) Seyahat rotasını oluşturan bileşenler arasındaki ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ARALIK",
+      "dateRange": "28.12.2026 - 01.01.2027",
+      "weekLabel": "15. Hafta",
+      "hours": "2",
+      "aciklama": "Yılbaşı",
+      "isHoliday": false,
+      "unit": "MAT.U.2.3. ROTA BELİRLEMENİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.3.1",
+          "kazanim": "Bir seyahat rotası planlama sürecini çözümleyebilme",
+          "resmiAciklama": "a) Bir seyahat rotası planında kullanılan temel bileşenleri (yön, açı, mesafe vb.) belirler. b) Seyahat rotasını oluşturan bileşenler arasındaki ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "04.01.2027 - 08.01.2027",
+      "weekLabel": "16. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.2.3. ROTA BELİRLEMENİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.3.2",
+          "kazanim": "Gerçek hayat bağlamında karşılaşılan problem durumlarında rota belirleyebilmek için matematik temsillerden yararlanabilme",
+          "resmiAciklama": "a) Rota belirlemede kullanılan yön, konum ve açı bilgilerinin matematiksel temsillerini (dik koordinat sistemi, doğru, açı, dik üçgen, trigonometrik oranlar vb.) bağlam içerisindeki anlamları ile tanır. b) Rota belirleme problemlerinde kullanılabilecek matematiksel temsilleri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "11.01.2027 - 15.01.2027",
+      "weekLabel": "17. Hafta",
+      "hours": "2",
+      "aciklama": "Enerji Tasarrufu Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.3. ROTA BELİRLEMENİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.3.2",
+          "kazanim": "Gerçek hayat bağlamında karşılaşılan problem durumlarında rota belirleyebilmek için matematik temsillerden yararlanabilme",
+          "resmiAciklama": "a) Rota belirlemede kullanılan yön, konum ve açı bilgilerinin matematiksel temsillerini (dik koordinat sistemi, doğru, açı, dik üçgen, trigonometrik oranlar vb.) bağlam içerisindeki anlamları ile tanır. b) Rota belirleme problemlerinde kullanılabilecek matematiksel temsilleri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "OCAK",
+      "dateRange": "18.01.2027 - 22.01.2027",
+      "weekLabel": "18. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.2.3. ROTA BELİRLEMENİN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.3.2",
+          "kazanim": "Gerçek hayat bağlamında karşılaşılan problem durumlarında rota belirleyebilmek için matematik temsillerden yararlanabilme",
+          "resmiAciklama": "a) Rota belirlemede kullanılan yön, konum ve açı bilgilerinin matematiksel temsillerini (dik koordinat sistemi, doğru, açı, dik üçgen, trigonometrik oranlar vb.) bağlam içerisindeki anlamları ile tanır. b) Rota belirleme problemlerinde kullanılabilecek matematiksel temsilleri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "OCAK/ŞUBAT",
+      "dateRange": "25.01.2027 - 05.02.2027",
+      "weekLabel": "Yarıyıl Tatili",
+      "isHoliday": true
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "08.02.2027 - 12.02.2027",
+      "weekLabel": "19. Hafta",
+      "hours": "2",
+      "aciklama": "Ramazan başlangıcı",
+      "isHoliday": false,
+      "unit": "MAT.U.2.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.4.1",
+          "kazanim": "Türlerine göre sigorta poliçelerinin kapsamlarını çözümleyebilme",
+          "resmiAciklama": "a) Farklı sigorta türlerine (sağlık, trafik, deprem, seyahat ve tarım) göre sigorta poliçelerinde yer alan kapsamları belirler. b) Bir sigorta poliçesinde yer alan kapsamlar arasındaki ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "15.02.2027 - 19.02.2027",
+      "weekLabel": "20. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.2.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.4.1",
+          "kazanim": "Türlerine göre sigorta poliçelerinin kapsamlarını çözümleyebilme",
+          "resmiAciklama": "a) Farklı sigorta türlerine (sağlık, trafik, deprem, seyahat ve tarım) göre sigorta poliçelerinde yer alan kapsamları belirler. b) Bir sigorta poliçesinde yer alan kapsamlar arasındaki ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "ŞUBAT",
+      "dateRange": "22.02.2027 - 26.02.2027",
+      "weekLabel": "21. Hafta",
+      "hours": "2",
+      "aciklama": "Vergi Haftası; Sivil Savunma Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.4.1",
+          "kazanim": "Türlerine göre sigorta poliçelerinin kapsamlarını çözümleyebilme",
+          "resmiAciklama": "a) Farklı sigorta türlerine (sağlık, trafik, deprem, seyahat ve tarım) göre sigorta poliçelerinde yer alan kapsamları belirler. b) Bir sigorta poliçesinde yer alan kapsamlar arasındaki ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MART",
+      "dateRange": "01.03.2027 - 05.03.2027",
+      "weekLabel": "22. Hafta",
+      "hours": "2",
+      "aciklama": "Yeşilay Haftası; Girişimcilik Haftası; Kadir Gecesi",
+      "isHoliday": false,
+      "unit": "MAT.U.2.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.4.2",
+          "kazanim": "Sigorta poliçesi prim hesabında matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Sigorta poliçesi prim hesabında yer alan kapsamların (risk primi, yük primi, teminat, süre vb.) matematiksel temsillerini bağlamlarındaki anlamları ile tanır. b) Farklı sigorta türlerine ait poliçe prim hesaplamasında kullanılacak uygun matematiksel temsilleri belirler. c) Farklı sigorta türlerinin poliçe prim hesaplamasında matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MART",
+      "dateRange": "08.03.2027 - 12.03.2027",
+      "weekLabel": "2. Ara Tatil (Ramazan Bayramı)",
+      "isHoliday": true
+    },
+    {
+      "month": "MART",
+      "dateRange": "15.03.2027 - 19.03.2027",
+      "weekLabel": "23. Hafta",
+      "hours": "2",
+      "aciklama": "Tüketiciyi Koruma Haftası; Şehitler Günü; Yaşlılar Haftası; Türk Dünyası ve Toplulukları Haftası; Orman Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.4.2",
+          "kazanim": "Sigorta poliçesi prim hesabında matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Sigorta poliçesi prim hesabında yer alan kapsamların (risk primi, yük primi, teminat, süre vb.) matematiksel temsillerini bağlamlarındaki anlamları ile tanır. b) Farklı sigorta türlerine ait poliçe prim hesaplamasında kullanılacak uygun matematiksel temsilleri belirler. c) Farklı sigorta türlerinin poliçe prim hesaplamasında matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MART",
+      "dateRange": "22.03.2027 - 26.03.2027",
+      "weekLabel": "24. Hafta",
+      "hours": "2",
+      "aciklama": "Yaşlılar Haftası; Orman Haftası; Dünya Tiyatrolar Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.4.2",
+          "kazanim": "Sigorta poliçesi prim hesabında matematiksel temsillerden yararlanabilme",
+          "resmiAciklama": "a) Sigorta poliçesi prim hesabında yer alan kapsamların (risk primi, yük primi, teminat, süre vb.) matematiksel temsillerini bağlamlarındaki anlamları ile tanır. b) Farklı sigorta türlerine ait poliçe prim hesaplamasında kullanılacak uygun matematiksel temsilleri belirler. c) Farklı sigorta türlerinin poliçe prim hesaplamasında matematiksel temsilleri kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MART",
+      "dateRange": "29.03.2027 - 02.04.2027",
+      "weekLabel": "25. Hafta",
+      "hours": "2",
+      "aciklama": "Kütüphaneler Haftası; Kanser Haftası; Dünya Otizm Farkındalık Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.4.3",
+          "kazanim": "Aynı tür sigorta poliçelerini kapsamlarına göre karşılaştırabilme",
+          "resmiAciklama": "a) Aynı tür sigorta poliçelerine ait teminat kapsamı, prim tutarları, ödeme seçenekleri, ek hizmetler gibi özellikleri belirler. b) Belirlenen özelliklere göre poliçeler arasındaki benzerlikleri listeler. c) Belirlenen özelliklere göre poliçeler arasındaki farklılıkları listeler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "05.04.2027 - 09.04.2027",
+      "weekLabel": "26. Hafta",
+      "hours": "2",
+      "aciklama": "Kanser Haftası; Kişisel Verileri Koruma Günü; Dünya Sağlık Günü / Dünya Sağlık Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.4. FİNANSIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.4.3",
+          "kazanim": "Aynı tür sigorta poliçelerini kapsamlarına göre karşılaştırabilme",
+          "resmiAciklama": "a) Aynı tür sigorta poliçelerine ait teminat kapsamı, prim tutarları, ödeme seçenekleri, ek hizmetler gibi özellikleri belirler. b) Belirlenen özelliklere göre poliçeler arasındaki benzerlikleri listeler. c) Belirlenen özelliklere göre poliçeler arasındaki farklılıkları listeler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "12.04.2027 - 16.04.2027",
+      "weekLabel": "27. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Sağlık Günü / Dünya Sağlık Haftası; Turizm Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.5.1",
+          "kazanim": "Doğadaki örüntüleri ve sanatsal tasarımlardaki altın oranı ifade etmede Fibonacci sayılarından ve altın orandan yararlanabilme",
+          "resmiAciklama": "a) Doğadaki örüntüleri ve sanatsal tasarımlardaki altın oranı ifade etmede Fibonacci sayılarını ve altın oranı bağlamlarındaki anlamı ile tanır. b) Fibonacci sayıları ve altın oranın matematiksel temsillerinden uygun olanı belirler. c) Fibonacci sayılarının ve altın oranın matematiksel temsillerini kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "19.04.2027 - 23.04.2027",
+      "weekLabel": "28. Hafta",
+      "hours": "2",
+      "aciklama": "Turizm Haftası; Ulusal Egemenlik ve Çocuk Bayramı",
+      "isHoliday": false,
+      "unit": "MAT.U.2.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.5.1",
+          "kazanim": "Doğadaki örüntüleri ve sanatsal tasarımlardaki altın oranı ifade etmede Fibonacci sayılarından ve altın orandan yararlanabilme",
+          "resmiAciklama": "a) Doğadaki örüntüleri ve sanatsal tasarımlardaki altın oranı ifade etmede Fibonacci sayılarını ve altın oranı bağlamlarındaki anlamı ile tanır. b) Fibonacci sayıları ve altın oranın matematiksel temsillerinden uygun olanı belirler. c) Fibonacci sayılarının ve altın oranın matematiksel temsillerini kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "NİSAN",
+      "dateRange": "26.04.2027 - 30.04.2027",
+      "weekLabel": "29. Hafta",
+      "hours": "2",
+      "aciklama": "Dünya Fikrî Mülkiyet Günü; Kût'ül Amâre Zaferi; Emek ve Dayanışma Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.5.2",
+          "kazanim": "Türk bayrağının tasarımında matematiksel araç ve teknolojilerden yararlanabilme",
+          "resmiAciklama": "a) Türk bayrağının tasarımında kullanılabilecek matematiksel araç ve teknolojileri tanır. b) Türk bayrağının tasarımında kullanılabilecek matematiksel araç ve teknolojilerden uygun olanı belirler. c) Türk bayrağının tasarımında belirlediği matematiksel araç veya teknolojiyi kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "03.05.2027 - 07.05.2027",
+      "weekLabel": "30. Hafta",
+      "hours": "2",
+      "aciklama": "Bilişim Haftası; Trafik ve İlkyardım Haftası; İş Sağlığı ve Güvenliği Haftası; Anneler Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.5.2",
+          "kazanim": "Türk bayrağının tasarımında matematiksel araç ve teknolojilerden yararlanabilme",
+          "resmiAciklama": "a) Türk bayrağının tasarımında kullanılabilecek matematiksel araç ve teknolojileri tanır. b) Türk bayrağının tasarımında kullanılabilecek matematiksel araç ve teknolojilerden uygun olanı belirler. c) Türk bayrağının tasarımında belirlediği matematiksel araç veya teknolojiyi kullanır.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "10.05.2027 - 14.05.2027",
+      "weekLabel": "31. Hafta",
+      "hours": "2",
+      "aciklama": "İş Sağlığı ve Güvenliği Haftası; Vakıflar Haftası; Engelliler Haftası; Kurban Bayramı",
+      "isHoliday": false,
+      "unit": "MAT.U.2.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.5.3",
+          "kazanim": "Origami uygulamalarında oluşan yapıların geometrik şekillerini ve ilişkilerini çözümleyebilme",
+          "resmiAciklama": "a) Origami uygulama aşamalarında oluşan yapıların geometrik şekillerini ve özelliklerini belirler. b) Origami yapılarındaki geometrik şekiller arasındaki ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "17.05.2027 - 21.05.2027",
+      "weekLabel": "32. Hafta",
+      "hours": "0",
+      "aciklama": "Müzeler Haftası; Atatürk'ü Anma, Gençlik ve Spor Bayramı; Kurban Bayramı",
+      "isHoliday": false,
+      "unit": "TAKVİM / TELAFİ-ESNEKLİK",
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "Yeni öğrenme çıktısı planlanmamıştır.",
+          "resmiAciklama": "17-19 Mayıs 2027 Kurban Bayramı ve 19 Mayıs resmî tatilinin çakışması nedeniyle ders programına göre telafi, tekrar, ölçme-değerlendirme veya zümre uyarlaması yapılır."
+        }
+      ],
+      "olcme": "Ders çizelgesine göre telafi / tekrar / öğrenci ürünü geri bildirimi"
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "24.05.2027 - 28.05.2027",
+      "weekLabel": "33. Hafta",
+      "hours": "2",
+      "aciklama": "Müzeler Haftası; Etik Günü; İstanbul'un Fethi",
+      "isHoliday": false,
+      "unit": "MAT.U.2.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.5.3",
+          "kazanim": "Origami uygulamalarında oluşan yapıların geometrik şekillerini ve ilişkilerini çözümleyebilme",
+          "resmiAciklama": "a) Origami uygulama aşamalarında oluşan yapıların geometrik şekillerini ve özelliklerini belirler. b) Origami yapılarındaki geometrik şekiller arasındaki ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "MAYIS",
+      "dateRange": "31.05.2027 - 04.06.2027",
+      "weekLabel": "34. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "MAT.U.2.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.5.4",
+          "kazanim": "Tangram uygulamalarında şekli oluşturan parçaları belirleyerek bu parçalar arasındaki geometrik ilişkileri çözümleyebilme",
+          "resmiAciklama": "a) Tangramı oluşturan parçaları belirler. b) Şekiller oluşturmak için parçalar arasındaki geometrik ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "07.06.2027 - 11.06.2027",
+      "weekLabel": "35. Hafta",
+      "hours": "2",
+      "aciklama": "Çevre Koruma Haftası",
+      "isHoliday": false,
+      "unit": "MAT.U.2.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.5.4",
+          "kazanim": "Tangram uygulamalarında şekli oluşturan parçaları belirleyerek bu parçalar arasındaki geometrik ilişkileri çözümleyebilme",
+          "resmiAciklama": "a) Tangramı oluşturan parçaları belirler. b) Şekiller oluşturmak için parçalar arasındaki geometrik ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "14.06.2027 - 18.06.2027",
+      "weekLabel": "36. Hafta",
+      "hours": "2",
+      "aciklama": "Babalar Günü; Aşure Günü",
+      "isHoliday": false,
+      "unit": "MAT.U.2.5. SANATIN MATEMATİĞİ",
+      "kazanimlar": [
+        {
+          "kod": "MAT.U.2.5.4",
+          "kazanim": "Tangram uygulamalarında şekli oluşturan parçaları belirleyerek bu parçalar arasındaki geometrik ilişkileri çözümleyebilme",
+          "resmiAciklama": "a) Tangramı oluşturan parçaları belirler. b) Şekiller oluşturmak için parçalar arasındaki geometrik ilişkileri belirler.",
+          "saat": "2"
+        }
+      ]
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "21.06.2027 - 25.06.2027",
+      "weekLabel": "37. Hafta",
+      "hours": "2",
+      "aciklama": "",
+      "isHoliday": false,
+      "unit": "OKUL TEMELLİ PLANLAMA",
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "Okul temelli planlama",
+          "resmiAciklama": "Zümre öğretmenler kurulunca planlanır: okul dışı öğrenme etkinlikleri, araştırma ve gözlem, sosyal etkinlikler, proje/yerel çalışmalar; ayrıca öğrencilerin meslek seçimi ve kariyer planlaması için mesleki rehberlik ve kariyer danışmanlığı bu süre içinde yürütülür."
+        }
+      ],
+      "olcme": "Ürün/portfolyo, gözlem, öz değerlendirme"
+    }
+  ]
+}
