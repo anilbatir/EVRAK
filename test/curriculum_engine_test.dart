@@ -19,6 +19,36 @@ void main() {
     }
   });
 
+  test('9. Sınıf Matematik: resmi çerçeve yıllık plandan 20 farklı kazanım kodu, hiç {{ kalmaz', () async {
+    final matematik = curriculumCatalog.firstWhere((c) => c.subject == 'Matematik');
+    final plan = await WeeklyPlan.loadAsset(matematik.assetPath);
+    final template = buildYillikPlanTemplate(id: matematik.yillikPlanTemplateId, plan: plan);
+
+    final data = <String, String>{
+      for (final f in [...template.requiredFields, ...template.optionalFields]) f: 'x',
+    };
+    final result = TemplateEngine.render(template, data);
+    expect(result.isComplete, isTrue);
+    expect(result.text.contains('{{'), isFalse);
+
+    for (var i = 1; i <= 37; i++) {
+      expect(result.text.contains('$i. Hafta'), isTrue, reason: '$i. Hafta metinde yok');
+    }
+    expect(result.text.contains('DÖNEM ARA TATİLİ'), isTrue);
+    expect(result.text.contains('YARIYIL TATİLİ'), isTrue);
+
+    // Regression: the old ChatGPT-sourced data repeated the same kazanım
+    // across many consecutive weeks. The real çerçeve yıllık plan actually
+    // progresses through distinct temalar/kazanımlar.
+    for (final kod in ['9.1.1', '9.2.1', '9.4.1', '9.6.1', '9.7.1']) {
+      expect(result.text.contains(kod), isTrue, reason: '$kod eksik');
+    }
+
+    // PDF font glyphs the bundled Roboto lacks (ℝ, ∈) must not leak through.
+    expect(result.text.contains('ℝ'), isFalse);
+    expect(result.text.contains('∈'), isFalse);
+  });
+
   test('9. Sınıf Biyoloji: motor tüm 37 haftayı ve farklı kazanımları üretiyor', () async {
     final biyoloji = curriculumCatalog.firstWhere((c) => c.subject == 'Biyoloji');
     final plan = await WeeklyPlan.loadAsset(biyoloji.assetPath);

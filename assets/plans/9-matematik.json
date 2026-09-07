@@ -2,384 +2,690 @@
   "grade": "9",
   "subject": "Matematik",
   "academicYear": "2026-2027",
-  "source": "yillik_plan",
+  "source": "cerceve_yillik_plan",
+  "weeklyHours": "6",
   "weeks": [
     {
-      "month": "Eylül",
-      "dateRange": "14 - 18 Eylül",
+      "month": "EYLÜL",
+      "dateRange": "14-18 Eylül",
       "weekLabel": "1. Hafta",
       "hours": "6",
-      "unit": "1. TEMA: SAYILAR",
-      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
-      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
-      "isHoliday": false
+      "unit": "SAYILAR",
+      "topic": "Gerçek Sayıların Üslü ve Köklü Gösterimleri ile Yapılan İşlemler",
+      "kazanimlar": [
+        {
+          "kod": "9.1.1",
+          "kazanim": "Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere dair muhakeme yapabilme",
+          "resmiAciklama": "a) Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere ilişkin varsayımlarda bulunur. b) Farklı örneklerden elde ettiği örüntüleri listeleyerek varsayımlarına yönelik genellemeler yapar. c) Varsayımları ile genellemelerini karşılaştırır. ç) Elde ettiği genellemelerden üslü ve köklü gösterimlerle ilgili önermeler sunar. d) Üslü ve köklü gösterimlerle ilgili önermelerin kullanışlılığını problem durumlarında değerlendirir. e) Üslü ve köklü gösterimlerle ilgili matematiksel doğrulama yöntemlerini kullanır. f) Kullandığı matematiksel doğrulama yöntemlerini kullanışlılık açısından değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "15 Temmuz Demokrasi ve Millî Birlik Günü",
+      "isHoliday": false,
+      "olcme": "Öğrenme çıktıları; çalışma kâğıdı, performans görevi ve araştırma ödevi ile değerlendirilebilir. Matematik dersini fizik, kimya ve biyoloji dersleriyle ilişkilendirmek için bu derslerdeki bilimsel gösterimlerin kullanımına yönelik araştırma ödevi verilebilir. Bu ödevin değerlendirilebilmesi için hazırlama, içerik ve sunum süreçlerini içine alan derecelendirme ölçeği kullanılabilir. Gerçek sayıların üslü ve köklü gösterimlerinin, gerçek sayı aralıklarının ve bunlarla yapılan işlemlerin farklı matematiksel bağlamlarda ele alındığı performans görevi verilebilir. Bu performans görevi, analitik dereceli puanlama anahtarı ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmeleri için öz değerlendirme formu kullanılabilir. Farklı sayı kümelerinin özellikleri ve aralarındaki ilişkilere dair çalışma kâğıdı verilebilir. Cebirsel özdeşliklerin kullanımına yönelik sorulardan oluşan çalışma kâğıdı, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir."
     },
     {
-      "month": "Eylül",
-      "dateRange": "21 - 25 Eylül",
+      "month": "EYLÜL",
+      "dateRange": "21-25 Eylül",
       "weekLabel": "2. Hafta",
       "hours": "6",
-      "unit": "1. TEMA: SAYILAR",
-      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
-      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "unit": "SAYILAR",
+      "topic": "Gerçek Sayıların Üslü ve Köklü Gösterimleri ile Yapılan İşlemler",
+      "kazanimlar": [
+        {
+          "kod": "9.1.1",
+          "kazanim": "Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere dair muhakeme yapabilme",
+          "resmiAciklama": "a) Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere ilişkin varsayımlarda bulunur. b) Farklı örneklerden elde ettiği örüntüleri listeleyerek varsayımlarına yönelik genellemeler yapar. c) Varsayımları ile genellemelerini karşılaştırır. ç) Elde ettiği genellemelerden üslü ve köklü gösterimlerle ilgili önermeler sunar. d) Üslü ve köklü gösterimlerle ilgili önermelerin kullanışlılığını problem durumlarında değerlendirir. e) Üslü ve köklü gösterimlerle ilgili matematiksel doğrulama yöntemlerini kullanır. f) Kullandığı matematiksel doğrulama yöntemlerini kullanışlılık açısından değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Eylül",
-      "dateRange": "28 Eylül - 02 Ekim",
+      "month": "EYLÜL",
+      "dateRange": "28 Eylül-2 Ekim",
       "weekLabel": "3. Hafta",
-      "hours": "6",
-      "unit": "1. TEMA: SAYILAR",
-      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
-      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "hours": "2",
+      "unit": "SAYILAR",
+      "topic": "Gerçek Sayıların Üslü ve Köklü Gösterimleri ile Yapılan İşlemler",
+      "kazanimlar": [
+        {
+          "kod": "9.1.1",
+          "kazanim": "Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere dair muhakeme yapabilme",
+          "resmiAciklama": "a) Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere ilişkin varsayımlarda bulunur. b) Farklı örneklerden elde ettiği örüntüleri listeleyerek varsayımlarına yönelik genellemeler yapar. c) Varsayımları ile genellemelerini karşılaştırır. ç) Elde ettiği genellemelerden üslü ve köklü gösterimlerle ilgili önermeler sunar. d) Üslü ve köklü gösterimlerle ilgili önermelerin kullanışlılığını problem durumlarında değerlendirir. e) Üslü ve köklü gösterimlerle ilgili matematiksel doğrulama yöntemlerini kullanır. f) Kullandığı matematiksel doğrulama yöntemlerini kullanışlılık açısından değerlendirir.",
+          "saat": "2"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Ekim",
-      "dateRange": "05 - 09 Ekim",
+      "month": "EKİM",
+      "dateRange": "5-9 Ekim",
       "weekLabel": "4. Hafta",
       "hours": "6",
-      "unit": "1. TEMA: SAYILAR",
-      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
-      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "unit": "SAYILAR",
+      "topic": "Gerçek Sayı Aralıklarının Gösterimi ve Aralıklarla İlgili İşlemlerde Küme Sembollerinin Kullanımı",
+      "kazanimlar": [
+        {
+          "kod": "9.1.2",
+          "kazanim": "Gerçek sayı aralıklarının gösteriminde ve aralıklarla ilgili işlemlerde küme sembol ve işlemlerinden yararlanabilme",
+          "resmiAciklama": "a) Gerçek sayı aralıkları ve bunlarla yapılan işlemlerde kullanılan küme sembol ve işlemlerini bağlamlarındaki anlamı ile tanır. b) Gerçek sayı aralıkları ve bunlarla yapılan işlemlerde kullanılan küme sembol ve işlemlerinden matematiksel durum veya probleme uygun olanı belirler. c) Gerçek sayı aralıkları ve bunlarla yapılan işlemlerin içerdiği küme sembol ve işlemlerini matematiksel durum veya probleme uygun şekilde kullanır.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Ekim",
-      "dateRange": "12 - 16 Ekim",
+      "month": "EKİM",
+      "dateRange": "12-16 Ekim",
       "weekLabel": "5. Hafta",
       "hours": "6",
-      "unit": "1. TEMA: SAYILAR",
-      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
-      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "unit": "SAYILAR",
+      "topic": "Sayı Kümeleri ve İşlem Özellikleri",
+      "kazanimlar": [
+        {
+          "kod": "9.1.3",
+          "kazanim": "Farklı sayı kümelerinin özellikleri hakkında muhakeme yapabilme",
+          "resmiAciklama": "a) Doğal sayılar, tam sayılar, rasyonel sayılar ve gerçek sayılara dair temel özelliklere (sıralama, arada olma ve işlem özellikleri) ilişkin varsayımlarda bulunur. b) Farklı sayı kümelerinde elde ettiği örüntüleri listeleyerek varsayımlarına yönelik genellemeler yapar. c) Varsayımları ile genellemelerini karşılaştırır. ç) Elde ettiği genellemelerden sayı kümelerinin özellikleri hakkında önermeler sunar. d) Önermelerin kullanışlılığını problem durumlarında değerlendirir. e) Elde ettiği önermeleri ispatlamak ya da çürütmek için matematiksel ispat yöntemlerini kullanır. f) Kullandığı matematiksel ispat yöntemlerini kullanışlılık açısından değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Ekim",
-      "dateRange": "19 - 23 Ekim",
+      "month": "EKİM",
+      "dateRange": "19-23 Ekim",
       "weekLabel": "6. Hafta",
       "hours": "6",
-      "unit": "1. TEMA: SAYILAR",
-      "kazanim": "MAT.9.1. Gerçek sayılar, üslü ve köklü ifadeler",
-      "description": "Sayı kümeleri, üslü ve köklü işlemler, EBOB-EKOK problemleri",
+      "unit": "SAYILAR",
+      "topic": "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme",
+      "kazanimlar": [
+        {
+          "kod": "9.1.4",
+          "kazanim": "Gerçek sayıların işlem özelliklerini cebirsel olarak ifade etmede analojik akıl yürütebilme",
+          "resmiAciklama": "a) Gerçek sayıların işlem özellikleri ile bunların olası cebirsel karşılıklarını gözlemler. b) Gözlemlerinden yola çıkarak gerçek sayıların işlem özellikleri ile bunların cebirsel karşılıklarını tespit eder. c) Tespit ettiği özelliklerden çıkarımlar yapar.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Ekim",
-      "dateRange": "26 - 30 Ekim",
-      "weekLabel": "7. Hafta (29 Ekim Bayramı)",
-      "hours": "6",
-      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
-      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
-      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
-      "isHoliday": false
-    },
-    {
-      "month": "Kasım",
-      "dateRange": "02 - 06 Kasım",
-      "weekLabel": "8. Hafta",
-      "hours": "6",
-      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
-      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
-      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
-      "isHoliday": false
-    },
-    {
-      "month": "Kasım",
-      "dateRange": "09 - 13 Kasım",
-      "weekLabel": "9. Hafta",
-      "hours": "6",
-      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
-      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
-      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "month": "EKİM",
+      "dateRange": "26-30 Ekim",
+      "weekLabel": "7. Hafta",
+      "hours": "2",
+      "unit": "SAYILAR",
+      "topic": "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme",
+      "kazanimlar": [
+        {
+          "kod": "9.1.4",
+          "kazanim": "Gerçek sayıların işlem özelliklerini cebirsel olarak ifade etmede analojik akıl yürütebilme",
+          "resmiAciklama": "a) Gerçek sayıların işlem özellikleri ile bunların olası cebirsel karşılıklarını gözlemler. b) Gözlemlerinden yola çıkarak gerçek sayıların işlem özellikleri ile bunların cebirsel karşılıklarını tespit eder. c) Tespit ettiği özelliklerden çıkarımlar yapar.",
+          "saat": "2"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
       "month": "KASIM",
-      "dateRange": "16 - 20 KASIM 2026",
-      "weekLabel": "1. ARA TATİL",
+      "dateRange": "2-6 Kasım",
+      "weekLabel": "8. Hafta",
+      "hours": "6",
+      "unit": "NİCELİKLER VE DEĞİŞİMLER",
+      "topic": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+      "kazanimlar": [
+        {
+          "kod": "9.2.1",
+          "kazanim": "Gerçek sayılarda f(x) = x şeklinde tanımlı doğrusal referans fonksiyonun nitel özellikleri ile bu fonksiyondan türetilen g(x) = a · f(x ± r) ± k, (a, r, k gerçek sayı, a≠0) doğrusal fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
+          "resmiAciklama": "a) Doğrusal referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi, işareti, artanlığı-azalanlığı, maksimum-minimum noktaları, sıfırları, bire birliği) matematiksel temsilleri kullanarak belirler. b) Doğrusal referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki ilişkileri belirler. c) Doğrusal referans fonksiyonu grafik veya cebirsel temsili üzerinde yapılan işlemlerle diğer doğrusal fonksiyonlara dönüştürür. ç) Doğrusal referans fonksiyon ile elde ettiği doğrusal fonksiyonların grafik ve cebirsel temsilleri arasındaki ilişkiyi ifade eder. d) Doğrusal referans fonksiyonun nitel özelliklerinden hareketle diğer doğrusal fonksiyonların nitel özelliklerine ilişkin varsayımlarda bulunur. e) Varsayımlarına dayalı olarak doğrusal fonksiyonların nitel özelliklerine ilişkin örüntüleri (cebirsel, sayısal veya grafiksel) geneller. f) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder. g) Genellemelerinden elde ettiği önermeleri uygun sözel veya sembolik dil ile sunar. ğ) Elde ettiği önermelerin gerçek yaşam bağlamındaki kullanışlılığını değerlendirir. h) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar. ı) Uyguladığı doğrulama veya ispat yöntemlerinin farklı durumlardaki kullanışlılığını değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "KASIM",
+      "dateRange": "9-13 Kasım",
+      "weekLabel": "9. Hafta",
+      "hours": "6",
+      "unit": "NİCELİKLER VE DEĞİŞİMLER",
+      "topic": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+      "kazanimlar": [
+        {
+          "kod": "9.2.1",
+          "kazanim": "Gerçek sayılarda f(x) = x şeklinde tanımlı doğrusal referans fonksiyonun nitel özellikleri ile bu fonksiyondan türetilen g(x) = a · f(x ± r) ± k, (a, r, k gerçek sayı, a≠0) doğrusal fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
+          "resmiAciklama": "a) Doğrusal referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi, işareti, artanlığı-azalanlığı, maksimum-minimum noktaları, sıfırları, bire birliği) matematiksel temsilleri kullanarak belirler. b) Doğrusal referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki ilişkileri belirler. c) Doğrusal referans fonksiyonu grafik veya cebirsel temsili üzerinde yapılan işlemlerle diğer doğrusal fonksiyonlara dönüştürür. ç) Doğrusal referans fonksiyon ile elde ettiği doğrusal fonksiyonların grafik ve cebirsel temsilleri arasındaki ilişkiyi ifade eder. d) Doğrusal referans fonksiyonun nitel özelliklerinden hareketle diğer doğrusal fonksiyonların nitel özelliklerine ilişkin varsayımlarda bulunur. e) Varsayımlarına dayalı olarak doğrusal fonksiyonların nitel özelliklerine ilişkin örüntüleri (cebirsel, sayısal veya grafiksel) geneller. f) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder. g) Genellemelerinden elde ettiği önermeleri uygun sözel veya sembolik dil ile sunar. ğ) Elde ettiği önermelerin gerçek yaşam bağlamındaki kullanışlılığını değerlendirir. h) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar. ı) Uyguladığı doğrulama veya ispat yöntemlerinin farklı durumlardaki kullanışlılığını değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "Atatürk Haftası (10-16 Kasım)",
+      "isHoliday": false
+    },
+    {
+      "month": "1.  DÖNEM ARA TATİLİ: 16 - 20 Kasım 2026",
+      "dateRange": "16 - 20 Kasım 2026",
+      "weekLabel": "1. DÖNEM ARA TATİLİ",
       "isHoliday": true
     },
     {
-      "month": "Kasım",
-      "dateRange": "23 - 27 Kasım",
+      "month": "KASIM",
+      "dateRange": "23-27 Kasım",
       "weekLabel": "10. Hafta",
-      "hours": "6",
-      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
-      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
-      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "hours": "2",
+      "unit": "NİCELİKLER VE DEĞİŞİMLER",
+      "topic": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+      "kazanimlar": [
+        {
+          "kod": "9.2.1",
+          "kazanim": "Gerçek sayılarda f(x) = x şeklinde tanımlı doğrusal referans fonksiyonun nitel özellikleri ile bu fonksiyondan türetilen g(x) = a · f(x ± r) ± k, (a, r, k gerçek sayı, a≠0) doğrusal fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
+          "resmiAciklama": "a) Doğrusal referans fonksiyonun nitel özelliklerini (tanım kümesi, görüntü kümesi, işareti, artanlığı-azalanlığı, maksimum-minimum noktaları, sıfırları, bire birliği) matematiksel temsilleri kullanarak belirler. b) Doğrusal referans fonksiyonun nitel özellikleri ile matematiksel temsilleri arasındaki ilişkileri belirler. c) Doğrusal referans fonksiyonu grafik veya cebirsel temsili üzerinde yapılan işlemlerle diğer doğrusal fonksiyonlara dönüştürür. ç) Doğrusal referans fonksiyon ile elde ettiği doğrusal fonksiyonların grafik ve cebirsel temsilleri arasındaki ilişkiyi ifade eder. d) Doğrusal referans fonksiyonun nitel özelliklerinden hareketle diğer doğrusal fonksiyonların nitel özelliklerine ilişkin varsayımlarda bulunur. e) Varsayımlarına dayalı olarak doğrusal fonksiyonların nitel özelliklerine ilişkin örüntüleri (cebirsel, sayısal veya grafiksel) geneller. f) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder. g) Genellemelerinden elde ettiği önermeleri uygun sözel veya sembolik dil ile sunar. ğ) Elde ettiği önermelerin gerçek yaşam bağlamındaki kullanışlılığını değerlendirir. h) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar. ı) Uyguladığı doğrulama veya ispat yöntemlerinin farklı durumlardaki kullanışlılığını değerlendirir.",
+          "saat": "2"
+        }
+      ],
+      "aciklama": "Öğretmenler Günü (24 Kasım)",
       "isHoliday": false
     },
     {
-      "month": "Kasım",
-      "dateRange": "30 Kasım - 04 Aralık",
+      "month": "ARALIK",
+      "dateRange": "30 Kasım-4 Aralık",
       "weekLabel": "11. Hafta",
-      "hours": "6",
-      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
-      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
-      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "hours": "4",
+      "unit": "NİCELİKLER VE DEĞİŞİMLER",
+      "topic": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
+      "kazanimlar": [
+        {
+          "kod": "9.2.2",
+          "kazanim": "Gerçek sayılarda m(x) = ± |ax ± b| ± c (a, b, c gerçek sayı, a ≠ 0) şeklinde tanımlı mutlak değer fonksiyonlarının nitel özelliklerini incelemek için doğrusal fonksiyonlara bağlı analojik akıl yürütebilme",
+          "resmiAciklama": "a) Gerçek sayılarda f(x) = x şeklinde tanımlı doğrusal referans fonksiyon ile n(x) = ± |x| şeklinde tanımlı mutlak değer fonksiyonu arasındaki ve gerçek sayılarda tanımlı bir h doğrusal fonksiyonu ile m (x) = ± |h(x)| ± c (c gerçek sayı) şeklinde tanımlı mutlak değer fonksiyonu arasındaki cebirsel ve grafiksel benzerlikleri, farklılıkları gözlemler. b) Gözlemlerinden yola çıkarak gerçek sayılarda m(x) = ± |ax ± b| ± c (a, b, c gerçek sayı, a ≠ 0) şeklinde tanımlı mutlak değer fonksiyonunun nitel özelliklerini tespit eder. c) Tespit ettiği nitel özelliklerinden hareketle gerçek sayılarda m(x) = ± |ax ± b| ± c (a, b, c gerçek sayı, a ≠ 0) şeklinde tanımlı mutlak değer fonksiyonunun parçalı gösterimine yönelik çıkarımlarda bulunur",
+          "saat": "4"
+        }
+      ],
+      "aciklama": "Dünya Engelliler Günü (3 Aralık)",
       "isHoliday": false
     },
     {
-      "month": "Aralık",
-      "dateRange": "07 - 11 Aralık",
+      "month": "ARALIK",
+      "dateRange": "7-11 Aralık",
       "weekLabel": "12. Hafta",
       "hours": "6",
-      "unit": "2. TEMA: NİCELİKLER VE DEĞİŞİMLER",
-      "kazanim": "MAT.9.2. Denklemler ve Eşitsizlikler",
-      "description": "Birinci dereceden denklemler, mutlak değer ve yaş-yüzde problemleri",
+      "unit": "NİCELİKLER VE DEĞİŞİMLER",
+      "topic": "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler",
+      "kazanimlar": [
+        {
+          "kod": "9.2.3",
+          "kazanim": "Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizlikler içeren problem çözebilme",
+          "resmiAciklama": "a) Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin bileşenleri (denklemi oluşturan fonksiyonların nitel özellikleri ile cebirsel ve grafik temsilleri) belirler. b) Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematiksel bileşenlerin aralarındaki ilişkileri belirler. c) Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklerin problem bağlamındaki temsillerini farklı temsillere dönüştürür. ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder. d) Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur. e) Belirlediği stratejiyi kullanarak problemi çözer. f) Elde ettiği çözümü uygun yöntemleri seçerek doğrular. g) Problemin olası çözüm stratejilerini gözden geçirir. ğ) Problemin olası çözüm stratejilerine dayalı olarak çıkarımlar yapar. h) Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Aralık",
-      "dateRange": "14 - 18 Aralık",
+      "month": "ARALIK",
+      "dateRange": "14-18 Aralık",
       "weekLabel": "13. Hafta",
-      "hours": "6",
-      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
-      "kazanim": "MAT.9.3. Mantık ve Kümeler",
-      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "hours": "4",
+      "unit": "NİCELİKLER VE DEĞİŞİMLER",
+      "topic": "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler",
+      "kazanimlar": [
+        {
+          "kod": "9.2.3",
+          "kazanim": "Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizlikler içeren problem çözebilme",
+          "resmiAciklama": "a) Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin bileşenleri (denklemi oluşturan fonksiyonların nitel özellikleri ile cebirsel ve grafik temsilleri) belirler. b) Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklere ilişkin matematiksel bileşenlerin aralarındaki ilişkileri belirler. c) Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizliklerin problem bağlamındaki temsillerini farklı temsillere dönüştürür. ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder. d) Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur. e) Belirlediği stratejiyi kullanarak problemi çözer. f) Elde ettiği çözümü uygun yöntemleri seçerek doğrular. g) Problemin olası çözüm stratejilerini gözden geçirir. ğ) Problemin olası çözüm stratejilerine dayalı olarak çıkarımlar yapar. h) Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir.",
+          "saat": "4"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Aralık",
-      "dateRange": "21 - 25 Aralık",
+      "month": "ARALIK",
+      "dateRange": "21-25 Aralık",
       "weekLabel": "14. Hafta",
       "hours": "6",
-      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
-      "kazanim": "MAT.9.3. Mantık ve Kümeler",
-      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "unit": "GEOMETRİK ŞEKİLLER",
+      "topic": "Üçgende Açı ve Kenarla İlgili Özellikler ve Bu Özellikler Arasındaki İlişkiler",
+      "kazanimlar": [
+        {
+          "kod": "9.3.1",
+          "kazanim": "Üçgende açı ve kenarla ilgili özellikleri, üçgenin açıları ve kenarları arasındaki ilişkileri doğrulayabilme veya ispatlayabilme",
+          "resmiAciklama": "a) Üçgende iç ve dış açıların ölçülerinin toplamına, açılara karşılık gelen kenarlarla ilgili özelliklere ve kenarların uzunlukları arasındaki ilişkilere dair farklı doğrulama veya ispatları kullanır. b) Yapılan doğrulama veya ispatları yeni durumlara uyarlayarak değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Aralık",
-      "dateRange": "28 Aralık - 01 Ocak",
+      "month": "ARALIK",
+      "dateRange": "28 Aralık -1 Ocak",
       "weekLabel": "15. Hafta",
-      "hours": "6",
-      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
-      "kazanim": "MAT.9.3. Mantık ve Kümeler",
-      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "hours": "4",
+      "unit": "GEOMETRİK ŞEKİLLER",
+      "topic": "Üçgende Açı ve Kenarla İlgili Özellikler ve Bu Özellikler Arasındaki İlişkiler",
+      "kazanimlar": [
+        {
+          "kod": "9.3.1",
+          "kazanim": "Üçgende açı ve kenarla ilgili özellikleri, üçgenin açıları ve kenarları arasındaki ilişkileri doğrulayabilme veya ispatlayabilme",
+          "resmiAciklama": "a) Üçgende iç ve dış açıların ölçülerinin toplamına, açılara karşılık gelen kenarlarla ilgili özelliklere ve kenarların uzunlukları arasındaki ilişkilere dair farklı doğrulama veya ispatları kullanır. b) Yapılan doğrulama veya ispatları yeni durumlara uyarlayarak değerlendirir.",
+          "saat": "4"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Ocak",
-      "dateRange": "04 - 08 Ocak",
+      "month": "OCAK",
+      "dateRange": "4-8 Ocak",
       "weekLabel": "16. Hafta",
       "hours": "6",
-      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
-      "kazanim": "MAT.9.3. Mantık ve Kümeler",
-      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "unit": "EŞLİK VE BENZERLİK",
+      "topic": "Geometrik Dönüşümler",
+      "kazanimlar": [
+        {
+          "kod": "9.4.1",
+          "kazanim": "Geometrik dönüşümlerle ilgili çıkarım yapabilme",
+          "resmiAciklama": "a) Mevcut bilgisi dâhilinde geometrik dönüşümlerin (yansıma, öteleme, dönme) özelliklerine, bir geometrik şeklin dönüşüm sonrasında oluşan görüntüsüne ilişkin varsayımlarda bulunur. b) İncelediği örnekler üzerinden dönüşümlerin özelliklerine ve şekillerin dönüşümler altındaki görüntüsüne ilişkin varsayımlarına dayalı örüntüleri geneller. c) Dönüşümlerin özellikleri ve şekillerin dönüşümler altındaki görüntüsüne ilişkin varsayımları ile genellemelerini karşılaştırır. ç) Elde ettiği genellemelerden hareketle dönüşümlerin özelliklerine ve şekillerin dönüşümler altındaki görüntüsüne ilişkin önermeler sunar. d) Geometrik dönüşümlerle ilgili elde ettiği önermeleri konu ile ilgili başka çıkarımlar yapmak için kullanarak değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Ocak",
-      "dateRange": "11 - 15 Ocak",
+      "month": "OCAK",
+      "dateRange": "11-15 Ocak",
       "weekLabel": "17. Hafta",
-      "hours": "6",
-      "unit": "3. TEMA: ALGORİTMA VE BİLİŞİM",
-      "kazanim": "MAT.9.3. Mantık ve Kümeler",
-      "description": "Önermeler, mantık kuralları, kümelerde birleşim/kesişim ve akış şemaları",
+      "hours": "4",
+      "unit": "EŞLİK VE BENZERLİK",
+      "topic": "Geometrik Dönüşümler",
+      "kazanimlar": [
+        {
+          "kod": "9.4.1",
+          "kazanim": "Geometrik dönüşümlerle ilgili çıkarım yapabilme",
+          "resmiAciklama": "a) Mevcut bilgisi dâhilinde geometrik dönüşümlerin (yansıma, öteleme, dönme) özelliklerine, bir geometrik şeklin dönüşüm sonrasında oluşan görüntüsüne ilişkin varsayımlarda bulunur. b) İncelediği örnekler üzerinden dönüşümlerin özelliklerine ve şekillerin dönüşümler altındaki görüntüsüne ilişkin varsayımlarına dayalı örüntüleri geneller. c) Dönüşümlerin özellikleri ve şekillerin dönüşümler altındaki görüntüsüne ilişkin varsayımları ile genellemelerini karşılaştırır. ç) Elde ettiği genellemelerden hareketle dönüşümlerin özelliklerine ve şekillerin dönüşümler altındaki görüntüsüne ilişkin önermeler sunar. d) Geometrik dönüşümlerle ilgili elde ettiği önermeleri konu ile ilgili başka çıkarımlar yapmak için kullanarak değerlendirir.",
+          "saat": "4"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Ocak",
-      "dateRange": "18 - 22 Ocak",
-      "weekLabel": "18. Hafta (1. Dönem Sonu)",
+      "month": "OCAK",
+      "dateRange": "18-22 Ocak",
+      "weekLabel": "18. Hafta",
       "hours": "6",
-      "unit": "OKUL TEMELLİ",
-      "kazanim": "1. Dönem Sonu Okul Temelli Planlama",
-      "description": "Sosyal etkinlikler, rehberlik ve genel akademik değerlendirmeler",
+      "unit": "OKUL TEMELLİ PLANLAMA",
+      "topic": null,
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "1. Dönem okul temelli planlama.",
+          "resmiAciklama": "Zümre öğretmenler kurulunca kararlaştırılan araştırma ve gözlem, sosyal etkinlikler, proje çalışmaları, yerel çalışmalar, okuma çalışmaları vb."
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "OCAK - ŞUBAT",
-      "dateRange": "25 OCAK - 05 ŞUBAT 2027",
-      "weekLabel": "YARIYIL TATİLİ (SÖMESTR)",
+      "month": "YARIYIL TATİLİ: 25 Ocak - 5 Şubat 2027",
+      "dateRange": "25 Ocak - 5 Şubat 2027",
+      "weekLabel": "YARIYIL TATİLİ",
       "isHoliday": true
     },
     {
-      "month": "Şubat",
-      "dateRange": "08 - 12 Şubat",
+      "month": "ŞUBAT",
+      "dateRange": "8-12 Şubat",
       "weekLabel": "19. Hafta",
       "hours": "6",
-      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
-      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
-      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "unit": "EŞLİK VE BENZERLİK",
+      "topic": "Eşlik ve Benzerlik Koşulları",
+      "kazanimlar": [
+        {
+          "kod": "9.4.2",
+          "kazanim": "İki üçgenin eş veya benzer olması için gerekli olan asgari koşullarla ilgili çıkarım yapabilme",
+          "resmiAciklama": "a) İki üçgenin eş veya benzer olma koşullarına ilişkin varsayımlarda bulunur. b) İncelediği örnekler üzerinden iki üçgenin eş veya benzer olma koşullarına ilişkin varsayımlarına dayalı örüntüleri geneller. c) İki üçgenin eş veya benzer olma koşullarına ilişkin varsayımları ile elde ettiği genellemeleri karşılaştırır. ç) Ulaştığı genellemelerden iki üçgenin eş veya benzer olma koşullarına ilişkin önermeler sunar. d) İki üçgenin eş veya benzer olma koşullarına dair elde ettiği önermelerin farklı ve yeni durumların anlamlandırılmasına yönelik sunduğu katkıyı değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Şubat",
-      "dateRange": "15 - 19 Şubat",
+      "month": "ŞUBAT",
+      "dateRange": "15-19 Şubat",
       "weekLabel": "20. Hafta",
-      "hours": "6",
-      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
-      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
-      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "hours": "4",
+      "unit": "EŞLİK VE BENZERLİK",
+      "topic": "Benzer üçgenler Oluşturma",
+      "kazanimlar": [
+        {
+          "kod": "9.4.3",
+          "kazanim": "Bir üçgenden hareketle ona benzer üçgenler oluşturma ile ilgili yansıtma yapabilme",
+          "resmiAciklama": "a) Bir üçgene benzer üçgenler oluştururken eşlik ve benzerlik deneyimlerini gözden geçirir. b) Deneyimlerine dayalı çıkarımlar yapar. c) Bir üçgenden hareketle ona benzer üçgenler oluşturma ile ilgili ulaşılan çıkarımları farklı problem durumlarında değerlendirir.",
+          "saat": "4"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Şubat",
-      "dateRange": "22 - 26 Şubat",
+      "month": "ŞUBAT",
+      "dateRange": "22-26 Şubat",
       "weekLabel": "21. Hafta",
-      "hours": "6",
-      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
-      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
-      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
-      "isHoliday": false
-    },
-    {
-      "month": "Mart",
-      "dateRange": "01 - 05 Mart",
-      "weekLabel": "22. Hafta",
-      "hours": "6",
-      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
-      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
-      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "hours": "4",
+      "unit": "EŞLİK VE BENZERLİK",
+      "topic": "Tales, Öklid ve Pisagor Teoremleri",
+      "kazanimlar": [
+        {
+          "kod": "9.4.4",
+          "kazanim": "Tales, Öklid ve Pisagor teoremlerini ispatlayabilme",
+          "resmiAciklama": "a) Tales, Öklid ve Pisagor teoremlerine ilişkin farklı ispatları kullanır. b) Kullandığı matematiksel ispat ve teoremleri yeni durumlara uyarlayarak değerlendirir.",
+          "saat": "4"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
       "month": "MART",
-      "dateRange": "08 - 12 MART 2027",
-      "weekLabel": "2. ARA TATİL (Ramazan Bayramı)",
+      "dateRange": "1-5 Mart",
+      "weekLabel": "22. Hafta",
+      "hours": "4",
+      "unit": "EŞLİK VE BENZERLİK",
+      "topic": "Eşlik ve Benzerlik Problemleri",
+      "kazanimlar": [
+        {
+          "kod": "9.4.5",
+          "kazanim": "Eşlik ve benzerlikle ilgili çıkarım ve teoremleri içeren problemleri çözebilme",
+          "resmiAciklama": "a) Problemin verilen ve istenenlerine ilişkin parçaları belirler. b) Problemde verilenler, istenenler ve gerekli işlemler arasındaki ilişkileri belirler. c) Problemin parçaları arasındaki ilişkileri problem bağlamına uygun olarak dönüştürür. ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar. d) Problemin çözümünü gerçekleştirmek için stratejiler oluşturur. e) Belirlediği stratejiyi çözüm için uygulayarak problemi çözer. f) Problemin çözümünü kontrol eder.g) Problemin çözümü için geliştirdiği, kullandığı stratejilerdeki kısa yolları ve çözüme ulaştırmayan stratejileri belirleyerek çözüme ilişkin deneyimini gözden geçirir. ğ) Çözüme ulaştıran stratejilerden hangilerinin hangi tür problemlere uygulanabileceğine ilişkin çıkarım yapar. h) Ulaştığı çıkarımların geçerliliğini matematiksel örneklerle değerlendirir.",
+          "saat": "4"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "2.  DÖNEM ARA TATİLİ: 8-12 Mart 2027",
+      "dateRange": "8-12 Mart 2027",
+      "weekLabel": "2. DÖNEM ARA TATİLİ",
       "isHoliday": true
     },
     {
-      "month": "Mart",
-      "dateRange": "15 - 19 Mart",
+      "month": "MART",
+      "dateRange": "15-19 Mart",
       "weekLabel": "23. Hafta",
       "hours": "6",
-      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
-      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
-      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "unit": "ALGORİTMA VE BİLİŞİM",
+      "topic": "Algoritma Temelli Problemler",
+      "kazanimlar": [
+        {
+          "kod": "9.5.1",
+          "kazanim": "Algoritma temelli yaklaşımlarla problem çözebilme",
+          "resmiAciklama": "a) Algoritmik yaklaşımla ele alınabilecek bir problemdeki işlem ve süreçlere yönelik bileşenleri belirler. b) Problem durumlarında temsillerle (liste, tablo, çizge, akış şeması, algoritmik doğal dil, sözde kod gibi) matematiksel yapılar arasındaki ilişkileri belirler. c) Problem durumlarındaki sözel, görsel veya cebirsel ifadeleri algoritmik dile dönüştürür. ç) Karşılaşılan problem durumlarında geçen algoritmik dili; sözel, görsel veya cebirsel olarak açıklar. d) Karşılaşılan problem durumlarında algoritma temelli bir çözüm stratejisi oluşturur. e) Karşılaşılan problem durumlarında seçtiği algoritma temelli çözüm stratejisini kullanır. f) Karşılaşılan problem durumlarında seçtiği algoritma temelli çözüm stratejisini kontrol eder. g) Algoritma temelli çözülebilen problemlerin olası çözüm stratejilerini gözden geçirir. ğ) Algoritma temelli çözülebilen problemlerde çözüme ulaştıran stratejilere yönelik çıkarımlar yapar. h) Algoritma temelli çözülebilen problemlerde çözüme ulaştıran stratejilere yönelik çıkarımları değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "Türk Dünyası ve Toplulukları Haftası (16-22 Mart) Çanakkale Zaferi ve Şehitleri Anma Günü (18 Mart)",
       "isHoliday": false
     },
     {
-      "month": "Mart",
-      "dateRange": "22 - 26 Mart",
+      "month": "MART",
+      "dateRange": "22-26 Mart",
       "weekLabel": "24. Hafta",
       "hours": "6",
-      "unit": "4. TEMA: GEOMETRİK ŞEKİLLER",
-      "kazanim": "MAT.9.4. Üçgenler ve Geometri",
-      "description": "Üçgende açılar, dik üçgen, Pisagor ve trigonometrik oranlar",
+      "unit": "ALGORİTMA VE BİLİŞİM",
+      "topic": "Algoritma Temelli Problemler",
+      "kazanimlar": [
+        {
+          "kod": "9.5.1",
+          "kazanim": "Algoritma temelli yaklaşımlarla problem çözebilme",
+          "resmiAciklama": "a) Algoritmik yaklaşımla ele alınabilecek bir problemdeki işlem ve süreçlere yönelik bileşenleri belirler. b) Problem durumlarında temsillerle (liste, tablo, çizge, akış şeması, algoritmik doğal dil, sözde kod gibi) matematiksel yapılar arasındaki ilişkileri belirler. c) Problem durumlarındaki sözel, görsel veya cebirsel ifadeleri algoritmik dile dönüştürür. ç) Karşılaşılan problem durumlarında geçen algoritmik dili; sözel, görsel veya cebirsel olarak açıklar. d) Karşılaşılan problem durumlarında algoritma temelli bir çözüm stratejisi oluşturur. e) Karşılaşılan problem durumlarında seçtiği algoritma temelli çözüm stratejisini kullanır. f) Karşılaşılan problem durumlarında seçtiği algoritma temelli çözüm stratejisini kontrol eder. g) Algoritma temelli çözülebilen problemlerin olası çözüm stratejilerini gözden geçirir. ğ) Algoritma temelli çözülebilen problemlerde çözüme ulaştıran stratejilere yönelik çıkarımlar yapar. h) Algoritma temelli çözülebilen problemlerde çözüme ulaştıran stratejilere yönelik çıkarımları değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Mart",
-      "dateRange": "29 Mart - 02 Nisan",
+      "month": "MART",
+      "dateRange": "29 Mart-2 Nisan",
       "weekLabel": "25. Hafta",
       "hours": "6",
-      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
-      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
-      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "unit": "ALGORİTMA VE BİLİŞİM",
+      "topic": "Algoritma Temelli Problemler",
+      "kazanimlar": [
+        {
+          "kod": "9.5.1",
+          "kazanim": "Algoritma temelli yaklaşımlarla problem çözebilme",
+          "resmiAciklama": "a) Algoritmik yaklaşımla ele alınabilecek bir problemdeki işlem ve süreçlere yönelik bileşenleri belirler. b) Problem durumlarında temsillerle (liste, tablo, çizge, akış şeması, algoritmik doğal dil, sözde kod gibi) matematiksel yapılar arasındaki ilişkileri belirler. c) Problem durumlarındaki sözel, görsel veya cebirsel ifadeleri algoritmik dile dönüştürür. ç) Karşılaşılan problem durumlarında geçen algoritmik dili; sözel, görsel veya cebirsel olarak açıklar. d) Karşılaşılan problem durumlarında algoritma temelli bir çözüm stratejisi oluşturur. e) Karşılaşılan problem durumlarında seçtiği algoritma temelli çözüm stratejisini kullanır. f) Karşılaşılan problem durumlarında seçtiği algoritma temelli çözüm stratejisini kontrol eder. g) Algoritma temelli çözülebilen problemlerin olası çözüm stratejilerini gözden geçirir. ğ) Algoritma temelli çözülebilen problemlerde çözüme ulaştıran stratejilere yönelik çıkarımlar yapar. h) Algoritma temelli çözülebilen problemlerde çözüme ulaştıran stratejilere yönelik çıkarımları değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Nisan",
-      "dateRange": "05 - 09 Nisan",
+      "month": "NİSAN",
+      "dateRange": "5-9 Nisan",
       "weekLabel": "26. Hafta",
       "hours": "6",
-      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
-      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
-      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "unit": "ALGORİTMA VE BİLİŞİM",
+      "topic": "Mantık Bağlaçları ve Niceleyiciler",
+      "kazanimlar": [
+        {
+          "kod": "9.5.2",
+          "kazanim": "Algoritmik yapılar içerisindeki mantık bağlaçlarını ve niceleyicileri çözümleyebilme",
+          "resmiAciklama": "a) Algoritmik yapılar içerisinde kullanılan mantık bağlaçlarını ve niceleyicileri belirler. b) Algoritmik yapılar ile mantık bağlaçları ve niceleyiciler arasındaki ilişkileri belirler.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Nisan",
-      "dateRange": "12 - 16 Nisan",
+      "month": "NİSAN",
+      "dateRange": "12-16 Nisan",
       "weekLabel": "27. Hafta",
-      "hours": "6",
-      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
-      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
-      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "hours": "4",
+      "unit": "ALGORİTMA VE BİLİŞİM",
+      "topic": "Mantık Bağlaçları ve Niceleyicilerin Algoritmik Problemlerde Kullanımı",
+      "kazanimlar": [
+        {
+          "kod": "9.5.3",
+          "kazanim": "Mantık bağlaçları ve niceleyicilerin algoritmalarda kullanımına yönelik edindiği deneyimi farklı matematiksel görev ve problemlere yansıtabilme",
+          "resmiAciklama": "a) Karşılaştığı algoritmalardaki mantık bağlaçları ve niceleyicilerin kullanımını gözden geçirir. b) Matematiksel problem çözme, doğrulama ve ispat süreçlerinde mantık bağlaçları ve niceleyicilerin kullanımına yönelik çıkarımlar yapar. c) Mantık bağlaçları ve niceleyicilerin matematiksel dil ve sembolizmin yalınlık ve kesinliğindeki rolünü eğerlendirir.",
+          "saat": "4"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Nisan",
-      "dateRange": "19 - 23 Nisan",
-      "weekLabel": "28. Hafta (23 Nisan Bayramı)",
+      "month": "NİSAN",
+      "dateRange": "19-23 Nisan",
+      "weekLabel": "28. Hafta",
       "hours": "6",
-      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
-      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
-      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "unit": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "topic": "Tek Nicel Değişkenli Veri Dağılımları",
+      "kazanimlar": [
+        {
+          "kod": "9.6.1",
+          "kazanim": "Tek nicel değişkenli veri dağılımları ile çalışabilme ve tek nicel değişken içeren veriye dayalı karar verebilme",
+          "resmiAciklama": "a) Nicel veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını belirler. b) Bağlam içerisinde nicel veri dağılımlarını betimleyen ve karşılaştıran araştırma soruları oluşturur. c) Nicel verileri toplamak/elde etmek için plan yapar. ç) Nicel verileri toplayarak/elde ederek analize hazırlar. d) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri analiz etmek için görselleştirme (nokta grafiği, histogram, kutu grafiği) ve/veya özetleme [aritmetik ortalama, ortanca (medyan), tepe değer (mod), açıklık, çeyrekler açıklığı, standart sapma] araçlarından uygun olanı seçer. e) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri belirlediği araçlarla analiz eder. f) Nicel veri dağılımlarına dayalı istatistiksel araştırma sonucu elde edilen çıktılardan hareketle verilerin arasını ve ötesini yorumlayarak sonuç çıkarır. g) Nicel veriye dayalı araştırmadan elde edilen sonuçları, araştırma sorusu bağlamında değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "Ulusal Egemenlik Çocuk Bayramı (23 Nisan)",
       "isHoliday": false
     },
     {
-      "month": "Nisan",
-      "dateRange": "26 - 30 Nisan",
+      "month": "NİSAN",
+      "dateRange": "26-30 Nisan",
       "weekLabel": "29. Hafta",
       "hours": "6",
-      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
-      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
-      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "unit": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "topic": "Tek Nicel Değişkenli Veri Dağılımları",
+      "kazanimlar": [
+        {
+          "kod": "9.6.1",
+          "kazanim": "Tek nicel değişkenli veri dağılımları ile çalışabilme ve tek nicel değişken içeren veriye dayalı karar verebilme",
+          "resmiAciklama": "a) Nicel veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını belirler. b) Bağlam içerisinde nicel veri dağılımlarını betimleyen ve karşılaştıran araştırma soruları oluşturur. c) Nicel verileri toplamak/elde etmek için plan yapar. ç) Nicel verileri toplayarak/elde ederek analize hazırlar. d) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri analiz etmek için görselleştirme (nokta grafiği, histogram, kutu grafiği) ve/veya özetleme [aritmetik ortalama, ortanca (medyan), tepe değer (mod), açıklık, çeyrekler açıklığı, standart sapma] araçlarından uygun olanı seçer. e) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri belirlediği araçlarla analiz eder. f) Nicel veri dağılımlarına dayalı istatistiksel araştırma sonucu elde edilen çıktılardan hareketle verilerin arasını ve ötesini yorumlayarak sonuç çıkarır. g) Nicel veriye dayalı araştırmadan elde edilen sonuçları, araştırma sorusu bağlamında değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "Kût'ül Amâre Zaferi (29 Nisan)",
       "isHoliday": false
     },
     {
-      "month": "Mayıs",
-      "dateRange": "03 - 07 Mayıs",
+      "month": "MAYIS",
+      "dateRange": "3-7 Mayıs",
       "weekLabel": "30. Hafta",
       "hours": "6",
-      "unit": "5. TEMA: EŞLİK VE BENZERLİK",
-      "kazanim": "MAT.9.5. Üçgenlerde Eşlik ve Benzerlik",
-      "description": "Eşlik aksiyomları, benzerlik oranları, açıortay ve kenarortay",
+      "unit": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "topic": "Tek Nicel Değişkenli Veri Dağılımları",
+      "kazanimlar": [
+        {
+          "kod": "9.6.1",
+          "kazanim": "Tek nicel değişkenli veri dağılımları ile çalışabilme ve tek nicel değişken içeren veriye dayalı karar verebilme",
+          "resmiAciklama": "a) Nicel veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını belirler. b) Bağlam içerisinde nicel veri dağılımlarını betimleyen ve karşılaştıran araştırma soruları oluşturur. c) Nicel verileri toplamak/elde etmek için plan yapar. ç) Nicel verileri toplayarak/elde ederek analize hazırlar. d) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri analiz etmek için görselleştirme (nokta grafiği, histogram, kutu grafiği) ve/veya özetleme [aritmetik ortalama, ortanca (medyan), tepe değer (mod), açıklık, çeyrekler açıklığı, standart sapma] araçlarından uygun olanı seçer. e) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri belirlediği araçlarla analiz eder. f) Nicel veri dağılımlarına dayalı istatistiksel araştırma sonucu elde edilen çıktılardan hareketle verilerin arasını ve ötesini yorumlayarak sonuç çıkarır. g) Nicel veriye dayalı araştırmadan elde edilen sonuçları, araştırma sorusu bağlamında değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Mayıs",
-      "dateRange": "10 - 14 Mayıs",
+      "month": "MAYIS",
+      "dateRange": "10-14 Mayıs",
       "weekLabel": "31. Hafta",
       "hours": "6",
-      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
-      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
-      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "unit": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "topic": "Tek Nicel Değişkenli Veri Dağılımları",
+      "kazanimlar": [
+        {
+          "kod": "9.6.1",
+          "kazanim": "Tek nicel değişkenli veri dağılımları ile çalışabilme ve tek nicel değişken içeren veriye dayalı karar verebilme",
+          "resmiAciklama": "a) Nicel veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını belirler. b) Bağlam içerisinde nicel veri dağılımlarını betimleyen ve karşılaştıran araştırma soruları oluşturur. c) Nicel verileri toplamak/elde etmek için plan yapar. ç) Nicel verileri toplayarak/elde ederek analize hazırlar. d) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri analiz etmek için görselleştirme (nokta grafiği, histogram, kutu grafiği) ve/veya özetleme [aritmetik ortalama, ortanca (medyan), tepe değer (mod), açıklık, çeyrekler açıklığı, standart sapma] araçlarından uygun olanı seçer. e) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri belirlediği araçlarla analiz eder. f) Nicel veri dağılımlarına dayalı istatistiksel araştırma sonucu elde edilen çıktılardan hareketle verilerin arasını ve ötesini yorumlayarak sonuç çıkarır. g) Nicel veriye dayalı araştırmadan elde edilen sonuçları, araştırma sorusu bağlamında değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Mayıs",
-      "dateRange": "17 - 21 Mayıs",
-      "weekLabel": "32. Hafta (19 Mayıs / Kurban B.)",
+      "month": "MAYIS",
+      "dateRange": "17-21 Mayıs",
+      "weekLabel": "32. Hafta",
       "hours": "6",
-      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
-      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
-      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "unit": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "topic": "Tek Nicel Değişkenli Veri Dağılımları",
+      "kazanimlar": [
+        {
+          "kod": "9.6.1",
+          "kazanim": "Tek nicel değişkenli veri dağılımları ile çalışabilme ve tek nicel değişken içeren veriye dayalı karar verebilme",
+          "resmiAciklama": "a) Nicel veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını belirler. b) Bağlam içerisinde nicel veri dağılımlarını betimleyen ve karşılaştıran araştırma soruları oluşturur. c) Nicel verileri toplamak/elde etmek için plan yapar. ç) Nicel verileri toplayarak/elde ederek analize hazırlar. d) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri analiz etmek için görselleştirme (nokta grafiği, histogram, kutu grafiği) ve/veya özetleme [aritmetik ortalama, ortanca (medyan), tepe değer (mod), açıklık, çeyrekler açıklığı, standart sapma] araçlarından uygun olanı seçer. e) Araştırma sorusu bağlamında toplanan/elde edilen nicel verileri belirlediği araçlarla analiz eder. f) Nicel veri dağılımlarına dayalı istatistiksel araştırma sonucu elde edilen çıktılardan hareketle verilerin arasını ve ötesini yorumlayarak sonuç çıkarır. g) Nicel veriye dayalı araştırmadan elde edilen sonuçları, araştırma sorusu bağlamında değerlendirir.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "Atatürkü Anma ve Gençlik ve Spor Bayramı (19 Mayıs)",
       "isHoliday": false
     },
     {
-      "month": "Mayıs",
-      "dateRange": "24 - 28 Mayıs",
+      "month": "MAYIS",
+      "dateRange": "24-28 Mayıs",
       "weekLabel": "33. Hafta",
-      "hours": "6",
-      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
-      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
-      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "hours": "2",
+      "unit": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "topic": "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme",
+      "kazanimlar": [
+        {
+          "kod": "9.6.2",
+          "kazanim": "Başkaları tarafından oluşturulan tek nicel değişkenli veri dağılımlarına ilişkin istatistiksel sonuç veya yorumları tartışabilme",
+          "resmiAciklama": "a) Başkaları tarafından oluşturulan tek nicel değişkenli veri dağılımlarına ilişkin istatistiksel sonuç veya yorumlara yönelik istatistiksel temellendirme yapar. b) Başkaları tarafından oluşturulan tek nicel değişkenli veri dağılımlarına ilişkin istatistiksel sonuç veya yorumlara yönelik hataları ya da yanlılıkları tespit eder. c) Başkaları tarafından oluşturulan tek nicel değişkenli veri dağılımlarına ilişkin istatistiksel sonuç veya yorumları çürütür ya da kabul eder.",
+          "saat": "2"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Mayıs",
-      "dateRange": "31 Mayıs - 04 Haziran",
+      "month": "HAZİRAN",
+      "dateRange": "31 Mayıs-4 Haziran",
       "weekLabel": "34. Hafta",
-      "hours": "6",
-      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
-      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
-      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "hours": "4",
+      "unit": "VERİDEN OLASILIĞA",
+      "topic": "Deneysel Olasılık",
+      "kazanimlar": [
+        {
+          "kod": "9.7.1",
+          "kazanim": "Olayların olasılığını gözleme dayalı tahmin edebilme",
+          "resmiAciklama": "a) Olayların olasılığını deney yoluyla veri toplayarak istenen olayların göreli sıklıklarıyla ilişkilendirir. b) Deneye ait tekrar sayısı ile deneyin çıktılarının göreli sıklıklarının ilişkisine yönelik çıkarım yapar. c) Çıkarımlardan hareketle yargıda bulunur",
+          "saat": "4"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Haziran",
-      "dateRange": "07 - 11 Haziran",
+      "month": "HAZİRAN",
+      "dateRange": "7-11 Haziran",
       "weekLabel": "35. Hafta",
       "hours": "6",
-      "unit": "6. TEMA: İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
-      "kazanim": "MAT.9.6. Veri Analizi ve İstatistik",
-      "description": "Merkezi eğilim/yayılım ölçüleri, grafik okuma ve yorumlama",
+      "unit": "VERİDEN OLASILIĞA",
+      "topic": "Teorik Olasılık",
+      "kazanimlar": [
+        {
+          "kod": "9.7.2",
+          "kazanim": "Olayların olasılığına ilişkin tümevarımsal akıl yürütebilme",
+          "resmiAciklama": "a) Olayların olasılığını teorik olarak incelemeye/hesaplamaya yönelik tüm olası durumları farklı gösterimler (sistematik liste, tablo, ağaç şeması gibi) ile gözlemler. b) Olayların olasılığını teorik olarak incelemeye/hesaplamaya yönelik matematiksel ilişkilere ulaşır. c) Olayların deney yoluyla hesaplanan/elde edilen olasılık değerinin teorik olasılık ile hesaplanan değeri arasındaki ilişkiye yönelik genelleme yapar.",
+          "saat": "6"
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     },
     {
-      "month": "Haziran",
-      "dateRange": "14 - 18 Haziran",
-      "weekLabel": "36. Hafta (Yıl Sonu)",
+      "month": "HAZİRAN",
+      "dateRange": "14-18 Haziran",
+      "weekLabel": "36. Hafta",
+      "hours": "2",
+      "unit": "VERİDEN OLASILIĞA",
+      "topic": "Teorik Olasılık",
+      "kazanimlar": [
+        {
+          "kod": "9.7.2",
+          "kazanim": "Olayların olasılığına ilişkin tümevarımsal akıl yürütebilme",
+          "resmiAciklama": "a) Olayların olasılığını teorik olarak incelemeye/hesaplamaya yönelik tüm olası durumları farklı gösterimler (sistematik liste, tablo, ağaç şeması gibi) ile gözlemler. b) Olayların olasılığını teorik olarak incelemeye/hesaplamaya yönelik matematiksel ilişkilere ulaşır. c) Olayların deney yoluyla hesaplanan/elde edilen olasılık değerinin teorik olasılık ile hesaplanan değeri arasındaki ilişkiye yönelik genelleme yapar.",
+          "saat": "2"
+        }
+      ],
+      "aciklama": "",
+      "isHoliday": false
+    },
+    {
+      "month": "HAZİRAN",
+      "dateRange": "21-25 Haziran",
+      "weekLabel": "37. Hafta",
       "hours": "6",
-      "unit": "OKUL TEMELLİ",
-      "kazanim": "Yıl Sonu Okul Temelli Planlama",
-      "description": "Sosyal etkinlikler, rehberlik ve genel akademik değerlendirmeler",
+      "unit": "SOSYAL ETKİNLİK",
+      "topic": null,
+      "kazanimlar": [
+        {
+          "kod": "",
+          "kazanim": "Yıl sonu sosyal etkinlik / değerlendirme haftası (zümre kararına göre).",
+          "resmiAciklama": "Zümre kararına göre yıl sonu değerlendirme veya sosyal etkinlik içeriği belirlenir."
+        }
+      ],
+      "aciklama": "",
       "isHoliday": false
     }
   ]
