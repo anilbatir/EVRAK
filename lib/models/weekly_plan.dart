@@ -50,6 +50,14 @@ class WeeklyPlanWeek {
   final String? olcme;
   final String? yontemTeknik;
   final String? aciklama;
+
+  /// Programlar Arası Bileşenler: Sosyal-Duygusal Öğrenme Becerileri,
+  /// Değerler ve Okuryazarlık Becerileri, birleşik tek metin olarak.
+  final String? programlarArasi;
+
+  /// Farklılaştırma (zenginleştirme/destekleme) notu.
+  final String? farklilastirma;
+
   final bool isHoliday;
 
   const WeeklyPlanWeek({
@@ -63,6 +71,8 @@ class WeeklyPlanWeek {
     this.olcme,
     this.yontemTeknik,
     this.aciklama,
+    this.programlarArasi,
+    this.farklilastirma,
     required this.isHoliday,
   });
 
@@ -83,6 +93,8 @@ class WeeklyPlanWeek {
       olcme: json['olcme'] as String?,
       yontemTeknik: json['yontemTeknik'] as String?,
       aciklama: json['aciklama'] as String?,
+      programlarArasi: json['programlarArasi'] as String?,
+      farklilastirma: json['farklilastirma'] as String?,
       isHoliday: json['isHoliday'] as bool? ?? false,
     );
   }

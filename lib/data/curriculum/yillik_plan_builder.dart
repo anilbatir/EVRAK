@@ -94,6 +94,12 @@ String _buildBodyText(WeeklyPlan plan) {
     if ((week.olcme ?? '').isNotEmpty) {
       buffer.writeln('Ölçme: ${week.olcme}');
     }
+    if ((week.programlarArasi ?? '').isNotEmpty) {
+      buffer.writeln('Programlar Arası Bileşenler: ${week.programlarArasi}');
+    }
+    if ((week.farklilastirma ?? '').isNotEmpty) {
+      buffer.writeln('Farklılaştırma: ${week.farklilastirma}');
+    }
     if ((week.aciklama ?? '').isNotEmpty) {
       buffer.writeln('Belirli Gün/Hafta: ${week.aciklama}');
     }

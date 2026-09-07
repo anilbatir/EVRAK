@@ -47,6 +47,14 @@ void main() {
     // PDF font glyphs the bundled Roboto lacks (ℝ, ∈) must not leak through.
     expect(result.text.contains('ℝ'), isFalse);
     expect(result.text.contains('∈'), isFalse);
+
+    // Full resmi çerçeve yıllık plan structure: Programlar Arası Bileşenler
+    // (Sosyal-Duygusal/Değerler/Okuryazarlık) and Farklılaştırma must be
+    // present, matching the official 12-column source, not just the
+    // earlier simplified 9-column shape.
+    expect(result.text.contains('Programlar Arası Bileşenler:'), isTrue);
+    expect(result.text.contains('Sosyal-Duygusal:'), isTrue);
+    expect(result.text.contains('Farklılaştırma:'), isTrue);
   });
 
   test('9. Sınıf Biyoloji: motor tüm 37 haftayı ve farklı kazanımları üretiyor', () async {

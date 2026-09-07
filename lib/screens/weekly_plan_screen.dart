@@ -277,6 +277,18 @@ class _WeekCard extends StatelessWidget {
                   Text(week.yontemTeknik!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
                   const SizedBox(height: 18),
                 ],
+                if (week.programlarArasi != null && week.programlarArasi!.isNotEmpty) ...[
+                  const _SectionLabel(label: 'Programlar Arası Bileşenler'),
+                  const SizedBox(height: 6),
+                  Text(week.programlarArasi!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
+                  const SizedBox(height: 18),
+                ],
+                if (week.farklilastirma != null && week.farklilastirma!.isNotEmpty) ...[
+                  const _SectionLabel(label: 'Farklılaştırma'),
+                  const SizedBox(height: 6),
+                  Text(week.farklilastirma!, style: TextStyle(fontSize: 13.5, height: 1.6, color: textSecondary)),
+                  const SizedBox(height: 18),
+                ],
                 if (week.aciklama != null && week.aciklama!.isNotEmpty) ...[
                   const _SectionLabel(label: 'Belirli Gün / Hafta'),
                   const SizedBox(height: 6),

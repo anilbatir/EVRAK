@@ -61,10 +61,11 @@ class PdfService {
   }
 
   /// Renders a Yıllık Plan as an actual table (Ay/Hafta/Tarih/Saat/Ünite/
-  /// Kazanım/İçerik/Ölçme/Belirli Gün-Hafta columns, one row per week) -
-  /// matching the format teachers actually submit, instead of free-flowing
-  /// paragraph text. [teacherName]/[branch]/[schoolName]/[principalName]
-  /// are already-resolved (placeholder-free) values from the prepare form.
+  /// Konu/Kazanım/İçerik/Ölçme/Programlar Arası Bileşenler/Farklılaştırma/
+  /// Belirli Gün-Hafta columns, one row per week) - matching the official
+  /// çerçeve yıllık plan format, instead of free-flowing paragraph text.
+  /// [teacherName]/[branch]/[schoolName]/[principalName] are
+  /// already-resolved (placeholder-free) values from the prepare form.
   static Future<File> generateYillikPlanPdf({
     required String title,
     required WeeklyPlan plan,
@@ -81,7 +82,7 @@ class PdfService {
     final rows = <List<String>>[];
     for (final week in plan.weeks) {
       if (week.isHoliday) {
-        rows.add([week.month ?? '', week.weekLabel, week.dateRange ?? '', '', '', '', '', '', '']);
+        rows.add([week.month ?? '', week.weekLabel, week.dateRange ?? '', '', '', '', '', '', '', '', '', '']);
         continue;
       }
       final hasDomains = week.kazanimlar.any((k) => (k.beceriAlani ?? '').isNotEmpty);
@@ -111,10 +112,13 @@ class PdfService {
         week.weekLabel,
         week.dateRange ?? '',
         week.hours ?? '',
-        week.topic != null && week.topic!.isNotEmpty ? '${week.unit ?? ''}\n${week.topic}' : (week.unit ?? ''),
+        week.unit ?? '',
+        week.topic ?? '',
         kazanimText,
         icerikText,
         week.olcme ?? '',
+        week.programlarArasi ?? '',
+        week.farklilastirma ?? '',
         week.aciklama ?? '',
       ]);
     }
@@ -138,24 +142,31 @@ class PdfService {
           ),
           pw.SizedBox(height: 10),
           pw.TableHelper.fromTextArray(
-            headers: const ['Ay', 'Hafta', 'Tarih', 'Saat', 'Ünite/Konu', 'Kazanım', 'İçerik/Açıklama', 'Ölçme', 'Belirli Gün-Hafta'],
+            headers: const [
+              'Ay', 'Hafta', 'Tarih', 'Saat', 'Ünite/Tema', 'Konu',
+              'Kazanım', 'İçerik/Açıklama', 'Ölçme',
+              'Programlar Arası Bileşenler', 'Farklılaştırma', 'Belirli Gün-Hafta',
+            ],
             data: rows,
-            headerStyle: pw.TextStyle(fontSize: 8, font: boldFont, color: PdfColors.white),
+            headerStyle: pw.TextStyle(fontSize: 6.5, font: boldFont, color: PdfColors.white),
             headerDecoration: const pw.BoxDecoration(color: PdfColors.blueGrey700),
-            cellStyle: const pw.TextStyle(fontSize: 7.5),
-            cellPadding: const pw.EdgeInsets.all(4),
+            cellStyle: const pw.TextStyle(fontSize: 6.5),
+            cellPadding: const pw.EdgeInsets.all(3),
             cellAlignment: pw.Alignment.topLeft,
             border: pw.TableBorder.all(width: 0.4, color: PdfColors.grey500),
             columnWidths: const {
-              0: pw.FlexColumnWidth(1.1),
-              1: pw.FlexColumnWidth(1.3),
-              2: pw.FlexColumnWidth(1.6),
-              3: pw.FlexColumnWidth(0.7),
-              4: pw.FlexColumnWidth(1.8),
-              5: pw.FlexColumnWidth(3),
-              6: pw.FlexColumnWidth(3),
-              7: pw.FlexColumnWidth(2),
+              0: pw.FlexColumnWidth(0.9),
+              1: pw.FlexColumnWidth(1.1),
+              2: pw.FlexColumnWidth(1.3),
+              3: pw.FlexColumnWidth(0.6),
+              4: pw.FlexColumnWidth(1.4),
+              5: pw.FlexColumnWidth(1.6),
+              6: pw.FlexColumnWidth(2.6),
+              7: pw.FlexColumnWidth(2.6),
               8: pw.FlexColumnWidth(1.8),
+              9: pw.FlexColumnWidth(1.8),
+              10: pw.FlexColumnWidth(1.8),
+              11: pw.FlexColumnWidth(1.5),
             },
           ),
         ],
